@@ -2,9 +2,13 @@
 
 ## Log
 2026/8/16     Scheme done
+
 2026/10/15    Schematic done
+
 2026/10/30    PCB(V1) layout done
+
 2026/10/31    ADS simulation done
+
 2026/11/1     github done
 
 ## Project Intro
