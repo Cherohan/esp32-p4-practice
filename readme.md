@@ -27,7 +27,10 @@ This board is designed as an **industrial control board**, integrating abundant 
 - **Power Design**: Multi‑domain DCDC/LDO, independent isolated power for industrial transceivers, power‑gating for SD / OLED, RTC battery backup
 
 ## Hardware Block Diagram
-![Hardware Block Diagram](assets/hw_block.png)
+![Hardware Block Diagram](./assets/Hardware-Block-Diagram.png)
+
+## Power Tree
+![Power Tree](./assets/power-tree.png)
 
 The pcb layout preview is as follows:
 
