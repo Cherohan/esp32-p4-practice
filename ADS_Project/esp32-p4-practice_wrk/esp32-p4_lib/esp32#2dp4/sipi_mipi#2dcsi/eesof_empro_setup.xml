@@ -1,0 +1,16 @@
+<eesof_empro_setup>
+ <version>
+  <actual>3</actual>
+  <minimum>2</minimum>
+ </version>
+ <tool>sipi</tool>
+ <layout>
+  <lib>esp32-p4_lib</lib>
+  <cell>esp32-p4</cell>
+  <view>layout</view>
+ </layout>
+ <substrate>
+  <lib>esp32-p4_tech_lib</lib>
+  <name>esp32-p4</name>
+ </substrate>
+</eesof_empro_setup>

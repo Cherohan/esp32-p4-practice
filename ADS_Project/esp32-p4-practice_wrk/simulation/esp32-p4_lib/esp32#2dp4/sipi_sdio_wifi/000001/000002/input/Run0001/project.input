@@ -1,0 +1,903 @@
+Version 9
+begin_<FEMProject> 
+begin_<Units> 
+begin_<Display> 
+Name mil
+Conversion 39370.078740157485
+end_<Display>
+begin_<Modeling> 
+Name mm
+Conversion 1000
+end_<Modeling>
+end_<Units>
+begin_<RunParameters> 
+begin_<OuterBoundaries> 
+LowerX ORBC_CPML
+UpperX ORBC_CPML
+LowerY ORBC_CPML
+UpperY ORBC_CPML
+LowerZ ORBC_CPML
+UpperZ ORBC_CPML
+NumberOfPMLLayers 7
+end_<OuterBoundaries>
+begin_<AmbientConditions> 
+begin_<BackgroundMedium> 
+Temperature 298.14999389648438
+end_<BackgroundMedium>
+begin_<Top> 
+HeatTransferCoefficient 10
+end_<Top>
+begin_<Bottom> 
+HeatTransferCoefficient 2.5
+end_<Bottom>
+end_<AmbientConditions>
+begin_<ComponentsPorts> 
+PortType 1
+begin_<FeedData> 
+ComponentName SDIO_CLK_U13
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name C99.1
+		X 0.14077823000000003
+		Y 0.042418000000000004
+		Z 0
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U13.18
+		X 0.13937488000000001
+		Y 0.043797219999999998
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+IsActive 
+WaveformIndex 0
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName SDIO_CLK_P4_U1
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name C117.1
+		X 0.076721411200000006
+		Y 0.052833981200000005
+		Z 0
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U1.19
+		X 0.077184402400000005
+		Y 0.053097328400000005
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName SDIO_CMD_U13
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name C99.1
+		X 0.14077823000000003
+		Y 0.042418000000000004
+		Z 0
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U13.19
+		X 0.13897610000000002
+		Y 0.043797219999999998
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName SDIO_CMD_P4_U1
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name C117.1
+		X 0.076721411200000006
+		Y 0.052833981200000005
+		Z 0
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U1.20
+		X 0.077534922400000011
+		Y 0.053097277600000006
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName SDIO_D0_U13
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name C99.1
+		X 0.14077823000000003
+		Y 0.042418000000000004
+		Z 0
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U13.17
+		X 0.13977620000000002
+		Y 0.043797219999999998
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName SDIO_D0_P4_U1
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name C117.1
+		X 0.076721411200000006
+		Y 0.052833981200000005
+		Z 0
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U1.15
+		X 0.075784862400000014
+		Y 0.053097328400000005
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName SDIO_D1_U13
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name C99.1
+		X 0.14077823000000003
+		Y 0.042418000000000004
+		Z 0
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U13.16
+		X 0.14017498
+		Y 0.043797219999999998
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName SDIO_D1_P4_U1
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name C117.1
+		X 0.076721411200000006
+		Y 0.052833981200000005
+		Z 0
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U1.16
+		X 0.076135382400000007
+		Y 0.053097328400000005
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName SDIO_D2_U13
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U13.49
+		X 0.13917676000000001
+		Y 0.040845740000000005
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U13.23
+		X 0.13737590000000002
+		Y 0.043797219999999998
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName SDIO_D2_P4_U1
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name C117.1
+		X 0.076721411200000006
+		Y 0.052833981200000005
+		Z 0
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U1.17
+		X 0.076485902400000014
+		Y 0.053097277600000006
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName SDIO_D3_U13
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U13.49
+		X 0.13917676000000001
+		Y 0.040845740000000005
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U13.22
+		X 0.13777468000000001
+		Y 0.043797219999999998
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName SDIO_D3_P4_U1
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name C117.1
+		X 0.076721411200000006
+		Y 0.052833981200000005
+		Z 0
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U1.18
+		X 0.076836422400000007
+		Y 0.053097328400000005
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName R152
+Removable True
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name R152.2
+		X 0.079324200000000011
+		Y 0.047768510000000014
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name R152.1
+		X 0.079324200000000011
+		Y 0.046262290000000011
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+FileName 
+Source 0
+Resistance 33
+Inductance 0
+Capacitance 0
+Polarity 1
+Type 1
+TermType Unused
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName R153
+Removable True
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name R153.2
+		X 0.080721200000000007
+		Y 0.047768510000000014
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name R153.1
+		X 0.080721200000000007
+		Y 0.046262290000000011
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+FileName 
+Source 0
+Resistance 33
+Inductance 0
+Capacitance 0
+Polarity 1
+Type 1
+TermType Unused
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName R154
+Removable True
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name R154.2
+		X 0.073736200000000016
+		Y 0.047768510000000014
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name R154.1
+		X 0.073736200000000016
+		Y 0.046262290000000011
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+FileName 
+Source 0
+Resistance 33
+Inductance 0
+Capacitance 0
+Polarity 1
+Type 1
+TermType Unused
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName R155
+Removable True
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name R155.2
+		X 0.075133200000000011
+		Y 0.047768510000000014
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name R155.1
+		X 0.075133200000000011
+		Y 0.046262290000000011
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+FileName 
+Source 0
+Resistance 33
+Inductance 0
+Capacitance 0
+Polarity 1
+Type 1
+TermType Unused
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName R156
+Removable True
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name R156.2
+		X 0.076530200000000007
+		Y 0.047768510000000014
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name R156.1
+		X 0.076530200000000007
+		Y 0.046262290000000011
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+FileName 
+Source 0
+Resistance 33
+Inductance 0
+Capacitance 0
+Polarity 1
+Type 1
+TermType Unused
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName R157
+Removable True
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name R157.2
+		X 0.077927200000000016
+		Y 0.047768510000000014
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name R157.1
+		X 0.077927200000000016
+		Y 0.046262290000000011
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+FileName 
+Source 0
+Resistance 33
+Inductance 0
+Capacitance 0
+Polarity 1
+Type 1
+TermType Unused
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+end_<ComponentsPorts>
+begin_<WaveGuidePorts> 
+end_<WaveGuidePorts>
+begin_<TerminationCriteria> 
+MaximumTimeSteps 50000
+MaximumWallClockSeconds 0
+ConvergenceEnabled
+Threshhold -30
+SamplingInterval 100
+WindowSize 2
+MinimumTimeSteps 0
+FlatLineDetectionEnabled
+MEDIUM_DENSITY
+begin_<TdAfsTerminationCriteria> 
+StartFrequency 1000000000
+StopFrequency 10000000000
+NumberOfFrequencyPoints 1000
+ENERGY
+INTERPOLATION
+NumberOfConsecutivePasses 1
+end_<TdAfsTerminationCriteria>
+end_<TerminationCriteria>
+end_<RunParameters>
+begin_<RequestResults> 
+end_<RequestResults>
+end_<FEMProject>

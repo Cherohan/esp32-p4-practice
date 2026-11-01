@@ -1,0 +1,447 @@
+Version 9
+begin_<FEMProject> 
+begin_<Units> 
+begin_<Display> 
+Name mil
+Conversion 39370.078740157485
+end_<Display>
+begin_<Modeling> 
+Name mm
+Conversion 1000
+end_<Modeling>
+end_<Units>
+begin_<RunParameters> 
+begin_<OuterBoundaries> 
+LowerX ORBC_CPML
+UpperX ORBC_CPML
+LowerY ORBC_CPML
+UpperY ORBC_CPML
+LowerZ ORBC_CPML
+UpperZ ORBC_CPML
+NumberOfPMLLayers 7
+end_<OuterBoundaries>
+begin_<AmbientConditions> 
+begin_<BackgroundMedium> 
+Temperature 298.14999389648438
+end_<BackgroundMedium>
+begin_<Top> 
+HeatTransferCoefficient 10
+end_<Top>
+begin_<Bottom> 
+HeatTransferCoefficient 2.5
+end_<Bottom>
+end_<AmbientConditions>
+begin_<ComponentsPorts> 
+PortType 1
+begin_<FeedData> 
+ComponentName PHY_RD_N_RJ1
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name RJ1.GND1
+		X 0.05369560000000001
+		Y 0.014096999999999998
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name RJ1.2
+		X 0.056997600000000009
+		Y 0.017398999999999998
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+IsActive 
+WaveformIndex 0
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName PHY_RD_N_U12
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.33
+		X 0.056896000000000002
+		Y 0.035560000000000008
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.26
+		X 0.055897780000000008
+		Y 0.033558480000000002
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName PHY_RD_P_RJ1
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name C79.2
+		X 0.058293000000000011
+		Y 0.024728170000000008
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name RJ1.1
+		X 0.055727600000000016
+		Y 0.019938999999999998
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName PHY_RD_P_U12
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.33
+		X 0.056896000000000002
+		Y 0.035560000000000008
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.27
+		X 0.056296560000000009
+		Y 0.033558480000000002
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName PHY_TD_N_RJ1
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name RJ1.GND2
+		X 0.069189600000000004
+		Y 0.014096999999999998
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name RJ1.6
+		X 0.062077600000000011
+		Y 0.017398999999999998
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName PHY_TD_N_U12
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.33
+		X 0.056896000000000002
+		Y 0.035560000000000008
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.29
+		X 0.057096660000000007
+		Y 0.033558480000000002
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName PHY_TD_P_RJ1
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name C79.2
+		X 0.058293000000000011
+		Y 0.024728170000000008
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name RJ1.5
+		X 0.060807600000000017
+		Y 0.019938999999999998
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName PHY_TD_P_U12
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.33
+		X 0.056896000000000002
+		Y 0.035560000000000008
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.30
+		X 0.057495440000000009
+		Y 0.033558480000000002
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+end_<ComponentsPorts>
+begin_<WaveGuidePorts> 
+end_<WaveGuidePorts>
+begin_<TerminationCriteria> 
+MaximumTimeSteps 50000
+MaximumWallClockSeconds 0
+ConvergenceEnabled
+Threshhold -30
+SamplingInterval 100
+WindowSize 2
+MinimumTimeSteps 0
+FlatLineDetectionEnabled
+MEDIUM_DENSITY
+begin_<TdAfsTerminationCriteria> 
+StartFrequency 1000000000
+StopFrequency 10000000000
+NumberOfFrequencyPoints 1000
+ENERGY
+INTERPOLATION
+NumberOfConsecutivePasses 1
+end_<TdAfsTerminationCriteria>
+end_<TerminationCriteria>
+end_<RunParameters>
+begin_<RequestResults> 
+end_<RequestResults>
+end_<FEMProject>

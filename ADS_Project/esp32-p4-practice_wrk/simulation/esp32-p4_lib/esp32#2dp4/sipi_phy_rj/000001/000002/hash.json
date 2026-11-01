@@ -1,0 +1,20 @@
+{
+    "hash": {
+        "componentsHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+        "ddrControllersHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+        "ddrMemoriesHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+        "ioPortsHash": "c31975a27712a87ba6496fc10cff2cf668859106",
+        "sinksHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+        "thermalSourcesHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+        "vrmsHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    "instanceHash": {
+        "componentsInstanceHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+        "thermalComponentsInstanceHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    "portHash": {
+        "sinksPortHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+        "vrmsPortHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    "version": 2
+}

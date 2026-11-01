@@ -1,0 +1,10 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+DEFINE esp32#2dp4#2dpractice_lib esp32-p4-practice_lib
+ASSIGN esp32#2dp4#2dpractice_lib libMode shared
+DEFINE esp32#2dp4_lib esp32-p4_lib
+ASSIGN esp32#2dp4_lib libMode shared
+DEFINE esp32#2dp4_component_lib esp32-p4_component_lib
+ASSIGN esp32#2dp4_component_lib libMode shared
+DEFINE esp32#2dp4_tech_lib esp32-p4_tech_lib
+ASSIGN esp32#2dp4_tech_lib libMode shared

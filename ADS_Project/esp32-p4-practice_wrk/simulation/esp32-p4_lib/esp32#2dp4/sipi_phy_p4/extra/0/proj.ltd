@@ -1,0 +1,71 @@
+TECHFORMAT=V2
+
+UNITS
+  DISTANCE=METRE
+  CONDUCTIVITY=SIEMENS/M
+  RESISTIVITY=OHM.CM
+  RESISTANCE=OHM/SQ
+  PERMITTIVITY=RELATIVETOVACUUM
+  PERMEABILITY=RELATIVETOVACUUM
+  FREQUENCY=HZ
+  TEMPERATURE=CELSIUS
+END_UNITS
+
+BEGIN_MATERIAL
+  MATERIAL Copper CONDUCTIVITY=5.900e+07 IMAG_CONDUCTIVITY=0 PERMEABILITY=1
+  MATERIAL FR_4 PERMITTIVITY=4.6 LOSSTANGENT=0.01 PERMEABILITY=1 IMAG_PERMEABILITY=0 DJORDJEVIC LOWFREQ=1000 VALUEFREQ=1000000000 HIGHFREQ=1000000000000
+  MATERIAL PP_006 PERMITTIVITY=4.6 LOSSTANGENT=0.01 PERMEABILITY=1 IMAG_PERMEABILITY=0 DJORDJEVIC LOWFREQ=1000 VALUEFREQ=1000000000 HIGHFREQ=1000000000000
+END_MATERIAL
+
+BEGIN_PLATING
+  PLATING Drill_Guide__Top_Layer___Bottom_Layer__Plated THICKNESS=2.50000008e-05 MATERIAL=AIR
+END_PLATING
+
+BEGIN_OPERATION
+  OPERATION OperationSHEET SHEET
+  OPERATION OperationThickness_Top_Layer EXPAND=3.50012e-05 UP
+  OPERATION OperationThickness_GND1 EXPAND=1.524e-05 UP
+  OPERATION OperationThickness_InnerSingle EXPAND=1.524e-05 UP
+  OPERATION OperationThickness_POWER EXPAND=1.524e-05 DOWN
+  OPERATION OperationThickness_GND2 EXPAND=1.524e-05 DOWN
+  OPERATION OperationThickness_Bottom_Layer EXPAND=3.50012e-05 DOWN
+  OPERATION OperationDRILL DRILL
+  OPERATION OperationTSV_Drill_Guide__Top_Layer___Bottom_Layer_ DRILL
+  OPERATION OperationTSV_Drill_Guide__Top_Layer___Bottom_Layer__Plated DRILL PLATING=Drill_Guide__Top_Layer___Bottom_Layer__Plated
+  OPERATION OperationTSV_Drill_Guide__Top_Layer___Bottom_Layer__diel DRILL
+END_OPERATION
+
+BEGIN_MASK
+  MASK 1002 Name=Top_Overlay COLOR="ff6800"
+  MASK 1003 Name=Top_Solder COLOR="a6bdd7"
+  MASK 1004 Name=Top_Layer PRECEDENCE=0 COLOR="c10020" MATERIAL=Copper OPERATION=OperationThickness_Top_Layer
+  MASK 1005 Name=GND1 PRECEDENCE=0 COLOR="cea262" MATERIAL=Copper OPERATION=OperationThickness_GND1
+  MASK 1006 Name=InnerSingle PRECEDENCE=0 COLOR="817066" MATERIAL=Copper OPERATION=OperationThickness_InnerSingle
+  MASK 1007 Name=POWER PRECEDENCE=0 COLOR="007d34" MATERIAL=Copper OPERATION=OperationThickness_POWER
+  MASK 1008 Name=GND2 PRECEDENCE=0 COLOR="f6768e" MATERIAL=Copper OPERATION=OperationThickness_GND2
+  MASK 1009 Name=Bottom_Layer PRECEDENCE=0 COLOR="00538a" MATERIAL=Copper OPERATION=OperationThickness_Bottom_Layer
+  MASK 1010 Name=Bottom_Solder COLOR="ff7a5c"
+  MASK 1011 Name=Bottom_Overlay COLOR="53377a"
+  MASK 1025 Name=Drill_Guide__Top_Layer___Bottom_Layer_ PRECEDENCE=0 COLOR="cea262" MATERIAL=PERFECT_CONDUCTOR OPERATION=OperationDRILL MASK_PROPERTIES = { "TopTechnologyMaskName=Drill_Guide__Top_Layer_-_Bottom_Layer_", "OriginalName=Drill_Guide__Top_Layer_-_Bottom_Layer_" }
+  MASK 1026 Name=Drill_Guide__Top_Layer___Bottom_Layer__Plated PRECEDENCE=0 COLOR="817066" MATERIAL=PERFECT_CONDUCTOR OPERATION=OperationDRILL MASK_PROPERTIES = { "TopTechnologyMaskName=Drill_Guide__Top_Layer_-_Bottom_Layer__Plated", "OriginalName=Drill_Guide__Top_Layer_-_Bottom_Layer__Plated" }
+  MASK 1027 Name=Drill_Guide__Top_Layer___Bottom_Layer__diel PRECEDENCE=0 COLOR="007d34" MATERIAL=AIR OPERATION=OperationDRILL MASK_PROPERTIES = { "TopTechnologyMaskName=Drill_Guide__Top_Layer_-_Bottom_Layer__diel", "OriginalName=Drill_Guide__Top_Layer_-_Bottom_Layer__diel" }
+END_MASK
+
+BEGIN_STACK
+  Name=esp32_p4
+  PRECEDENCE=0
+  TOP OPEN MATERIAL=AIR
+  INTERFACE Name=__Interface5      MASK={Top_Layer}
+  LAYER     Name=__SubstrateLayer5 MASK={Drill_Guide__Top_Layer___Bottom_Layer_ Drill_Guide__Top_Layer___Bottom_Layer__Plated Drill_Guide__Top_Layer___Bottom_Layer__diel} HEIGHT=0.000210312 MATERIAL=PP_006
+  INTERFACE Name=__Interface4      MASK={GND1}
+  LAYER     Name=__SubstrateLayer4 MASK={Drill_Guide__Top_Layer___Bottom_Layer_ Drill_Guide__Top_Layer___Bottom_Layer__Plated Drill_Guide__Top_Layer___Bottom_Layer__diel} HEIGHT=0.00040005 MATERIAL=FR_4
+  INTERFACE Name=__Interface3      MASK={InnerSingle}
+  LAYER     Name=__SubstrateLayer3 MASK={Drill_Guide__Top_Layer___Bottom_Layer_ Drill_Guide__Top_Layer___Bottom_Layer__Plated Drill_Guide__Top_Layer___Bottom_Layer__diel} HEIGHT=0.000202692 MATERIAL=PP_006
+  INTERFACE Name=__Interface2      MASK={POWER}
+  LAYER     Name=__SubstrateLayer2 MASK={Drill_Guide__Top_Layer___Bottom_Layer_ Drill_Guide__Top_Layer___Bottom_Layer__Plated Drill_Guide__Top_Layer___Bottom_Layer__diel} HEIGHT=0.00040005 MATERIAL=FR_4
+  INTERFACE Name=__Interface1      MASK={GND2}
+  LAYER     Name=__SubstrateLayer1 MASK={Drill_Guide__Top_Layer___Bottom_Layer_ Drill_Guide__Top_Layer___Bottom_Layer__Plated Drill_Guide__Top_Layer___Bottom_Layer__diel} HEIGHT=0.000210312 MATERIAL=PP_006
+  INTERFACE Name=__Interface0      MASK={Bottom_Layer}
+  BOTTOM OPEN MATERIAL=AIR
+END_STACK
+

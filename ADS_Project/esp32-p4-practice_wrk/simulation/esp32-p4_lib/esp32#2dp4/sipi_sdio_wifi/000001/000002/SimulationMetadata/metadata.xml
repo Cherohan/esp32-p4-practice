@@ -1,0 +1,77 @@
+<!DOCTYPE SimulationData>
+<SimulationData>
+  <SimulationData TotalScatteredFieldInterfaces="NoInterfaces" sname="sdio_wifi" ComputeDissipatedPower="false" Generation="1" UseTotalScatteredFieldFormulation="false" ExcitationType="DiscreteSources" Simulator="com.keysight.xxpro.simulator.si" CircuitSimAttached="false" ReuseExistingIfPossible="false">
+    <BoundaryConditions ptrID="0" subjectID="1">
+      <BoundaryConditions ZUpperBoundaryType="Absorbing" YUpperBoundaryType="Absorbing" YLowerBoundaryType="Absorbing" XLowerBoundaryType="Absorbing" AbsorptionType="PML" XUpperBoundaryType="Absorbing" ZLowerBoundaryType="Absorbing">
+        <NumPMLLayers ptrID="2" subjectID="3">
+          <Expression>
+            <Formula value="7" type="Int" typeid="2"/>
+          </Expression>
+        </NumPMLLayers>
+        <UseHybridFemMom value="false"/>
+        <HybridFemMomType>Volakis_Symm</HybridFemMomType>
+        <WrittenWith Version="SIPro/PIPro Setup 490.000 (64-bit)" BuildString="AAAAmnicNcpBCoMwFIThvacY6KaFxr48o6DL7roT7AVMTWpAjcRI6e2bFgrDv5nvProNad2tDf7SfovOxH2FqiknIhwrJbSLpzzLrrubImzwM2xhaqtK8+jhLcy8Bi90ugfBxKWgSlAhRh82k8CSwEvK5xL1NDD0Gz+KPuKvWUFyI2VD5RkH5jr/ACZ1LKw=" RevisionID="229"/>
+        <SelectedType value="1"/>
+      </BoundaryConditions>
+    </BoundaryConditions>
+    <GlobalParameterList/>
+    <ParameterValues>
+      <ParameterList/>
+    </ParameterValues>
+    <ActivePorts>
+      <PortList/>
+    </ActivePorts>
+    <SteadyStateFrequencySets>
+      <SteadyStateFrequencySet DataFormat="ASCII" Count="303" Compressed="false">-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 6.3010299956639813 20000 2000000</SteadyStateFrequencySet>
+    </SteadyStateFrequencySets>
+    <NearFieldStorageFrequencySets>
+      <NearFieldStorageFrequencySet DataFormat="ASCII" Count="303" Compressed="false">-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 6.3010299956639813 20000 2000000</NearFieldStorageFrequencySet>
+    </NearFieldStorageFrequencySets>
+    <FarFieldStorageFrequencySets>
+      <FarFieldStorageFrequencySet DataFormat="ASCII" Count="303" Compressed="false">-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 6.3010299956639813 20000 2000000</FarFieldStorageFrequencySet>
+    </FarFieldStorageFrequencySets>
+    <Sinusoidal DataFormat="ASCII" Count="1" Compressed="false">0</Sinusoidal>
+    <StaticVoltagePointSets>
+      <StaticVoltagePointSet/>
+    </StaticVoltagePointSets>
+    <FrequencyRangesOfInterest>
+      <FrequencyRange Min="-1" Max="-1"/>
+    </FrequencyRangesOfInterest>
+    <RunDirectories>
+      <Item>Run0001</Item>
+    </RunDirectories>
+    <Timesteps DataFormat="ASCII" Count="1" Compressed="false">-1</Timesteps>
+    <MaximumFrequencies DataFormat="ASCII" Count="1" Compressed="false">1000000000</MaximumFrequencies>
+    <Details>Simulation Summary%0A======================================================%0AEM engine:                 PA-SI%0A%0AActive Ports:    %3CNone%3E%0A%0AList of parameters and their values:%0A    Name       Formula    Value    %0A    ------------------------------------%0A%0ABackground temperature: 298.15 K%0A%0AFrequency plans:%0A    Adaptive sweep from 2 MHz to 1000 MHz with maximal 300 points%0A    Linear sweep from from 0.02 MHz to 2 MHz with 2 points (step = 1.98 MHz)%0A%0AMesh Settings:%0A    Arc Resolution Value: 60 deg%0A    Use Custom Mesh Resolution OFF. %0A    Use Custom Target Mesh Size OFF. %0A    Include Resistive Losses in Ground and Power OFF. %0A    Mesh domain optimization ON. %0A    Mesh domain splitting ON. %0A%0AResource Settings:%0A    Host: Local Queue %0A    Max. parallel jobs: 1%0A    Max. threads per job: Auto %0A%0ANotes: %0A%0A%0A</Details>
+    <BoundingBox>
+      <Upper y="0.28027122352" z="0.1514156062" x="0.30027123432000002"/>
+      <Lower y="-0.15027122951999999" z="-0.14993123019999999" x="-0.15027122951999999"/>
+    </BoundingBox>
+    <FemSaveFieldsFor value="0"/>
+    <CreationDateTime value="1793449052"/>
+    <SimulationGroup>000001</SimulationGroup>
+    <AgNewSimulationData>
+      <WrittenWith Version="SIPro/PIPro Setup 490.000 (64-bit)" BuildString="AAAAmnicNcpBCoMwFIThvacY6KaFxr48o6DL7roT7AVMTWpAjcRI6e2bFgrDv5nvProNad2tDf7SfovOxH2FqiknIhwrJbSLpzzLrrubImzwM2xhaqtK8+jhLcy8Bi90ugfBxKWgSlAhRh82k8CSwEvK5xL1NDD0Gz+KPuKvWUFyI2VD5RkH5jr/ACZ1LKw=" RevisionID="229"/>
+      <Engine value="7"/>
+      <HasAdaptiveFrequencyPlans value="true"/>
+      <FemEigenMode value="false"/>
+      <PortOnlyMode value="false"/>
+      <Reuse value="false"/>
+      <UseDistributed value="false"/>
+      <RunLocal value="true"/>
+      <NumberOfThreads value="0"/>
+      <NumberOfParallelFreq value="1"/>
+      <NumberOfNodes value="1"/>
+      <LaunchPrefix value="true"/>
+      <LaunchPrefix_alpha value="true"/>
+      <LaunchPrefix_beta value="true"/>
+      <LaunchPrefix_omega value="true"/>
+      <ResourceSettingsPtr ptrID="4" subjectID="5">
+        <LocalResourceSettings>
+          <ResourceSettings NumberOfWorkers="1" NumberOfThreads="0"/>
+        </LocalResourceSettings>
+      </ResourceSettingsPtr>
+      <HasTdafsSParameterData value="false"/>
+    </AgNewSimulationData>
+  </SimulationData>
+</SimulationData>

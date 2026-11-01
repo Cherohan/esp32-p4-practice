@@ -1,0 +1,100 @@
+
+Installed file watcher for <D:/666/ADSProjects/esp32-p4-practice_wrk/simulation/esp32-p4_lib/esp32#2dp4/sipi_mipi_dsi/000001/000002\emds_dsn\design\design_dfs.cti>
+Installed file watcher for <D:/666/ADSProjects/esp32-p4-practice_wrk/simulation/esp32-p4_lib/esp32#2dp4/sipi_mipi_dsi/000001/000002\emds_dsn\design\design_ffs.cti>
+Installed file watcher for <D:/666/ADSProjects/esp32-p4-practice_wrk/simulation/esp32-p4_lib/esp32#2dp4/sipi_mipi_dsi/000001/000002\emds_dsn\design\design.sio>
+Loading impedance specifications
+	<DSI_CLK_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_CLK_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR91_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR92_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR93_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR94_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR95_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR96_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+LOADED file evaluator for <D:/666/ADSProjects/esp32-p4-practice_wrk/simulation/esp32-p4_lib/esp32#2dp4/sipi_mipi_dsi/000001/000002\emds_dsn\design\design.sio>
+No touching ports reduction
+LOADED raw data evaluator from <design.sio> : 0.011 sec
+LOADED raw data: #samples=1000 --> 0.001 sec
+CALCULATED the loaded S-parameters : 0.002 sec
+Differential port setup
+	port combinator 0 : port id=0, common mode for ports (1,0)
+	port combinator 1 : port id=1, differential mode for ports (1,0)
+	port combinator 2 : port id=2, common mode for ports (3,2)
+	port combinator 3 : port id=3, differential mode for ports (3,2)
+	port combinator 4 : port id=4, common mode for ports (5,4)
+	port combinator 5 : port id=5, differential mode for ports (5,4)
+	port combinator 6 : port id=6, differential mode for ports (6,7)
+	port combinator 7 : port id=7, common mode for ports (6,7)
+	port combinator 8 : port id=8, common mode for ports (9,8)
+	port combinator 9 : port id=9, differential mode for ports (9,8)
+	port combinator 10 : port id=10, differential mode for ports (10,11)
+	port combinator 11 : port id=11, common mode for ports (10,11)
+	refreshing datasets
+Differential port setup
+	port combinator 0 : port id=0, common mode for ports (1,0)
+	port combinator 1 : port id=1, differential mode for ports (1,0)
+	port combinator 2 : port id=2, common mode for ports (3,2)
+	port combinator 3 : port id=3, differential mode for ports (3,2)
+	port combinator 4 : port id=4, common mode for ports (5,4)
+	port combinator 5 : port id=5, differential mode for ports (5,4)
+	port combinator 6 : port id=6, differential mode for ports (6,7)
+	port combinator 7 : port id=7, common mode for ports (6,7)
+	port combinator 8 : port id=8, common mode for ports (9,8)
+	port combinator 9 : port id=9, differential mode for ports (9,8)
+	port combinator 10 : port id=10, differential mode for ports (10,11)
+	port combinator 11 : port id=11, common mode for ports (10,11)
+	refreshing datasets
+Differential port setup
+	port combinator 0 : port id=0, common mode for ports (1,0)
+	port combinator 1 : port id=1, differential mode for ports (1,0)
+	port combinator 2 : port id=2, common mode for ports (3,2)
+	port combinator 3 : port id=3, differential mode for ports (3,2)
+	port combinator 4 : port id=4, common mode for ports (5,4)
+	port combinator 5 : port id=5, differential mode for ports (5,4)
+	port combinator 6 : port id=6, differential mode for ports (6,7)
+	port combinator 7 : port id=7, common mode for ports (6,7)
+	port combinator 8 : port id=8, common mode for ports (9,8)
+	port combinator 9 : port id=9, differential mode for ports (9,8)
+	port combinator 10 : port id=10, differential mode for ports (10,11)
+	port combinator 11 : port id=11, common mode for ports (10,11)
+	refreshing datasets
+	creating dataset | S(D(2,1) , D(10,9)) | = | S(DSI_CLK_P_FPC2|DSI_CLK_N_FPC2_D , NetR94_2_U1|NetR93_2_U1_D) |
+	creating dataset | S(D(2,1) , D(10,9)) | = | S(DSI_CLK_P_FPC2|DSI_CLK_N_FPC2_D , NetR94_2_U1|NetR93_2_U1_D) |
+	creating dataset real( S(D(2,1) , D(10,9)) ) = real( S(DSI_CLK_P_FPC2|DSI_CLK_N_FPC2_D , NetR94_2_U1|NetR93_2_U1_D) )
+	creating dataset imag( S(D(2,1) , D(10,9)) ) = imag( S(DSI_CLK_P_FPC2|DSI_CLK_N_FPC2_D , NetR94_2_U1|NetR93_2_U1_D) )
+	creating dataset real( S(D(2,1) , D(10,9)) ) = real( S(DSI_CLK_P_FPC2|DSI_CLK_N_FPC2_D , NetR94_2_U1|NetR93_2_U1_D) )
+	creating dataset imag( S(D(2,1) , D(10,9)) ) = imag( S(DSI_CLK_P_FPC2|DSI_CLK_N_FPC2_D , NetR94_2_U1|NetR93_2_U1_D) )
+	creating dataset | S(D(10,9) , D(10,9)) | = | S(NetR94_2_U1|NetR93_2_U1_D , NetR94_2_U1|NetR93_2_U1_D) |
+	creating dataset | S(D(10,9) , D(10,9)) | = | S(NetR94_2_U1|NetR93_2_U1_D , NetR94_2_U1|NetR93_2_U1_D) |
+	creating dataset real( S(D(10,9) , D(10,9)) ) = real( S(NetR94_2_U1|NetR93_2_U1_D , NetR94_2_U1|NetR93_2_U1_D) )
+	creating dataset imag( S(D(10,9) , D(10,9)) ) = imag( S(NetR94_2_U1|NetR93_2_U1_D , NetR94_2_U1|NetR93_2_U1_D) )
+	creating dataset real( S(D(10,9) , D(10,9)) ) = real( S(NetR94_2_U1|NetR93_2_U1_D , NetR94_2_U1|NetR93_2_U1_D) )
+	creating dataset imag( S(D(10,9) , D(10,9)) ) = imag( S(NetR94_2_U1|NetR93_2_U1_D , NetR94_2_U1|NetR93_2_U1_D) )
+	creating dataset | S(D(11,12) , D(11,12)) | = | S(NetR95_2_U1|NetR96_2_U1_D , NetR95_2_U1|NetR96_2_U1_D) |
+	creating dataset | S(D(11,12) , D(11,12)) | = | S(NetR95_2_U1|NetR96_2_U1_D , NetR95_2_U1|NetR96_2_U1_D) |
+	creating dataset real( S(D(11,12) , D(11,12)) ) = real( S(NetR95_2_U1|NetR96_2_U1_D , NetR95_2_U1|NetR96_2_U1_D) )
+	creating dataset imag( S(D(11,12) , D(11,12)) ) = imag( S(NetR95_2_U1|NetR96_2_U1_D , NetR95_2_U1|NetR96_2_U1_D) )
+	creating dataset real( S(D(11,12) , D(11,12)) ) = real( S(NetR95_2_U1|NetR96_2_U1_D , NetR95_2_U1|NetR96_2_U1_D) )
+	creating dataset imag( S(D(11,12) , D(11,12)) ) = imag( S(NetR95_2_U1|NetR96_2_U1_D , NetR95_2_U1|NetR96_2_U1_D) )
+	creating dataset | S(D(11,12) , D(4,3)) | = | S(NetR95_2_U1|NetR96_2_U1_D , DSI_D0_P_FPC2|DSI_D0_N_FPC2_D) |
+	creating dataset | S(D(11,12) , D(4,3)) | = | S(NetR95_2_U1|NetR96_2_U1_D , DSI_D0_P_FPC2|DSI_D0_N_FPC2_D) |
+	creating dataset real( S(D(11,12) , D(4,3)) ) = real( S(NetR95_2_U1|NetR96_2_U1_D , DSI_D0_P_FPC2|DSI_D0_N_FPC2_D) )
+	creating dataset imag( S(D(11,12) , D(4,3)) ) = imag( S(NetR95_2_U1|NetR96_2_U1_D , DSI_D0_P_FPC2|DSI_D0_N_FPC2_D) )
+	creating dataset real( S(D(11,12) , D(4,3)) ) = real( S(NetR95_2_U1|NetR96_2_U1_D , DSI_D0_P_FPC2|DSI_D0_N_FPC2_D) )
+	creating dataset imag( S(D(11,12) , D(4,3)) ) = imag( S(NetR95_2_U1|NetR96_2_U1_D , DSI_D0_P_FPC2|DSI_D0_N_FPC2_D) )
+	creating dataset | S(D(7,8) , D(7,8)) | = | S(NetR91_2_U1|NetR92_2_U1_D , NetR91_2_U1|NetR92_2_U1_D) |
+	creating dataset | S(D(7,8) , D(7,8)) | = | S(NetR91_2_U1|NetR92_2_U1_D , NetR91_2_U1|NetR92_2_U1_D) |
+	creating dataset real( S(D(7,8) , D(7,8)) ) = real( S(NetR91_2_U1|NetR92_2_U1_D , NetR91_2_U1|NetR92_2_U1_D) )
+	creating dataset imag( S(D(7,8) , D(7,8)) ) = imag( S(NetR91_2_U1|NetR92_2_U1_D , NetR91_2_U1|NetR92_2_U1_D) )
+	creating dataset real( S(D(7,8) , D(7,8)) ) = real( S(NetR91_2_U1|NetR92_2_U1_D , NetR91_2_U1|NetR92_2_U1_D) )
+	creating dataset imag( S(D(7,8) , D(7,8)) ) = imag( S(NetR91_2_U1|NetR92_2_U1_D , NetR91_2_U1|NetR92_2_U1_D) )
+	creating dataset | S(D(7,8) , D(6,5)) | = | S(NetR91_2_U1|NetR92_2_U1_D , DSI_D1_P_FPC2|DSI_D1_N_FPC2_D) |
+	creating dataset | S(D(7,8) , D(6,5)) | = | S(NetR91_2_U1|NetR92_2_U1_D , DSI_D1_P_FPC2|DSI_D1_N_FPC2_D) |
+	creating dataset real( S(D(7,8) , D(6,5)) ) = real( S(NetR91_2_U1|NetR92_2_U1_D , DSI_D1_P_FPC2|DSI_D1_N_FPC2_D) )
+	creating dataset imag( S(D(7,8) , D(6,5)) ) = imag( S(NetR91_2_U1|NetR92_2_U1_D , DSI_D1_P_FPC2|DSI_D1_N_FPC2_D) )
+	creating dataset real( S(D(7,8) , D(6,5)) ) = real( S(NetR91_2_U1|NetR92_2_U1_D , DSI_D1_P_FPC2|DSI_D1_N_FPC2_D) )
+	creating dataset imag( S(D(7,8) , D(6,5)) ) = imag( S(NetR91_2_U1|NetR92_2_U1_D , DSI_D1_P_FPC2|DSI_D1_N_FPC2_D) )

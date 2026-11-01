@@ -1,0 +1,284 @@
+
+no solderballs
+
+Flimit=20000, Fmin=20000
+adaptively solving frequency plan: 
+requested discrete frequencies: 20 kHz 2 MHz 3 GHz 
+requested frequency ranges: 
+[ 2 MHz , 3 GHz ], #=300
+Fdc = 20000
+cutoff intervals:
+== ISOLATED DISCRETE FREQUENCIES ==========================
+Circuit solver: calculating S-matrix at 2e-05 GHz
+Checking the passivity of the S-blocks:
+  - passivity check: max singular value = 0.9999999497199915
+  - passivity check: max singular value = 0.9999999952979417
+  - passivity check: max singular value = 0.9999999979213987
+  - passivity check: max singular value = 0.9999999905606096
+  - max diff circuit solver Y-based <-> S-based: r=3, c=3 : 1.742628522973579e-10
+      Ybased S(3,3) = (0.09189650383252941,2.484434537181095e-06)
+      Sbased S(3,3) = (0.09189650400461717,2.484407090062753e-06)
+  - enforced reciprocity: max unbalance = 1.443289932267221e-15
+  - passivity check: max singular value = 0.9999997650527017
+
+===============================================
+== ADAPTIVE FIT in [0.002 , 3] GHz, maxNbSamples=300 =========================
+===============================================
+Fitting options : 
+  nbInitialSamplesPerInterval                : 4
+  nbTestPointsPerInterval                    : 10
+  maxDepthDifference                         : 3
+  relFreqFactorForDistance                   : 0
+  nbTestPointsForDistance                    : 1
+  maxDistanceBetweenModels                   : 0.01
+  maxDistanceFromSamples                     : 0.001
+  nbNewSamples                               : 1
+  nbNewDiscreteSamples                       : 0
+  maxNbIntervalsToBeSubdivided               : 1
+  maxNbSamples                               : 300
+  minAbsDistanceBetweenSubsequentFrequencies : 10
+  minRelDistanceBetweenSubsequentFrequencies : 0.001
+  passivityThreshold                         : 0.005
+  useSvdForPassivity                         : 0
+  enforcePassivity                           : 0
+  enforceCausality                           : -2
+  maxPhaseDifferenceBetweenSubsequentSamples : 2.0944
+  maxCausalityViolation                      : -1
+  unwrapPhaseDifference                      : 0
+  amplitudeThresholdForMaxPhaseDifference    : 0.1
+  maxNbSamplesInModelRange                   : 30
+  model type for S-parameters                : 3
+  #poles - #zeros                            : [-1 , -1]
+  maxNbPoles                                 : 100
+  maxImpedanceRelDistanceFromSamples         : 0.01
+  maxNbThreads                               : 12
+  extrapolateToDc                            : 0
+  vectorfitting_mirrorPolesIntoLHP           : 0
+  vectorfitting_maxNbIterations              : 5
+  vectorfitting_leastSquaresMode             : QR
+  vectorfitting_incremental                  : 1
+Circuit solver: calculating S-matrix at 0.002 GHz
+Checking the passivity of the S-blocks:
+  - passivity check: max singular value = 0.9999950307787978
+  - enforced passivity: max singular value = 1.000009722266266
+  - passivity check: max singular value = 0.9999997927227844
+  - passivity check: max singular value = 0.9999990067079459
+  - max diff circuit solver Y-based <-> S-based: r=6, c=7 : 4.17939755968634e-11
+      Ybased S(6,7) = (7.189169626261592e-06,0.0004631280129621177)
+      Sbased S(6,7) = (7.18920461229678e-06,0.0004631280358250515)
+  - enforced reciprocity: max unbalance = 9.014696840109064e-16
+  - passivity check: max singular value = 0.9999680346052797
+Circuit solver: calculating S-matrix at 1.001333333333333 GHz
+Checking the passivity of the S-blocks:
+  - passivity check: max singular value = 0.9968411477110072
+  - passivity check: max singular value = 0.9997653559027319
+  - passivity check: max singular value = 0.9998961163471949
+  - passivity check: max singular value = 0.9998933003145294
+  - max diff circuit solver Y-based <-> S-based: r=6, c=9 : 3.753540531198916e-13
+      Ybased S(6,9) = (-0.003220609902754227,0.01171532985270218)
+      Sbased S(6,9) = (-0.003220609902870504,0.01171532985234529)
+  - enforced reciprocity: max unbalance = 2.586821136409213e-15
+  - passivity check: max singular value = 0.9827948599905266
+Circuit solver: calculating S-matrix at 2.000666666666667 GHz
+Checking the passivity of the S-blocks:
+  - passivity check: max singular value = 0.9918136683065434
+  - passivity check: max singular value = 0.9995304879808063
+  - passivity check: max singular value = 0.999804849156958
+  - passivity check: max singular value = 0.9998291665224569
+  - max diff circuit solver Y-based <-> S-based: r=5, c=5 : 3.429314533158907e-14
+      Ybased S(5,5) = (0.0933781157241789,-0.3397039846603417)
+      Sbased S(5,5) = (0.09337811572421134,-0.3397039846603528)
+  - enforced reciprocity: max unbalance = 1.615794118262391e-15
+  - passivity check: max singular value = 0.9705630420684487
+Circuit solver: calculating S-matrix at 3 GHz
+Checking the passivity of the S-blocks:
+  - passivity check: max singular value = 0.9915930490336768
+  - passivity check: max singular value = 0.9992945899460695
+  - passivity check: max singular value = 0.9997573906950152
+  - passivity check: max singular value = 0.9997649120938303
+  - max diff circuit solver Y-based <-> S-based: r=6, c=7 : 4.367306118668044e-14
+      Ybased S(6,7) = (0.01065196605449145,0.01541516897275295)
+      Sbased S(6,7) = (0.0106519660544972,0.01541516897270966)
+  - enforced reciprocity: max unbalance = 2.538393068496395e-15
+  - passivity check: max singular value = 0.9596382085324452
+== #samples 4 ======================
+sorted and limited errors, not satisfying the fitting constraints: 
+  Fitting error in [ 2.001e+09,     3e+09], depth=0 : passivity=  8.94@( 2.818e+09 Hz, r=  4, c=  4), distance=  3.13@( 2.818e+09 Hz, r=  4, c=  5), causality=     0@(        -1 Hz, r=  0, c=  0), delta_phase=  2.98@(        -1 Hz, r=  9, c=  9)
+  Fitting error in [ 1.001e+09, 2.001e+09], depth=0 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=  0.71@( 1.819e+09 Hz, r=  6, c=  7), causality=     0@(        -1 Hz, r=  0, c=  0), delta_phase=  3.02@(        -1 Hz, r=  7, c=  7)
+  Fitting error in [     2e+06, 1.001e+09], depth=0 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance= 0.381@( 8.196e+08 Hz, r=  5, c=  6), causality=     0@(        -1 Hz, r=  0, c=  0), delta_phase=  2.16@(        -1 Hz, r=  5, c=  6)
+new frequencies (new sample frequencies                   : etime=00:00:00.0    ctime=00:00:00.0    rss=161.598 Mbyte     virtual=136.340 Mbyte     ) : 
+  [2.001e+09 , 3e+09] : 2.5e+09, 
+Circuit solver: calculating S-matrix at 2.500333333333334 GHz
+Checking the passivity of the S-blocks:
+  - passivity check: max singular value = 0.9918381493830849
+  - passivity check: max singular value = 0.9994011889450644
+  - passivity check: max singular value = 0.9997800213407172
+  - passivity check: max singular value = 0.9997997101180055
+  - max diff circuit solver Y-based <-> S-based: r=6, c=9 : 4.9925053762893e-14
+      Ybased S(6,9) = (0.04145523617141843,0.02532457085833514)
+      Sbased S(6,9) = (0.04145523617140378,0.02532457085838287)
+  - enforced reciprocity: max unbalance = 1.310110211561571e-15
+  - passivity check: max singular value = 0.9654664330753673
+--> fit time : fit                                      : etime=00:00:00.0    ctime=00:00:00.0    rss=161.598 Mbyte     virtual=136.340 Mbyte      sec
+--> errors   : errors                                   : etime=00:00:00.0    ctime=00:00:00.0    rss=161.598 Mbyte     virtual=136.660 Mbyte      sec
+== #samples 5 ======================
+sorted and limited errors, not satisfying the fitting constraints: 
+  Fitting error in [ 1.001e+09, 2.001e+09], depth=0 : passivity= 0.171@( 1.637e+09 Hz, r=  1, c=  1), distance= 0.553@( 1.637e+09 Hz, r=  1, c=  2), causality=     0@(        -1 Hz, r=  0, c=  0), delta_phase=  3.02@(        -1 Hz, r=  7, c=  7)
+  Fitting error in [   2.5e+09,     3e+09], depth=1 : passivity=0.0883@( 2.637e+09 Hz, r=  3, c=  3), distance=  3.18@( 2.818e+09 Hz, r=  4, c=  5), causality=     0@(        -1 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  3, c=  3)
+  Fitting error in [     2e+06, 1.001e+09], depth=0 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance= 0.544@( 4.562e+08 Hz, r=  2, c=  3), causality=     0@(        -1 Hz, r=  0, c=  0), delta_phase=  2.16@(        -1 Hz, r=  5, c=  6)
+  Fitting error in [ 2.001e+09,   2.5e+09], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance= 0.305@( 2.409e+09 Hz, r=  0, c=  1), causality=     0@(        -1 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  9, c=  9)
+new frequencies (new sample frequencies                   : etime=00:00:00.0    ctime=00:00:00.0    rss=161.598 Mbyte     virtual=136.660 Mbyte     ) : 
+  [1.001e+09 , 2.001e+09] : 1.501e+09, 
+Circuit solver: calculating S-matrix at 1.501 GHz
+Checking the passivity of the S-blocks:
+  - passivity check: max singular value = 0.9941019824067265
+  - passivity check: max singular value = 0.9996617747281474
+  - passivity check: max singular value = 0.9998462283976529
+  - passivity check: max singular value = 0.999862273791452
+  - max diff circuit solver Y-based <-> S-based: r=6, c=9 : 8.348883697969662e-14
+      Ybased S(6,9) = (-0.00525902503549265,0.03988237193952585)
+      Sbased S(6,9) = (-0.005259025035540289,0.03988237193945728)
+  - enforced reciprocity: max unbalance = 1.022257104560548e-15
+  - passivity check: max singular value = 0.9739976367647384
+--> fit time : fit                                      : etime=00:00:00.0    ctime=00:00:00.0    rss=161.598 Mbyte     virtual=136.660 Mbyte      sec
+--> errors   : errors                                   : etime=00:00:00.0    ctime=00:00:00.0    rss=161.598 Mbyte     virtual=137.258 Mbyte      sec
+== #samples 6 ======================
+sorted and limited errors, not satisfying the fitting constraints: 
+  Fitting error in [ 1.001e+09, 1.501e+09], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=  1.49@( 1.138e+09 Hz, r=  1, c=  1), causality=     0@(        -1 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  6, c=  6)
+  Fitting error in [ 1.501e+09, 2.001e+09], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance= 0.856@( 1.592e+09 Hz, r=  1, c=  2), causality=     0@(        -1 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  6, c=  6)
+  Fitting error in [   2.5e+09,     3e+09], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance= 0.537@( 2.637e+09 Hz, r=  2, c=  3), causality=     0@(        -1 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  3, c=  3)
+  Fitting error in [     2e+06, 1.001e+09], depth=0 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance= 0.355@( 4.562e+08 Hz, r=  2, c=  3), causality=     0@(        -1 Hz, r=  0, c=  0), delta_phase=  2.16@(        -1 Hz, r=  5, c=  6)
+  Fitting error in [ 2.001e+09,   2.5e+09], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0911@( 2.364e+09 Hz, r=  2, c=  2), causality=     0@(        -1 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  9, c=  9)
+new frequencies (new sample frequencies                   : etime=00:00:00.0    ctime=00:00:00.0    rss=161.598 Mbyte     virtual=137.258 Mbyte     ) : 
+  [1.001e+09 , 1.501e+09] : 1.251e+09, 
+Circuit solver: calculating S-matrix at 1.251166666666667 GHz
+Checking the passivity of the S-blocks:
+  - passivity check: max singular value = 0.9956261493065115
+  - passivity check: max singular value = 0.9997193279753654
+  - passivity check: max singular value = 0.9998721518769523
+  - passivity check: max singular value = 0.9998791883833865
+  - max diff circuit solver Y-based <-> S-based: r=6, c=6 : 1.222672903439686e-13
+      Ybased S(6,6) = (0.05982990709329718,-0.2383153750651911)
+      Sbased S(6,6) = (0.05982990709324454,-0.2383153750653015)
+  - enforced reciprocity: max unbalance = 1.506639046940427e-15
+  - passivity check: max singular value = 0.9775750018337944
+--> fit time : fit                                      : etime=00:00:00.0    ctime=00:00:00.0    rss=161.598 Mbyte     virtual=137.258 Mbyte      sec
+--> errors   : errors                                   : etime=00:00:00.0    ctime=00:00:00.0    rss=161.598 Mbyte     virtual=137.883 Mbyte      sec
+== #samples 7 ======================
+sorted and limited errors, not satisfying the fitting constraints: 
+  Fitting error in [     2e+06, 1.001e+09], depth=0 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance= 0.288@( 3.654e+08 Hz, r=  2, c=  2), causality=     0@(        -1 Hz, r=  0, c=  0), delta_phase=  2.16@(        -1 Hz, r=  5, c=  6)
+  Fitting error in [   2.5e+09,     3e+09], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0544@( 2.909e+09 Hz, r=  6, c=  6), causality=     0@(        -1 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  3, c=  3)
+  Fitting error in [ 1.501e+09, 2.001e+09], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0413@(  1.91e+09 Hz, r=  1, c=  6), causality=     0@(        -1 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  6, c=  6)
+  Fitting error in [ 2.001e+09,   2.5e+09], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0197@( 2.273e+09 Hz, r=  5, c=  5), causality=     0@(        -1 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  9, c=  9)
+  Fitting error in [ 1.251e+09, 1.501e+09], depth=2 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0119@( 1.251e+09 Hz, r=  5, c=  5), causality=     0@(        -1 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  6, c=  6)
+  Fitting error in [ 1.001e+09, 1.251e+09], depth=2 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0117@( 1.206e+09 Hz, r=  5, c=  5), causality=     0@(        -1 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  6, c=  6)
+new frequencies (new sample frequencies                   : etime=00:00:00.0    ctime=00:00:00.0    rss=161.598 Mbyte     virtual=137.883 Mbyte     ) : 
+  [2e+06 , 1.001e+09] : 5.017e+08, 
+Circuit solver: calculating S-matrix at 0.5016666666666667 GHz
+Checking the passivity of the S-blocks:
+  - passivity check: max singular value = 0.9987289249216976
+  - passivity check: max singular value = 0.999801910889264
+  - passivity check: max singular value = 0.999942642454249
+  - passivity check: max singular value = 0.9999068327536501
+  - max diff circuit solver Y-based <-> S-based: r=6, c=8 : 3.269344144257242e-13
+      Ybased S(6,8) = (0.002519749123489872,0.007157566631602342)
+      Sbased S(6,8) = (0.002519749123466006,0.007157566631928404)
+  - enforced reciprocity: max unbalance = 2.079353920127438e-15
+  - passivity check: max singular value = 0.9930286786679704
+--> fit time : fit                                      : etime=00:00:00.0    ctime=00:00:00.0    rss=161.598 Mbyte     virtual=137.883 Mbyte      sec
+--> errors   : errors                                   : etime=00:00:00.0    ctime=00:00:00.0    rss=161.598 Mbyte     virtual=138.113 Mbyte      sec
+== #samples 8 ======================
+sorted and limited errors, not satisfying the fitting constraints: 
+  Fitting error in [   2.5e+09,     3e+09], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0471@( 2.773e+09 Hz, r=  7, c=  7), causality=     0@(        -1 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  3, c=  3)
+  Fitting error in [ 1.501e+09, 2.001e+09], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0408@(  1.91e+09 Hz, r=  1, c=  6), causality=     0@(        -1 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  6, c=  6)
+  Fitting error in [ 2.001e+09,   2.5e+09], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0228@( 2.182e+09 Hz, r=  1, c= 11), causality=     0@(        -1 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  9, c=  9)
+  Fitting error in [ 5.017e+08, 1.001e+09], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0148@( 5.017e+08 Hz, r=  3, c=  9), causality=     0@(        -1 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  5, c=  6)
+  Fitting error in [     2e+06, 5.017e+08], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0143@( 4.108e+08 Hz, r=  4, c=  7), causality=     0@(        -1 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  5, c=  6)
+new frequencies (new sample frequencies                   : etime=00:00:00.0    ctime=00:00:00.0    rss=161.598 Mbyte     virtual=138.113 Mbyte     ) : 
+  [2.5e+09 , 3e+09] : 2.75e+09, 
+Circuit solver: calculating S-matrix at 2.750166666666667 GHz
+Checking the passivity of the S-blocks:
+  - passivity check: max singular value = 0.9917393949766505
+  - passivity check: max singular value = 0.9993440138000139
+  - passivity check: max singular value = 0.9997684619675985
+  - passivity check: max singular value = 0.9997837791520877
+  - max diff circuit solver Y-based <-> S-based: r=6, c=7 : 6.707420991821149e-14
+      Ybased S(6,7) = (0.09318818474632543,-0.01097268631976093)
+      Sbased S(6,7) = (0.09318818474634392,-0.0109726863198254)
+  - enforced reciprocity: max unbalance = 9.639819490876587e-16
+  - passivity check: max singular value = 0.9628278016098262
+--> fit time : fit                                      : etime=00:00:00.0    ctime=00:00:00.0    rss=161.598 Mbyte     virtual=138.113 Mbyte      sec
+--> errors   : errors                                   : etime=00:00:00.0    ctime=00:00:00.0    rss=161.598 Mbyte     virtual=138.340 Mbyte      sec
+== #samples 9 ======================
+sorted and limited errors, not satisfying the fitting constraints: 
+  Fitting error in [  2.75e+09,     3e+09], depth=2 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance= 0.254@( 2.886e+09 Hz, r=  0, c=  9), causality=     0@(        -1 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  4, c=  5)
+  Fitting error in [   2.5e+09,  2.75e+09], depth=2 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0585@( 2.568e+09 Hz, r=  1, c=  1), causality=     0@(        -1 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  9, c=  9)
+  Fitting error in [ 2.001e+09,   2.5e+09], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance= 0.015@( 2.273e+09 Hz, r=  2, c=  2), causality=     0@(        -1 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  9, c=  9)
+new frequencies (new sample frequencies                   : etime=00:00:00.0    ctime=00:00:00.0    rss=161.598 Mbyte     virtual=138.340 Mbyte     ) : 
+  [2.75e+09 , 3e+09] : 2.875e+09, 
+Circuit solver: calculating S-matrix at 2.875083333333334 GHz
+Checking the passivity of the S-blocks:
+  - passivity check: max singular value = 0.9917145693775657
+  - passivity check: max singular value = 0.9993182224900368
+  - passivity check: max singular value = 0.9997628660430485
+  - passivity check: max singular value = 0.9997748126793164
+  - max diff circuit solver Y-based <-> S-based: r=6, c=6 : 8.175472643217591e-14
+      Ybased S(6,6) = (0.2289902103375362,0.1010925217337762)
+      Sbased S(6,6) = (0.2289902103375365,0.1010925217336944)
+  - enforced reciprocity: max unbalance = 3.642360840998016e-15
+  - passivity check: max singular value = 0.9613254555058108
+--> fit time : fit                                      : etime=00:00:00.0    ctime=00:00:00.0    rss=161.598 Mbyte     virtual=138.340 Mbyte      sec
+--> errors   : errors                                   : etime=00:00:00.0    ctime=00:00:00.0    rss=161.598 Mbyte     virtual=138.668 Mbyte      sec
+== #samples 10 ======================
+sorted and limited errors, not satisfying the fitting constraints: 
+  Fitting error in [ 2.875e+09,     3e+09], depth=3 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance= 0.367@( 2.898e+09 Hz, r=  0, c=  9), causality=     0@(        -1 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  5, c=  5)
+  Fitting error in [  2.75e+09, 2.875e+09], depth=3 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance= 0.298@( 2.807e+09 Hz, r=  2, c=  9), causality=     0@(        -1 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  4, c=  5)
+  Fitting error in [   2.5e+09,  2.75e+09], depth=2 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0567@( 2.568e+09 Hz, r=  1, c=  1), causality=     0@(        -1 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  9, c=  9)
+  Fitting error in [ 2.001e+09,   2.5e+09], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0142@( 2.364e+09 Hz, r=  1, c=  1), causality=     0@(        -1 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  9, c=  9)
+new frequencies (new sample frequencies                   : etime=00:00:00.0    ctime=00:00:00.0    rss=161.598 Mbyte     virtual=138.668 Mbyte     ) : 
+  [2.875e+09 , 3e+09] : 2.938e+09, 
+Circuit solver: calculating S-matrix at 2.937541666666667 GHz
+Checking the passivity of the S-blocks:
+  - passivity check: max singular value = 0.9916693410193633
+  - passivity check: max singular value = 0.9993061238104946
+  - passivity check: max singular value = 0.9997596392532211
+  - passivity check: max singular value = 0.9997699905225597
+  - max diff circuit solver Y-based <-> S-based: r=6, c=9 : 4.743749278758211e-14
+      Ybased S(6,9) = (0.02296155645239249,0.001828000696678364)
+      Sbased S(6,9) = (0.02296155645240352,0.001828000696632228)
+  - enforced reciprocity: max unbalance = 1.374689277502871e-15
+  - passivity check: max singular value = 0.9604995058536112
+--> fit time : fit                                      : etime=00:00:00.0    ctime=00:00:00.0    rss=161.598 Mbyte     virtual=138.668 Mbyte      sec
+--> errors   : errors                                   : etime=00:00:00.0    ctime=00:00:00.0    rss=161.598 Mbyte     virtual=138.918 Mbyte      sec
+== #samples 11 ======================
+sorted and limited errors, not satisfying the fitting constraints: none
+--> checking accuracy of fitted Z : checking Z                               : etime=00:00:00.0    ctime=00:00:00.0    rss=161.598 Mbyte     virtual=138.918 Mbyte      sec
+FITTED IMPEDANCES ARE NOT ACCURATE
+--> changing maxDistanceFromSamples:
+	at 2 MHz : 1e-05
+	at 501.667 MHz : 1e-05
+	at 1.00133 GHz : 1e-05
+	at 1.25117 GHz : 1e-05
+	at 1.501 GHz : 1e-05
+	at 2.00067 GHz : 1e-05
+	at 2.50033 GHz : 1e-05
+	at 2.75017 GHz : 1e-05
+	at 2.87508 GHz : 1e-05
+	at 2.93754 GHz : 1e-05
+	at 3 GHz : 1e-05
+--> REFITTING
+--> fit time : fit                                      : etime=00:00:00.0    ctime=00:00:00.0    rss=161.598 Mbyte     virtual=138.918 Mbyte      sec
+--> errors   : errors                                   : etime=00:00:00.0    ctime=00:00:00.0    rss=161.598 Mbyte     virtual=139.348 Mbyte      sec
+== #samples 11 ======================
+sorted and limited errors, not satisfying the fitting constraints: none
+--> checking accuracy of fitted Z : checking Z                               : etime=00:00:00.0    ctime=00:00:00.0    rss=161.598 Mbyte     virtual=139.348 Mbyte      sec
+FITTED IMPEDANCES ARE NOT ACCURATE
+--> changing maxDistanceFromSamples:
+	at 2 MHz : 1e-07
+--> REFITTING
+--> fit time : fit                                      : etime=00:00:00.0    ctime=00:00:00.0    rss=161.598 Mbyte     virtual=139.348 Mbyte      sec
+--> errors   : errors                                   : etime=00:00:00.0    ctime=00:00:00.0    rss=161.598 Mbyte     virtual=139.531 Mbyte      sec
+== #samples 11 ======================
+sorted and limited errors, not satisfying the fitting constraints: none
+--> checking accuracy of fitted Z : checking Z                               : etime=00:00:00.0    ctime=00:00:00.0    rss=161.598 Mbyte     virtual=139.531 Mbyte      sec
+--> CONVERGED

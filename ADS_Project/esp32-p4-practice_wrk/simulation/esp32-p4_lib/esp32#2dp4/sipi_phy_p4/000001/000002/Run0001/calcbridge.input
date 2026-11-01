@@ -1,0 +1,4048 @@
+Version 9
+begin_<FEMProject> 
+begin_<Units> 
+begin_<Display> 
+Name mil
+Conversion 39370.078740157485
+end_<Display>
+begin_<Modeling> 
+Name mm
+Conversion 1000
+end_<Modeling>
+end_<Units>
+begin_<RunParameters> 
+begin_<OuterBoundaries> 
+LowerX ORBC_CPML
+UpperX ORBC_CPML
+LowerY ORBC_CPML
+UpperY ORBC_CPML
+LowerZ ORBC_CPML
+UpperZ ORBC_CPML
+NumberOfPMLLayers 7
+end_<OuterBoundaries>
+begin_<AmbientConditions> 
+begin_<BackgroundMedium> 
+Temperature 298.14999389648438
+end_<BackgroundMedium>
+begin_<Top> 
+HeatTransferCoefficient 10
+end_<Top>
+begin_<Bottom> 
+HeatTransferCoefficient 2.5
+end_<Bottom>
+end_<AmbientConditions>
+begin_<ComponentsPorts> 
+PortType 1
+begin_<FeedData> 
+ComponentName PHY_RXD0_U12
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.33
+		X 0.056896000000000002
+		Y 0.035560000000000008
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.18
+		X 0.054897020000000005
+		Y 0.036558220000000002
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+IsActive 
+WaveformIndex 0
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName PHY_RXD0_U1
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name C144.1
+		X 0.079298800000000016
+		Y 0.06352540000000001
+		Z 0
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U1.58
+		X 0.077885442400000005
+		Y 0.06309730840000001
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName PHY_RXD1_U12
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.33
+		X 0.056896000000000002
+		Y 0.035560000000000008
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.17
+		X 0.054897020000000005
+		Y 0.036959540000000013
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName PHY_RXD1_U1
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name C121.1
+		X 0.076504800000000012
+		Y 0.062343030000000008
+		Z 0
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U1.60
+		X 0.077184402400000005
+		Y 0.06309730840000001
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName PHY_RXDV_U12
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.33
+		X 0.056896000000000002
+		Y 0.035560000000000008
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.19
+		X 0.054897020000000005
+		Y 0.036159440000000015
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName PHY_RXDV_U1
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name C144.1
+		X 0.079298800000000016
+		Y 0.06352540000000001
+		Z 0
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U1.57
+		X 0.078235962400000011
+		Y 0.06309730840000001
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName PHY_TXD0_U12
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.33
+		X 0.056896000000000002
+		Y 0.035560000000000008
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.9
+		X 0.058295540000000007
+		Y 0.037558980000000006
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName PHY_TXD0_U1
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name C138.1
+		X 0.074676000000000006
+		Y 0.062343030000000008
+		Z 0
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U1.65
+		X 0.075434342400000007
+		Y 0.06309730840000001
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName PHY_TXD1_U12
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.33
+		X 0.056896000000000002
+		Y 0.035560000000000008
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.8
+		X 0.058897520000000009
+		Y 0.036959540000000013
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName PHY_TXD1_U1
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name C138.1
+		X 0.074676000000000006
+		Y 0.062343030000000008
+		Z 0
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U1.66
+		X 0.075086362400000009
+		Y 0.06309730840000001
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName PHY_TXEN_U12
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.33
+		X 0.056896000000000002
+		Y 0.035560000000000008
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.5
+		X 0.058897520000000009
+		Y 0.035758120000000004
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName PHY_TXEN_U1
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name C131.1
+		X 0.072339200000000006
+		Y 0.059678570000000007
+		Z 0
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U1.92
+		X 0.070260362400000012
+		Y 0.057920788400000006
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName PHY_50MCLK_U12
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.33
+		X 0.056896000000000002
+		Y 0.035560000000000008
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.10
+		X 0.057896760000000005
+		Y 0.037558980000000006
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName PHY_50MCLK_U12_2
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.33
+		X 0.056896000000000002
+		Y 0.035560000000000008
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.14
+		X 0.056296560000000009
+		Y 0.037558980000000006
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName PHY_50MCLK_U1
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name C131.1
+		X 0.072339200000000006
+		Y 0.059678570000000007
+		Z 0
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U1.93
+		X 0.070260362400000012
+		Y 0.057570268400000013
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_0
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.060815220000000003
+Y 0.041415970000000003
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.060567570000000001
+Y 0.041663619999999998
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.060815220000000003
+Y 0.041415970000000003
+Z -1.75006e-05
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.060567570000000001
+Y 0.041663619999999998
+Z -1.75006e-05
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.066112389999999993
+Y 0.061376559999999997
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.066361309999999993
+Y 0.061624209999999999
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.066112389999999993
+Y 0.061376559999999997
+Z -1.75006e-05
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.066361309999999993
+Y 0.061624209999999999
+Z -1.75006e-05
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.056126379999999997
+Y 0.038656259999999998
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.056126379999999997
+Y 0.038305739999999998
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.056126379999999997
+Y 0.038656259999999998
+Z -1.75006e-05
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.056126379999999997
+Y 0.038305739999999998
+Z -1.75006e-05
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.058976260000000003
+Y 0.041337230000000003
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.058625740000000003
+Y 0.041337230000000003
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.058976260000000003
+Y 0.041337230000000003
+Z -1.75006e-05
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.058625740000000003
+Y 0.041337230000000003
+Z -1.75006e-05
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.058143140000000003
+Y 0.042523409999999998
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.058390789999999998
+Y 0.04277106
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.058143140000000003
+Y 0.042523409999999998
+Z -1.75006e-05
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.058390789999999998
+Y 0.04277106
+Z -1.75006e-05
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.066954399999999997
+Y 0.059493149999999988
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.067202049999999999
+Y 0.059742070000000001
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.066954399999999997
+Y 0.059493149999999988
+Z -1.75006e-05
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.067202049999999999
+Y 0.059742070000000001
+Z -1.75006e-05
+end_<CornerPoint>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+FileName 
+Source 9
+SFileName ..\mom/0\proj.sio
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_1
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.088313259999999991
+Y 0.041954449999999997
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088663779999999998
+Y 0.041954449999999997
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088313259999999991
+Y 0.041954449999999997
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088663779999999998
+Y 0.041954449999999997
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.088663779999999998
+Y 0.041954449999999997
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088313259999999991
+Y 0.041954449999999997
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088663779999999998
+Y 0.041954449999999997
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088313259999999991
+Y 0.041954449999999997
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.088198959999999993
+Y1 0.041954449999999997
+Z1 0.00085115400000000002
+X2 0.088488520000000001
+Y2 0.041954449999999997
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.088663779999999998
+Y 0.039505890000000002
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088313259999999991
+Y 0.039505890000000002
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088663779999999998
+Y 0.039505890000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088313259999999991
+Y 0.039505890000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.088313259999999991
+Y 0.039505890000000002
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088663779999999998
+Y 0.039505890000000002
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088313259999999991
+Y 0.039505890000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088663779999999998
+Y 0.039505890000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.088198959999999993
+Y1 0.039505890000000002
+Z1 0.00085115400000000002
+X2 0.088488520000000001
+Y2 0.039505890000000002
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.089141299999999993
+Y 0.039643049999999999
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.08879078
+Y 0.039643049999999999
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089141299999999993
+Y 0.039643049999999999
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.08879078
+Y 0.039643049999999999
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.08879078
+Y 0.039643049999999999
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089141299999999993
+Y 0.039643049999999999
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.08879078
+Y 0.039643049999999999
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089141299999999993
+Y 0.039643049999999999
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.08879078
+Y 0.041751249999999997
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089141299999999993
+Y 0.041751249999999997
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.08879078
+Y 0.041751249999999997
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089141299999999993
+Y 0.041751249999999997
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.089141299999999993
+Y 0.041751249999999997
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.08879078
+Y 0.041751249999999997
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089141299999999993
+Y 0.041751249999999997
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.08879078
+Y 0.041751249999999997
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.089268299999999995
+Y 0.041869360000000001
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089618820000000002
+Y 0.041869360000000001
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089268299999999995
+Y 0.041869360000000001
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089618820000000002
+Y 0.041869360000000001
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.089618820000000002
+Y 0.041869360000000001
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089268299999999995
+Y 0.041869360000000001
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089618820000000002
+Y 0.041869360000000001
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089268299999999995
+Y 0.041869360000000001
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.089768680000000003
+Y1 0.041869360000000001
+Z1 0.00085115400000000002
+X2 0.089443559999999991
+Y2 0.041869360000000001
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.089618820000000002
+Y 0.03947287
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089268299999999995
+Y 0.03947287
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089618820000000002
+Y 0.03947287
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089268299999999995
+Y 0.03947287
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.089268299999999995
+Y 0.03947287
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089618820000000002
+Y 0.03947287
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089268299999999995
+Y 0.03947287
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089618820000000002
+Y 0.03947287
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.089768680000000003
+Y1 0.03947287
+Z1 0.00085115400000000002
+X2 0.089443559999999991
+Y2 0.03947287
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.087617299999999995
+Y 0.054109619999999997
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087967820000000002
+Y 0.054109619999999997
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087617299999999995
+Y 0.054109619999999997
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087967820000000002
+Y 0.054109619999999997
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.087967820000000002
+Y 0.054109619999999997
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087617299999999995
+Y 0.054109619999999997
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087967820000000002
+Y 0.054109619999999997
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087617299999999995
+Y 0.054109619999999997
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.087414099999999995
+Y1 0.054109619999999997
+Z1 0.00085115400000000002
+X2 0.087792559999999992
+Y2 0.054109619999999997
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.087967820000000002
+Y 0.048672750000000001
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087617299999999995
+Y 0.048672750000000001
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087967820000000002
+Y 0.048672750000000001
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087617299999999995
+Y 0.048672750000000001
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.087617299999999995
+Y 0.048672750000000001
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087967820000000002
+Y 0.048672750000000001
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087617299999999995
+Y 0.048672750000000001
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087967820000000002
+Y 0.048672750000000001
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.087414099999999995
+Y1 0.048672750000000001
+Z1 0.00085115400000000002
+X2 0.087792559999999992
+Y2 0.048672750000000001
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.088445339999999997
+Y 0.048750219999999997
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.08809481999999999
+Y 0.048750219999999997
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088445339999999997
+Y 0.048750219999999997
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.08809481999999999
+Y 0.048750219999999997
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.08809481999999999
+Y 0.048750219999999997
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088445339999999997
+Y 0.048750219999999997
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.08809481999999999
+Y 0.048750219999999997
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088445339999999997
+Y 0.048750219999999997
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.08809481999999999
+Y 0.053935629999999998
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088445339999999997
+Y 0.053935629999999998
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.08809481999999999
+Y 0.053935629999999998
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088445339999999997
+Y 0.053935629999999998
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.088445339999999997
+Y 0.053935629999999998
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.08809481999999999
+Y 0.053935629999999998
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088445339999999997
+Y 0.053935629999999998
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.08809481999999999
+Y 0.053935629999999998
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.088572339999999999
+Y 0.054084220000000002
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088922859999999992
+Y 0.054084220000000002
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088572339999999999
+Y 0.054084220000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088922859999999992
+Y 0.054084220000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.088922859999999992
+Y 0.054084220000000002
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088572339999999999
+Y 0.054084220000000002
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088922859999999992
+Y 0.054084220000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088572339999999999
+Y 0.054084220000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.089019379999999995
+Y1 0.054084220000000002
+Z1 0.00085115400000000002
+X2 0.088747599999999996
+Y2 0.054084220000000002
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.088922859999999992
+Y 0.048701960000000002
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088572339999999999
+Y 0.048701960000000002
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088922859999999992
+Y 0.048701960000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088572339999999999
+Y 0.048701960000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.088572339999999999
+Y 0.048701960000000002
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088922859999999992
+Y 0.048701960000000002
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088572339999999999
+Y 0.048701960000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088922859999999992
+Y 0.048701960000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.089019379999999995
+Y1 0.048701960000000002
+Z1 0.00085115400000000002
+X2 0.088747599999999996
+Y2 0.048701960000000002
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.085276690000000002
+Y 0.057543700000000003
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085276690000000002
+Y 0.057193180000000003
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085276690000000002
+Y 0.057543700000000003
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085276690000000002
+Y 0.057193180000000003
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.085276690000000002
+Y 0.057193180000000003
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085276690000000002
+Y 0.057543700000000003
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085276690000000002
+Y 0.057193180000000003
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085276690000000002
+Y 0.057543700000000003
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.085244939999999991
+Y1 0.057976769999999997
+Z1 0.00085115400000000002
+X2 0.085276690000000002
+Y2 0.05736844
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.083049109999999995
+Y 0.057193180000000003
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.083049109999999995
+Y 0.057543700000000003
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.083049109999999995
+Y 0.057193180000000003
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.083049109999999995
+Y 0.057543700000000003
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.083049109999999995
+Y 0.057543700000000003
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.083049109999999995
+Y 0.057193180000000003
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.083049109999999995
+Y 0.057543700000000003
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.083049109999999995
+Y 0.057193180000000003
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.083049109999999995
+Y1 0.057895490000000001
+Z1 0.00085115400000000002
+X2 0.083049109999999995
+Y2 0.05736844
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.082713830000000002
+Y 0.056715660000000001
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.082713830000000002
+Y 0.057066180000000001
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.082713830000000002
+Y 0.056715660000000001
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.082713830000000002
+Y 0.057066180000000001
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.082713830000000002
+Y 0.057066180000000001
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.082713830000000002
+Y 0.056715660000000001
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.082713830000000002
+Y 0.057066180000000001
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.082713830000000002
+Y 0.056715660000000001
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.085130639999999994
+Y 0.057066180000000001
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085130639999999994
+Y 0.056715660000000001
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085130639999999994
+Y 0.057066180000000001
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085130639999999994
+Y 0.056715660000000001
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.085130639999999994
+Y 0.056715660000000001
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085130639999999994
+Y 0.057066180000000001
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085130639999999994
+Y 0.056715660000000001
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085130639999999994
+Y 0.057066180000000001
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.085551009999999997
+Y 0.05620004
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085303359999999995
+Y 0.055952389999999998
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085551009999999997
+Y 0.05620004
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085303359999999995
+Y 0.055952389999999998
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.085303359999999995
+Y 0.055952389999999998
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085551009999999997
+Y 0.05620004
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085303359999999995
+Y 0.055952389999999998
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085551009999999997
+Y 0.05620004
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.085214459999999992
+Y1 0.055863489999999988
+Z1 0.00085115400000000002
+X2 0.085427185000000003
+Y2 0.056076214999999999
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.081942939999999992
+Y 0.056468009999999999
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.082190589999999994
+Y 0.056715660000000001
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.081942939999999992
+Y 0.056468009999999999
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.082190589999999994
+Y 0.056715660000000001
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.082190589999999994
+Y 0.056715660000000001
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.081942939999999992
+Y 0.056468009999999999
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.082190589999999994
+Y 0.056715660000000001
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.081942939999999992
+Y 0.056468009999999999
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.081852769999999991
+Y1 0.056377839999999999
+Z1 0.00085115400000000002
+X2 0.082066765
+Y2 0.056591835
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.085250019999999996
+Y 0.052631339999999999
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.084899500000000003
+Y 0.052631339999999999
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085250019999999996
+Y 0.052631339999999999
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.084899500000000003
+Y 0.052631339999999999
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.084899500000000003
+Y 0.052631339999999999
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085250019999999996
+Y 0.052631339999999999
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.084899500000000003
+Y 0.052631339999999999
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085250019999999996
+Y 0.052631339999999999
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.084466429999999995
+Y1 0.052631339999999999
+Z1 0.00085115400000000002
+X2 0.085074759999999999
+Y2 0.052631339999999999
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.084594699999999995
+Y 0.054262020000000001
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.084843619999999995
+Y 0.054509670000000003
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.084594699999999995
+Y 0.054262020000000001
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.084843619999999995
+Y 0.054509670000000003
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.084843619999999995
+Y 0.054509670000000003
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.084594699999999995
+Y 0.054262020000000001
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.084843619999999995
+Y 0.054509670000000003
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.084594699999999995
+Y 0.054262020000000001
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.084288630000000003
+Y1 0.053954679999999998
+Z1 0.00085115400000000002
+X2 0.084719160000000002
+Y2 0.054385845000000002
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.085727539999999991
+Y 0.052805329999999998
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085377019999999998
+Y 0.052805329999999998
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085727539999999991
+Y 0.052805329999999998
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085377019999999998
+Y 0.052805329999999998
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.085377019999999998
+Y 0.052805329999999998
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085727539999999991
+Y 0.052805329999999998
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085377019999999998
+Y 0.052805329999999998
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085727539999999991
+Y 0.052805329999999998
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.08620506
+Y 0.05266055
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085854539999999993
+Y 0.05266055
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.08620506
+Y 0.05266055
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085854539999999993
+Y 0.05266055
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.085854539999999993
+Y 0.05266055
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.08620506
+Y 0.05266055
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085854539999999993
+Y 0.05266055
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.08620506
+Y 0.05266055
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.086323169999999991
+Y1 0.05266055
+Z1 0.00085115400000000002
+X2 0.086029800000000003
+Y2 0.05266055
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.085072220000000004
+Y 0.055134509999999998
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085319869999999992
+Y 0.055383429999999997
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085072220000000004
+Y 0.055134509999999998
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085319869999999992
+Y 0.055383429999999997
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.085319869999999992
+Y 0.055383429999999997
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085072220000000004
+Y 0.055134509999999998
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085319869999999992
+Y 0.055383429999999997
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085072220000000004
+Y 0.055134509999999998
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.085412580000000002
+Y1 0.05547614
+Z1 0.00085115400000000002
+X2 0.085196044999999998
+Y2 0.055258969999999998
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.085196044999999998
+Y1 0.055258969999999998
+Z1 0.00085115400000000002
+X2 0.084858859999999994
+Y2 0.054921785000000001
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+FileName 
+Source 9
+SFileName ..\mom/1\proj.sio
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_2
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.080368139999999991
+Y 0.068390770000000004
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.080718659999999998
+Y 0.068390770000000004
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.080368139999999991
+Y 0.068390770000000004
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.080718659999999998
+Y 0.068390770000000004
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.080718659999999998
+Y 0.068390770000000004
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.080368139999999991
+Y 0.068390770000000004
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.080718659999999998
+Y 0.068390770000000004
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.080368139999999991
+Y 0.068390770000000004
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.080967579999999997
+Y1 0.068390770000000004
+Z1 0.00085115400000000002
+X2 0.080543400000000001
+Y2 0.068390770000000004
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.080189070000000001
+Y1 0.068390770000000004
+Z1 0.00085115400000000002
+X2 0.080543400000000001
+Y2 0.068390770000000004
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.05313934
+Y 0.037937440000000003
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.05348986
+Y 0.037937440000000003
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.05313934
+Y 0.037937440000000003
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.05348986
+Y 0.037937440000000003
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.05348986
+Y 0.037937440000000003
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.05313934
+Y 0.037937440000000003
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.05348986
+Y 0.037937440000000003
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.05313934
+Y 0.037937440000000003
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.052755799999999999
+Y1 0.037937440000000003
+Z1 0.00085115400000000002
+X2 0.053314599999999997
+Y2 0.037937440000000003
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.053576220000000001
+Y1 0.037937440000000003
+Z1 0.00085115400000000002
+X2 0.053314599999999997
+Y2 0.037937440000000003
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+FileName 
+Source 9
+SFileName ..\mom/2\proj.sio
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_3
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.079777589999999995
+Y 0.067472560000000001
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.080025239999999997
+Y 0.067720210000000003
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.079777589999999995
+Y 0.067472560000000001
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.080025239999999997
+Y 0.067720210000000003
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.080025239999999997
+Y 0.067720210000000003
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.079777589999999995
+Y 0.067472560000000001
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.080025239999999997
+Y 0.067720210000000003
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.079777589999999995
+Y 0.067472560000000001
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.080137
+Y1 0.067830699999999994
+Z1 0.00085115400000000002
+X2 0.079901415000000003
+Y2 0.067596384999999995
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.079674719999999991
+Y1 0.067368419999999998
+Z1 0.00085115400000000002
+X2 0.079901415000000003
+Y2 0.067596384999999995
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.089095579999999994
+Y 0.042844720000000003
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089095579999999994
+Y 0.043195240000000003
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089095579999999994
+Y 0.042844720000000003
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089095579999999994
+Y 0.043195240000000003
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.089095579999999994
+Y 0.043195240000000003
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089095579999999994
+Y 0.042844720000000003
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089095579999999994
+Y 0.043195240000000003
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089095579999999994
+Y 0.042844720000000003
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.089104469999999991
+Y1 0.042720260000000003
+Z1 0.00085115400000000002
+X2 0.089095579999999994
+Y2 0.043019979999999999
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.088865710000000001
+Y1 0.043488609999999997
+Z1 0.00085115400000000002
+X2 0.089095579999999994
+Y2 0.043019979999999999
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+FileName 
+Source 9
+SFileName ..\mom/3\proj.sio
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_4
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.088087199999999991
+Y 0.03793871
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.08833611999999999
+Y 0.037691059999999998
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088087199999999991
+Y 0.03793871
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.08833611999999999
+Y 0.037691059999999998
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.08833611999999999
+Y 0.037691059999999998
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088087199999999991
+Y 0.03793871
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.08833611999999999
+Y 0.037691059999999998
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088087199999999991
+Y 0.03793871
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.088519
+Y1 0.037506909999999997
+Z1 0.00085115400000000002
+X2 0.088211659999999997
+Y2 0.037814884999999999
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.087870030000000002
+Y1 0.038155880000000003
+Z1 0.00085115400000000002
+X2 0.088211659999999997
+Y2 0.037814884999999999
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.054155340000000003
+Y 0.03726434
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.054404260000000003
+Y 0.037511990000000002
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.054155340000000003
+Y 0.03726434
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.054404260000000003
+Y 0.037511990000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.054404260000000003
+Y 0.037511990000000002
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.054155340000000003
+Y 0.03726434
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.054404260000000003
+Y 0.037511990000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.054155340000000003
+Y 0.03726434
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.054065170000000003
+Y1 0.037174169999999999
+Z1 0.00085115400000000002
+X2 0.054279800000000003
+Y2 0.037388165000000001
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.054493159999999999
+Y1 0.037602160000000003
+Z1 0.00085115400000000002
+X2 0.054279800000000003
+Y2 0.037388165000000001
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+FileName 
+Source 9
+SFileName ..\mom/4\proj.sio
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_5
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.0789686
+Y 0.067113149999999996
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.079216250000000002
+Y 0.067360799999999998
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.0789686
+Y 0.067113149999999996
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.079216250000000002
+Y 0.067360799999999998
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.079216250000000002
+Y 0.067360799999999998
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.0789686
+Y 0.067113149999999996
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.079216250000000002
+Y 0.067360799999999998
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.0789686
+Y 0.067113149999999996
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.079294989999999996
+Y1 0.067440810000000004
+Z1 0.00085115400000000002
+X2 0.079092424999999994
+Y2 0.067236975000000004
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.078865729999999995
+Y1 0.067011550000000003
+Z1 0.00085115400000000002
+X2 0.079092424999999994
+Y2 0.067236975000000004
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.087967820000000002
+Y 0.055646319999999999
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087617299999999995
+Y 0.055646319999999999
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087967820000000002
+Y 0.055646319999999999
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087617299999999995
+Y 0.055646319999999999
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.087617299999999995
+Y 0.055646319999999999
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087967820000000002
+Y 0.055646319999999999
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087617299999999995
+Y 0.055646319999999999
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087967820000000002
+Y 0.055646319999999999
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.088303099999999995
+Y1 0.055646319999999999
+Z1 0.00085115400000000002
+X2 0.087792559999999992
+Y2 0.055646319999999999
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.087374729999999998
+Y1 0.055646319999999999
+Z1 0.00085115400000000002
+X2 0.087792559999999992
+Y2 0.055646319999999999
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+FileName 
+Source 9
+SFileName ..\mom/5\proj.sio
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_6
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.087617299999999995
+Y 0.046527720000000002
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087967820000000002
+Y 0.046527720000000002
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087617299999999995
+Y 0.046527720000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087967820000000002
+Y 0.046527720000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.087967820000000002
+Y 0.046527720000000002
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087617299999999995
+Y 0.046527720000000002
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087967820000000002
+Y 0.046527720000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087617299999999995
+Y 0.046527720000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.088303099999999995
+Y1 0.046527720000000002
+Z1 0.00085115400000000002
+X2 0.087792559999999992
+Y2 0.046527720000000002
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.087414099999999995
+Y1 0.046527720000000002
+Z1 0.00085115400000000002
+X2 0.087792559999999992
+Y2 0.046527720000000002
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.055462169999999998
+Y 0.037492940000000002
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.055462169999999998
+Y 0.037843460000000002
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.055462169999999998
+Y 0.037492940000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.055462169999999998
+Y 0.037843460000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.055462169999999998
+Y 0.037843460000000002
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.055462169999999998
+Y 0.037492940000000002
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.055462169999999998
+Y 0.037843460000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.055462169999999998
+Y 0.037492940000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.055462169999999998
+Y1 0.037376100000000002
+Z1 0.00085115400000000002
+X2 0.055462169999999998
+Y2 0.037668199999999999
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.055462169999999998
+Y1 0.03794252
+Z1 0.00085115400000000002
+X2 0.055462169999999998
+Y2 0.037668199999999999
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+FileName 
+Source 9
+SFileName ..\mom/6\proj.sio
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_7
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.0595503
+Y 0.041114980000000002
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.05979922
+Y 0.041362629999999997
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.0595503
+Y 0.041114980000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.05979922
+Y 0.041362629999999997
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.05979922
+Y 0.041362629999999997
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.0595503
+Y 0.041114980000000002
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.05979922
+Y 0.041362629999999997
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.0595503
+Y 0.041114980000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.05991225
+Y1 0.041476930000000002
+Z1 0.00085115400000000002
+X2 0.05967476
+Y2 0.041238805000000003
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.059281059999999997
+Y1 0.040844470000000001
+Z1 0.00085115400000000002
+X2 0.05967476
+Y2 0.041238805000000003
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.086565740000000002
+Y 0.054427120000000002
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.086916259999999995
+Y 0.054427120000000002
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.086565740000000002
+Y 0.054427120000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.086916259999999995
+Y 0.054427120000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.086916259999999995
+Y 0.054427120000000002
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.086565740000000002
+Y 0.054427120000000002
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.086916259999999995
+Y 0.054427120000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.086565740000000002
+Y 0.054427120000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.086445090000000002
+Y1 0.054427120000000002
+Z1 0.00085115400000000002
+X2 0.086740999999999999
+Y2 0.054427120000000002
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.087118189999999998
+Y1 0.054427120000000002
+Z1 0.00085115400000000002
+X2 0.086740999999999999
+Y2 0.054427120000000002
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+FileName 
+Source 9
+SFileName ..\mom/7\proj.sio
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_8
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.081089499999999995
+Y 0.057818019999999998
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.080841849999999993
+Y 0.057569099999999998
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.081089499999999995
+Y 0.057818019999999998
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.080841849999999993
+Y 0.057569099999999998
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.080841849999999993
+Y 0.057569099999999998
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.081089499999999995
+Y 0.057818019999999998
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.080841849999999993
+Y 0.057569099999999998
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.081089499999999995
+Y 0.057818019999999998
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.080751679999999992
+Y1 0.057480200000000002
+Z1 0.00085115400000000002
+X2 0.080965675000000001
+Y2 0.057693559999999998
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.081333340000000004
+Y1 0.05806186
+Z1 0.00085115400000000002
+X2 0.080965675000000001
+Y2 0.057693559999999998
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.07592314
+Y 0.069429629999999992
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.076273659999999993
+Y 0.069429629999999992
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.07592314
+Y 0.069429629999999992
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.076273659999999993
+Y 0.069429629999999992
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.076273659999999993
+Y 0.069429629999999992
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.07592314
+Y 0.069429629999999992
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.076273659999999993
+Y 0.069429629999999992
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.07592314
+Y 0.069429629999999992
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.07578725
+Y1 0.069429629999999992
+Z1 0.00085115400000000002
+X2 0.076098399999999997
+Y2 0.069429629999999992
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.076706730000000001
+Y1 0.069429629999999992
+Z1 0.00085115400000000002
+X2 0.076098399999999997
+Y2 0.069429629999999992
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+FileName 
+Source 9
+SFileName ..\mom/8\proj.sio
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_9
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.061094620000000002
+Y 0.040998140000000002
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.061094620000000002
+Y 0.041348660000000002
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.061094620000000002
+Y 0.040998140000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.061094620000000002
+Y 0.041348660000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.061094620000000002
+Y 0.041348660000000002
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.061094620000000002
+Y 0.040998140000000002
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.061094620000000002
+Y 0.041348660000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.061094620000000002
+Y 0.040998140000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.061094620000000002
+Y1 0.041476930000000002
+Z1 0.00085115400000000002
+X2 0.061094620000000002
+Y2 0.041173399999999999
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.061094620000000002
+Y1 0.040881300000000002
+Z1 0.00085115400000000002
+X2 0.061094620000000002
+Y2 0.041173399999999999
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.085854539999999993
+Y 0.050863499999999999
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.08620506
+Y 0.050863499999999999
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085854539999999993
+Y 0.050863499999999999
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.08620506
+Y 0.050863499999999999
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.08620506
+Y 0.050863499999999999
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085854539999999993
+Y 0.050863499999999999
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.08620506
+Y 0.050863499999999999
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.085854539999999993
+Y 0.050863499999999999
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.085662769999999999
+Y1 0.050863499999999999
+Z1 0.00085115400000000002
+X2 0.086029800000000003
+Y2 0.050863499999999999
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.086323169999999991
+Y1 0.050863499999999999
+Z1 0.00085115400000000002
+X2 0.086029800000000003
+Y2 0.050863499999999999
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+FileName 
+Source 9
+SFileName ..\mom/9\proj.sio
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_10
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.08282051
+Y 0.055874920000000002
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.08282051
+Y 0.055524400000000002
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.08282051
+Y 0.055874920000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.08282051
+Y 0.055524400000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.08282051
+Y 0.055524400000000002
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.08282051
+Y 0.055874920000000002
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.08282051
+Y 0.055524400000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.08282051
+Y 0.055874920000000002
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.08282051
+Y1 0.055184039999999997
+Z1 0.00085115400000000002
+X2 0.08282051
+Y2 0.055699659999999998
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.08282051
+Y1 0.055993029999999999
+Z1 0.00085115400000000002
+X2 0.08282051
+Y2 0.055699659999999998
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.075135739999999993
+Y 0.070704710000000004
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.075486259999999999
+Y 0.070704710000000004
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.075135739999999993
+Y 0.070704710000000004
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.075486259999999999
+Y 0.070704710000000004
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.075486259999999999
+Y 0.070704710000000004
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.075135739999999993
+Y 0.070704710000000004
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.075486259999999999
+Y 0.070704710000000004
+Z 0.00085115400000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.075135739999999993
+Y 0.070704710000000004
+Z 0.00085115400000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.074801729999999997
+Y1 0.070704710000000004
+Z1 0.00085115400000000002
+X2 0.075311000000000003
+Y2 0.070704710000000004
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.07559167
+Y1 0.070704710000000004
+Z1 0.00085115400000000002
+X2 0.075311000000000003
+Y2 0.070704710000000004
+Z2 0.00085115400000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+FileName 
+Source 9
+SFileName ..\mom/10\proj.sio
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_11
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.058625740000000003
+Y 0.041337230000000003
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.058976260000000003
+Y 0.041337230000000003
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.058625740000000003
+Y 0.041337230000000003
+Z 0.0015018766000000001
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.058976260000000003
+Y 0.041337230000000003
+Z 0.0015018766000000001
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.059336939999999998
+Y 0.04207383
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.059687459999999998
+Y 0.04207383
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.059336939999999998
+Y 0.04207383
+Z 0.0015018766000000001
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.059687459999999998
+Y 0.04207383
+Z 0.0015018766000000001
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.059425840000000001
+Y 0.035712399999999998
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.059246769999999997
+Y 0.035892739999999999
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.059425840000000001
+Y 0.035712399999999998
+Z 0.0015018766000000001
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.059246769999999997
+Y 0.035892739999999999
+Z 0.0015018766000000001
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.060505339999999998
+Y 0.041358819999999998
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.060855859999999998
+Y 0.041358819999999998
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.060505339999999998
+Y 0.041358819999999998
+Z 0.0015018766000000001
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.060855859999999998
+Y 0.041358819999999998
+Z 0.0015018766000000001
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.059921139999999998
+Y 0.041842690000000002
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.060271659999999998
+Y 0.041842690000000002
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.059921139999999998
+Y 0.041842690000000002
+Z 0.0015018766000000001
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.060271659999999998
+Y 0.041842690000000002
+Z 0.0015018766000000001
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.059024519999999997
+Y 0.037467540000000001
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.05877052
+Y 0.037467540000000001
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.059024519999999997
+Y 0.037467540000000001
+Z 0.0015018766000000001
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.05877052
+Y 0.037467540000000001
+Z 0.0015018766000000001
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.075526899999999994
+Y 0.070885049999999991
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.0757047
+Y 0.070885049999999991
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.075526899999999994
+Y 0.070885049999999991
+Z 0.0015018766000000001
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.0757047
+Y 0.070885049999999991
+Z 0.0015018766000000001
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.076208890000000001
+Y 0.070060819999999996
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.076334619999999992
+Y 0.069936360000000003
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.076208890000000001
+Y 0.070060819999999996
+Z 0.0015018766000000001
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.076334619999999992
+Y 0.069936360000000003
+Z 0.0015018766000000001
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.077914499999999998
+Y 0.067532250000000002
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.078092300000000003
+Y 0.067532250000000002
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.077914499999999998
+Y 0.067532250000000002
+Z 0.0015018766000000001
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.078092300000000003
+Y 0.067532250000000002
+Z 0.0015018766000000001
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.077273149999999999
+Y 0.06344793
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.077095349999999993
+Y 0.06344793
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.077273149999999999
+Y 0.06344793
+Z 0.0015018766000000001
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.077095349999999993
+Y 0.06344793
+Z 0.0015018766000000001
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.075175110000000003
+Y 0.06344793
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.074997309999999998
+Y 0.06344793
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.075175110000000003
+Y 0.06344793
+Z 0.0015018766000000001
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.074997309999999998
+Y 0.06344793
+Z 0.0015018766000000001
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.07508621
+Y1 0.06344793
+Z1 0.0015018766000000001
+X2 0.075434189999999998
+Y2 0.06344793
+Z2 0.0015018766000000001
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.069909689999999997
+Y 0.057659269999999999
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.069909689999999997
+Y 0.05748147
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.069909689999999997
+Y 0.057659269999999999
+Z 0.0015018766000000001
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.069909689999999997
+Y 0.05748147
+Z 0.0015018766000000001
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.069909689999999997
+Y1 0.057570370000000003
+Z1 0.0015018766000000001
+X2 0.069909689999999997
+Y2 0.057920890000000003
+Z2 0.0015018766000000001
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.068549520000000003
+Y 0.058959749999999998
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.068675249999999993
+Y 0.059085480000000003
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.068549520000000003
+Y 0.058959749999999998
+Z 0.0015018766000000001
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.068675249999999993
+Y 0.059085480000000003
+Z 0.0015018766000000001
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.068612384999999998
+Y1 0.059022615
+Z1 0.0015018766000000001
+X2 0.068396484999999993
+Y2 0.058806079999999997
+Z2 0.0015018766000000001
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.054524910000000003
+Y 0.036286440000000003
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.054524910000000003
+Y 0.036032439999999999
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.054524910000000003
+Y 0.036286440000000003
+Z 0.0015018766000000001
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.054524910000000003
+Y 0.036032439999999999
+Z 0.0015018766000000001
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.054524910000000003
+Y1 0.036159440000000001
+Z1 0.0015018766000000001
+X2 0.054524910000000003
+Y2 0.036558220000000002
+Z2 0.0015018766000000001
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.05372354
+Y 0.037810440000000001
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.05407406
+Y 0.037810440000000001
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.05372354
+Y 0.037810440000000001
+Z 0.0015018766000000001
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.05407406
+Y 0.037810440000000001
+Z 0.0015018766000000001
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.053898799999999997
+Y1 0.037810440000000001
+Z1 0.0015018766000000001
+X2 0.053314599999999997
+Y2 0.037810440000000001
+Z2 0.0015018766000000001
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.058023760000000001
+Y 0.037910770000000003
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.057769760000000003
+Y 0.037910770000000003
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.058023760000000001
+Y 0.037910770000000003
+Z 0.0015018766000000001
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.057769760000000003
+Y 0.037910770000000003
+Z 0.0015018766000000001
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.057896759999999999
+Y1 0.037910770000000003
+Z1 0.0015018766000000001
+X2 0.05829554
+Y2 0.037910770000000003
+Z2 0.0015018766000000001
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.077974189999999999
+Y 0.06344793
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.077796389999999993
+Y 0.06344793
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.077974189999999999
+Y 0.06344793
+Z 0.0015018766000000001
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.077796389999999993
+Y 0.06344793
+Z 0.0015018766000000001
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.077885289999999996
+Y1 0.06344793
+Z1 0.0015018766000000001
+X2 0.078235810000000003
+Y2 0.06344793
+Z2 0.0015018766000000001
+end_<EndPoints>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.079794099999999993
+Y 0.067609719999999998
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.079971899999999999
+Y 0.067609719999999998
+Z 0.001266444
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.079794099999999993
+Y 0.067609719999999998
+Z 0.0015018766000000001
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.079971899999999999
+Y 0.067609719999999998
+Z 0.0015018766000000001
+end_<CornerPoint>
+end_<ImpedanceLine>
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.079882999999999996
+Y1 0.067609719999999998
+Z1 0.0015018766000000001
+X2 0.079502000000000003
+Y2 0.067609719999999998
+Z2 0.0015018766000000001
+end_<EndPoints>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+FileName 
+Source 9
+SFileName ..\mom/11\proj.sio
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+end_<ComponentsPorts>
+begin_<WaveGuidePorts> 
+end_<WaveGuidePorts>
+begin_<TerminationCriteria> 
+MaximumTimeSteps 50000
+MaximumWallClockSeconds 0
+ConvergenceEnabled
+Threshhold -30
+SamplingInterval 100
+WindowSize 2
+MinimumTimeSteps 0
+FlatLineDetectionEnabled
+MEDIUM_DENSITY
+begin_<TdAfsTerminationCriteria> 
+StartFrequency 1000000000
+StopFrequency 10000000000
+NumberOfFrequencyPoints 1000
+ENERGY
+INTERPOLATION
+NumberOfConsecutivePasses 1
+end_<TdAfsTerminationCriteria>
+end_<TerminationCriteria>
+end_<RunParameters>
+begin_<RequestResults> 
+end_<RequestResults>
+end_<FEMProject>

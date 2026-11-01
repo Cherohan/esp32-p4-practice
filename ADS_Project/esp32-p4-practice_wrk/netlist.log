@@ -1,0 +1,33 @@
+; Top Design: "esp32-p4_lib:esp32-p4_SI_mipi_dsi:schematic_eye"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="esp32-p4_lib:esp32-p4_SI_mipi_dsi:schematic_eye" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+Port:DSI_CLK_N_FPC2  DSI_CLK_N_FPC2 Ref Num=7 Z=50.0 Noise=yes 
+Port:DSI_CLK_P_FPC2  Ref DSI_CLK_P_FPC2 Num=8 Z=50.0 Noise=yes 
+Port:DSI_D0_N_FPC2  DSI_D0_N_FPC2 Ref Num=9 Z=50.0 Noise=yes 
+Port:DSI_D0_P_FPC2  Ref DSI_D0_P_FPC2 Num=10 Z=50.0 Noise=yes 
+Port:DSI_D1_N_FPC2  DSI_D1_N_FPC2 Ref Num=11 Z=50.0 Noise=yes 
+Port:DSI_D1_P_FPC2  Ref DSI_D1_P_FPC2 Num=12 Z=50.0 Noise=yes 
+#uselib "ckt" , "SnP"
+SnP:mipi_dsi  DSI_CLK_N_FPC2 DSI_CLK_P_FPC2 DSI_D0_N_FPC2 DSI_D0_P_FPC2 DSI_D1_N_FPC2 DSI_D1_P_FPC2 NetR91_2_U1 NetR92_2_U1 NetR93_2_U1 NetR94_2_U1 NetR95_2_U1 NetR96_2_U1 Ref NumPorts=12 File="D:\666\ADSProjects\esp32-p4-practice_wrk\data\esp32-p4_sipi_mipi_dsi_mipi_dsi.sio" Type="smatrixio" InterpMode="spline" InterpDom="ri" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+Short:Short  0 Ref Mode=0 SaveCurrent=no 
+
+;#@# autodisplay="PA_SI_S_Parameters"
+#load "python","TDM_Eye"
+ComponentWithNodes:EyeDiff_Probe1  DSI_CLK_P_FPC2 DSI_CLK_N_FPC2 Type="ModelExtractor" Module="Eye" \ 
+ Save_LevelMean=no Save_HeightAtBER=no Save_Level1=yes Save_JitterRMS=no Save_Density=yes Save_RiseTime=no Save_Height=yes Save_Level0=yes Save_Width=yes Save_CheckMaskViolation=no Save_SNR=no Save_Amplitude=no Save_HeightDB=no Save_FallTime=no Save_WidthAtBER=no Save_JitterPP=no Save_Bathtub=no Save_Waveform=no Save_Contour=no Save_CrossingLevel=no Save_ClockSignal=no Save_DDR4MaskMargin=no LowerBoundary=40 UpperThreshold=80 DataRate=1.0 Gbps LowerThreshold=20 UpperBoundary=60 TimePoints=400 AmplitudeResolution=0.001 V BERWidthHeight=1e-12 TimingBathTub=0.0 V EyeMask="EyeDiff_Probe1" UseEyeMask=0 BERContour=list(1e-12,1e-11,1e-10) ExtrapolateBER=0 VoltageBathTub=0.5 DisableTransientOutput=yes DDR4MaskWidthUI=0.0 DDR4MaskHeight=0.0 V Save_BathtubQPlot=no Save_VSRPAM4=no SetDDR4MaskCenter=0 DDR4MaskCenter=0.0 V SetDDR4MaskGroup=0 DDR4MaskGroup=1 LoadScopeSetupFile=no SplitFlexDCAwaveform=no Save_FlexDCAmeasurements=no
+
+#load "python","TDM_Eye"
+ComponentWithNodes:EyeDiff_Probe2  DSI_D0_P_FPC2 DSI_D0_N_FPC2 Type="ModelExtractor" Module="Eye" \ 
+ Save_LevelMean=no Save_HeightAtBER=no Save_Level1=yes Save_JitterRMS=no Save_Density=yes Save_RiseTime=no Save_Height=yes Save_Level0=yes Save_Width=yes Save_CheckMaskViolation=no Save_SNR=no Save_Amplitude=no Save_HeightDB=no Save_FallTime=no Save_WidthAtBER=no Save_JitterPP=no Save_Bathtub=no Save_Waveform=no Save_Contour=no Save_CrossingLevel=no Save_ClockSignal=no Save_DDR4MaskMargin=no LowerBoundary=40 UpperThreshold=80 DataRate=1.0 Gbps LowerThreshold=20 UpperBoundary=60 TimePoints=400 AmplitudeResolution=0.001 V BERWidthHeight=1e-12 TimingBathTub=0.0 V EyeMask="EyeDiff_Probe2" UseEyeMask=0 BERContour=list(1e-12,1e-11,1e-10) ExtrapolateBER=0 VoltageBathTub=0.5 DisableTransientOutput=yes DDR4MaskWidthUI=0.0 DDR4MaskHeight=0.0 V Save_BathtubQPlot=no Save_VSRPAM4=no SetDDR4MaskCenter=0 DDR4MaskCenter=0.0 V SetDDR4MaskGroup=0 DDR4MaskGroup=1 LoadScopeSetupFile=no SplitFlexDCAwaveform=no Save_FlexDCAmeasurements=no
+
+#load "python","TDM_Eye"
+ComponentWithNodes:EyeDiff_Probe3  DSI_D1_P_FPC2 DSI_D1_N_FPC2 Type="ModelExtractor" Module="Eye" \ 
+ Save_LevelMean=no Save_HeightAtBER=no Save_Level1=yes Save_JitterRMS=no Save_Density=yes Save_RiseTime=no Save_Height=yes Save_Level0=yes Save_Width=yes Save_CheckMaskViolation=no Save_SNR=no Save_Amplitude=no Save_HeightDB=no Save_FallTime=no Save_WidthAtBER=no Save_JitterPP=no Save_Bathtub=no Save_Waveform=no Save_Contour=no Save_CrossingLevel=no Save_ClockSignal=no Save_DDR4MaskMargin=no LowerBoundary=40 UpperThreshold=80 DataRate=1.0 Gbps LowerThreshold=20 UpperBoundary=60 TimePoints=400 AmplitudeResolution=0.001 V BERWidthHeight=1e-12 TimingBathTub=0.0 V EyeMask="EyeDiff_Probe3" UseEyeMask=0 BERContour=list(1e-12,1e-11,1e-10) ExtrapolateBER=0 VoltageBathTub=0.5 DisableTransientOutput=yes DDR4MaskWidthUI=0.0 DDR4MaskHeight=0.0 V Save_BathtubQPlot=no Save_VSRPAM4=no SetDDR4MaskCenter=0 DDR4MaskCenter=0.0 V SetDDR4MaskGroup=0 DDR4MaskGroup=1 LoadScopeSetupFile=no SplitFlexDCAwaveform=no Save_FlexDCAmeasurements=no
+
+TX:Tx_Diff1 NetR91_2_U1 NetR92_2_U1  BitRate=1 Gbps Model="ADSTx"  Vhigh=0.1 V Vlow=-0.1 V RiseFallTime=80 psec Mode=0 RegisterLength=8 Encoder=0 TapInterval=1.0 DCD=0.005 EQMode=0 JitterPDF="RJ" RJ=0.005
+XTLK:Tx_Diff2 NetR95_2_U1 NetR96_2_U1  Vhigh=0.1 V Vlow=-0.1 V RiseFallTime=80 psec PRBSMode=0 RegisterLength=8 Encoder=0 TapInterval=1.0 DCD=0.005 EQMode=0 JitterPDF="RJ" RJ=0.005 Model="ADSXtlk"  NewModel=yes  PhaseToTxMode=0 PhaseToTx=0.0 SameSourceSettingAsTx=yes BitSquenceMode=1 SameEncoderSettingAsTx=yes SameEQSettingAsTx=yes SameElectricalSettingAsTx=yes SameRJSettingAsTx=yes
+XTLK:Tx_Diff3 NetR94_2_U1 NetR93_2_U1  Vhigh=0.1 V Vlow=-0.1 V RiseFallTime=80 psec PRBSMode=2 BitSequence="101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010" Encoder=0 TapInterval=1.0 EQMode=0 ClockDCD=0.001 JitterPDF="RJ" RJ=0.005 Model="ADSXtlk"  NewModel=yes  PhaseToTxMode=0 PhaseToTx=0.0 SameSourceSettingAsTx=yes BitSquenceMode=1 SameEncoderSettingAsTx=yes SameEQSettingAsTx=yes SameElectricalSettingAsTx=yes SameRJSettingAsTx=yes
+ChannelSim:ChannelSim1 Type="FastConvolution"  NumberOfBits=10000 ToleranceMode=1 EnforcePassivity=yes MaxImpulseLength=1000 NumberTimePtPerUI=32 BlockSize=1024 StatusLevel=2 AntiAliasingWindow=1 ImpLFEOn=yes ImpCache=yes
+
+

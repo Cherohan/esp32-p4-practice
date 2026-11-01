@@ -1,0 +1,64 @@
+
+Installed file watcher for <D:/666/ADSProjects/esp32-p4-practice_wrk/simulation/esp32-p4_lib/esp32#2dp4/sipi_esp32p4/000002/000005\emds_dsn\design\design_dfs.cti>
+Installed file watcher for <D:/666/ADSProjects/esp32-p4-practice_wrk/simulation/esp32-p4_lib/esp32#2dp4/sipi_esp32p4/000002/000005\emds_dsn\design\design_ffs.cti>
+Installed file watcher for <D:/666/ADSProjects/esp32-p4-practice_wrk/simulation/esp32-p4_lib/esp32#2dp4/sipi_esp32p4/000002/000005\emds_dsn\design\design.sio>
+Loading impedance specifications
+	<DSI_CLK_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_CLK_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR91_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR92_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR93_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR94_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR95_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR96_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+LOADED file evaluator for <D:/666/ADSProjects/esp32-p4-practice_wrk/simulation/esp32-p4_lib/esp32#2dp4/sipi_esp32p4/000002/000005\emds_dsn\design\design.sio>
+No touching ports reduction
+LOADED raw data evaluator from <design.sio> : 0.008 sec
+LOADED raw data: #samples=1000 --> 0.001 sec
+CALCULATED the loaded S-parameters : 0.002 sec
+Differential port setup
+	port combinator 0 : port id=0, common mode for ports (1,0)
+	port combinator 1 : port id=1, differential mode for ports (1,0)
+	port combinator 2 : port id=2, common mode for ports (3,2)
+	port combinator 3 : port id=3, differential mode for ports (3,2)
+	port combinator 4 : port id=4, common mode for ports (5,4)
+	port combinator 5 : port id=5, differential mode for ports (5,4)
+	port combinator 6 : port id=6, differential mode for ports (6,7)
+	port combinator 7 : port id=7, common mode for ports (6,7)
+	port combinator 8 : port id=8, common mode for ports (9,8)
+	port combinator 9 : port id=9, differential mode for ports (9,8)
+	port combinator 10 : port id=10, differential mode for ports (10,11)
+	port combinator 11 : port id=11, common mode for ports (10,11)
+	refreshing datasets
+Differential port setup
+	port combinator 0 : port id=0, common mode for ports (1,0)
+	port combinator 1 : port id=1, differential mode for ports (1,0)
+	port combinator 2 : port id=2, common mode for ports (3,2)
+	port combinator 3 : port id=3, differential mode for ports (3,2)
+	port combinator 4 : port id=4, common mode for ports (5,4)
+	port combinator 5 : port id=5, differential mode for ports (5,4)
+	port combinator 6 : port id=6, differential mode for ports (6,7)
+	port combinator 7 : port id=7, common mode for ports (6,7)
+	port combinator 8 : port id=8, common mode for ports (9,8)
+	port combinator 9 : port id=9, differential mode for ports (9,8)
+	port combinator 10 : port id=10, differential mode for ports (10,11)
+	port combinator 11 : port id=11, common mode for ports (10,11)
+	refreshing datasets
+Differential port setup
+	port combinator 0 : port id=0, common mode for ports (1,0)
+	port combinator 1 : port id=1, differential mode for ports (1,0)
+	port combinator 2 : port id=2, common mode for ports (3,2)
+	port combinator 3 : port id=3, differential mode for ports (3,2)
+	port combinator 4 : port id=4, common mode for ports (5,4)
+	port combinator 5 : port id=5, differential mode for ports (5,4)
+	port combinator 6 : port id=6, differential mode for ports (6,7)
+	port combinator 7 : port id=7, common mode for ports (6,7)
+	port combinator 8 : port id=8, common mode for ports (9,8)
+	port combinator 9 : port id=9, differential mode for ports (9,8)
+	port combinator 10 : port id=10, differential mode for ports (10,11)
+	port combinator 11 : port id=11, common mode for ports (10,11)
+	refreshing datasets

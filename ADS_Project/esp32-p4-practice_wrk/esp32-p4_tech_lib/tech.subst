@@ -1,0 +1,36 @@
+<!DOCTYPE Substrate>
+<SubstrateModel>
+    <stack BAL_NUM="0" BAL_TYPE="NONE" PURPOSE_TREATMENT="USE_ALL_EXCEPT_SPECIFIED" SPECIFIED_PURPOSES="">
+        <material BAL_NUM="0" BAL_TYPE="INHERIT" materialname="AIR"/>
+        <interface BAL_NUM="0" BAL_TYPE="INHERIT" materialname="" thick="0" thickunit="mil"/>
+        <material BAL_NUM="0" BAL_TYPE="INHERIT" materialname="PP-006" thick="2.8" thickunit="mil"/>
+        <interface BAL_NUM="0" BAL_TYPE="INHERIT" materialname="" thick="0" thickunit="mil"/>
+        <material BAL_NUM="0" BAL_TYPE="INHERIT" materialname="PP-006" thick="2.8" thickunit="mil"/>
+        <interface BAL_NUM="0" BAL_TYPE="INHERIT" materialname="" thick="0" thickunit="mil"/>
+        <material BAL_NUM="0" BAL_TYPE="INHERIT" materialname="FR-4" thick="12.6" thickunit="mil"/>
+        <interface BAL_NUM="0" BAL_TYPE="INHERIT" materialname="" thick="0" thickunit="mil"/>
+        <material BAL_NUM="0" BAL_TYPE="INHERIT" materialname="PP-006" thick="2.8" thickunit="mil"/>
+        <interface BAL_NUM="0" BAL_TYPE="INHERIT" materialname="" thick="0" thickunit="mil"/>
+        <material BAL_NUM="0" BAL_TYPE="INHERIT" materialname="PP-006" thick="2.8" thickunit="mil"/>
+        <interface BAL_NUM="0" BAL_TYPE="INHERIT" materialname="" thick="0" thickunit="micron"/>
+        <material BAL_NUM="0" BAL_TYPE="INHERIT" materialname="AIR"/>
+    </stack>
+    <layers>
+        <layer angle="90.0" bottomrough="" expand="1" index="0" layer="1009" materialname="Copper" negative="0" pinsOnly="0" precedence="0" processRole="1" sheet="0" subtype="0" thick="-1.378" thickunit="mil" toprough=""/>
+        <layer angle="90.0" bottomrough="" expand="0" index="0" layer="1010" materialname="" negative="0" pinsOnly="0" precedence="0" processRole="18" sheet="0" subtype="-1" thick="-0.4" thickunit="mil" toprough=""/>
+        <layer angle="90.0" bottomrough="" expand="0" index="0" layer="1011" materialname="" negative="0" pinsOnly="0" precedence="0" processRole="20" sheet="0" subtype="-1" thick="-0.01" thickunit="mil" toprough=""/>
+        <layer angle="90.0" bottomrough="" expand="1" index="1" layer="1008" materialname="Copper" negative="0" pinsOnly="0" precedence="0" processRole="1" sheet="0" subtype="0" thick="-0.709" thickunit="mil" toprough=""/>
+        <layer angle="90.0" bottomrough="" expand="1" index="2" layer="1007" materialname="Copper" negative="0" pinsOnly="0" precedence="0" processRole="1" sheet="0" subtype="0" thick="-1.378" thickunit="mil" toprough=""/>
+        <layer angle="90.0" bottomrough="" expand="1" index="3" layer="1006" materialname="Copper" negative="0" pinsOnly="0" precedence="0" processRole="1" sheet="0" subtype="0" thick="1.378" thickunit="mil" toprough=""/>
+        <layer angle="90.0" bottomrough="" expand="1" index="4" layer="1005" materialname="Copper" negative="0" pinsOnly="0" precedence="0" processRole="1" sheet="0" subtype="0" thick="0.709" thickunit="mil" toprough=""/>
+        <layer angle="90.0" bottomrough="" expand="0" index="5" layer="1002" materialname="" negative="0" pinsOnly="0" precedence="0" processRole="20" sheet="0" subtype="-1" thick="0.01" thickunit="mil" toprough=""/>
+        <layer angle="90.0" bottomrough="" expand="0" index="5" layer="1003" materialname="" negative="0" pinsOnly="0" precedence="0" processRole="18" sheet="0" subtype="-1" thick="0.4" thickunit="mil" toprough=""/>
+        <layer angle="90.0" bottomrough="" expand="1" index="5" layer="1004" materialname="Copper" negative="0" pinsOnly="0" precedence="0" processRole="1" sheet="0" subtype="0" thick="1.378" thickunit="mil" toprough=""/>
+    </layers>
+    <vias>
+        <via index1="0" index2="5" layer="1025" materialname="PERFECT_CONDUCTOR" platingdielectricmaterial="AIR" platingenabled="0" platingthickness="" platingthicknessunit="micron" precedence="0" processRole="4" rough="" subtype="0"/>
+        <via index1="0" index2="5" layer="1026" materialname="PERFECT_CONDUCTOR" platingdielectricmaterial="AIR" platingenabled="1" platingthickness="0.984252" platingthicknessunit="mil" precedence="0" processRole="4" rough="" subtype="0"/>
+        <via index1="0" index2="5" layer="1027" materialname="AIR" precedence="0" processRole="6" rough="" subtype="2"/>
+    </vias>
+    <substrates/>
+</SubstrateModel>

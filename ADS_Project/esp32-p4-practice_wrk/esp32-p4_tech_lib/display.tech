@@ -1,0 +1,36 @@
+<!DOCTYPE Display>
+<Display>
+    <Current_Lpp name=""/>
+    <Lpp_Display_Order order="0">
+        <LPP name="silk_screen:drawing"/>
+        <LPP name="silk_screen2:drawing"/>
+        <LPP name="comp_pkg_outline:drawing"/>
+        <LPP name="comp_pkg_pad:drawing"/>
+        <LPP name="Top_Overlay:drawing"/>
+        <LPP name="Top_Solder:drawing"/>
+        <LPP name="Top_Layer:drawing"/>
+        <LPP name="GND1:drawing"/>
+        <LPP name="InnerSingle:drawing"/>
+        <LPP name="POWER:drawing"/>
+        <LPP name="GND2:drawing"/>
+        <LPP name="Bottom_Layer:drawing"/>
+        <LPP name="Bottom_Solder:drawing"/>
+        <LPP name="Bottom_Overlay:drawing"/>
+        <LPP name="Keep-Out_Layer:drawing"/>
+        <LPP name="Mechanical_1:drawing"/>
+        <LPP name="Mechanical_2:drawing"/>
+        <LPP name="Mechanical_3:drawing"/>
+        <LPP name="Mechanical_5:drawing"/>
+        <LPP name="Mechanical_6:drawing"/>
+        <LPP name="Mechanical_7:drawing"/>
+        <LPP name="Mechanical_8:drawing"/>
+        <LPP name="Mechanical_9:drawing"/>
+        <LPP name="Mechanical_10:drawing"/>
+        <LPP name="Mechanical_11:drawing"/>
+        <LPP name="Mechanical_12:drawing"/>
+        <LPP name="Drill_Drawing__Top_Layer_-_Bottom_Layer_:drawing"/>
+        <LPP name="Drill_Guide__Top_Layer_-_Bottom_Layer_:drawing"/>
+        <LPP name="Drill_Guide__Top_Layer_-_Bottom_Layer__Plated:drawing"/>
+        <LPP name="Drill_Guide__Top_Layer_-_Bottom_Layer__diel:drawing"/>
+    </Lpp_Display_Order>
+</Display>

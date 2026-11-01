@@ -1,0 +1,1795 @@
+Version 9
+begin_<FEMProject> 
+begin_<Units> 
+begin_<Display> 
+Name mil
+Conversion 39370.078740157485
+end_<Display>
+begin_<Modeling> 
+Name mm
+Conversion 1000
+end_<Modeling>
+end_<Units>
+begin_<RunParameters> 
+begin_<OuterBoundaries> 
+LowerX ORBC_CPML
+UpperX ORBC_CPML
+LowerY ORBC_CPML
+UpperY ORBC_CPML
+LowerZ ORBC_CPML
+UpperZ ORBC_CPML
+NumberOfPMLLayers 7
+end_<OuterBoundaries>
+begin_<AmbientConditions> 
+begin_<BackgroundMedium> 
+Temperature 298.14999389648438
+end_<BackgroundMedium>
+begin_<Top> 
+HeatTransferCoefficient 10
+end_<Top>
+begin_<Bottom> 
+HeatTransferCoefficient 2.5
+end_<Bottom>
+end_<AmbientConditions>
+begin_<ComponentsPorts> 
+PortType 1
+begin_<FeedData> 
+ComponentName NetR91_2_U1
+Removable False
+begin_<ImpedanceLine> 
+LineType Cylindrical
+Radius 8.1071998536658575e-05
+begin_<Centers> 
+X1 0.080783430000000017
+Y1 0.057505600000000011
+Z1 -1.75005e-05
+X2 0.080260342400000004
+Y2 0.056521248400000008
+Z2 0.0015018765000000002
+end_<Centers>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName NetR92_2_U1
+Removable False
+begin_<ImpedanceLine> 
+LineType Cylindrical
+Radius 8.1071998536661664e-05
+begin_<Centers> 
+X1 0.080783430000000017
+Y1 0.057505600000000011
+Z1 -1.75005e-05
+X2 0.080260342400000004
+Y2 0.056871768400000008
+Z2 0.0015018765000000002
+end_<Centers>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName NetR93_2_U1
+Removable False
+begin_<ImpedanceLine> 
+LineType Cylindrical
+Radius 8.1071998536658575e-05
+begin_<Centers> 
+X1 0.080783430000000017
+Y1 0.057505600000000011
+Z1 -1.75005e-05
+X2 0.080260342400000004
+Y2 0.057222288400000008
+Z2 0.0015018765000000002
+end_<Centers>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName NetR94_2_U1
+Removable False
+begin_<ImpedanceLine> 
+LineType Cylindrical
+Radius 8.1071998536664904e-05
+begin_<Centers> 
+X1 0.080783430000000017
+Y1 0.057505600000000011
+Z1 -1.75005e-05
+X2 0.080260342400000004
+Y2 0.057570268400000006
+Z2 0.0015018765000000002
+end_<Centers>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName NetR95_2_U1
+Removable False
+begin_<ImpedanceLine> 
+LineType Cylindrical
+Radius 8.1071998536664904e-05
+begin_<Centers> 
+X1 0.080783430000000017
+Y1 0.057505600000000011
+Z1 -1.75005e-05
+X2 0.080260342400000004
+Y2 0.057920788400000006
+Z2 0.0015018765000000002
+end_<Centers>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName NetR96_2_U1
+Removable False
+begin_<ImpedanceLine> 
+LineType Cylindrical
+Radius 8.1071998536664904e-05
+begin_<Centers> 
+X1 0.080783430000000017
+Y1 0.057505600000000011
+Z1 -1.75005e-05
+X2 0.080260342400000004
+Y2 0.058271308400000006
+Z2 0.0015018765000000002
+end_<Centers>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_0_0
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.091885770000000005
+Y 0.056553100000000002
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.091885770000000005
+Y 0.056730900000000001
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.091885770000000005
+Y 0.056553100000000002
+Z -1.75005e-05
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.091885770000000005
+Y 0.056730900000000001
+Z -1.75005e-05
+end_<CornerPoint>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 1
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+IsActive 
+WaveformIndex 0
+FieldExcitationMeshNum 0
+FieldExcitationModeNum 0
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_0_1
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.091892120000000008
+Y 0.057061100000000003
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.091892120000000008
+Y 0.057238900000000002
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.091892120000000008
+Y 0.057061100000000003
+Z -1.75005e-05
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.091892120000000008
+Y 0.057238900000000002
+Z -1.75005e-05
+end_<CornerPoint>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 1
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+IsActive 
+WaveformIndex 0
+FieldExcitationMeshNum 0
+FieldExcitationModeNum 0
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_0_6
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.093135449999999995
+Y 0.051600100000000003
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.093135449999999995
+Y 0.051422300000000004
+Z 0.000217932
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.093135449999999995
+Y 0.051600100000000003
+Z -1.75005e-05
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.093135449999999995
+Y 0.051422300000000004
+Z -1.75005e-05
+end_<CornerPoint>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 1
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+IsActive 
+WaveformIndex 0
+FieldExcitationMeshNum 0
+FieldExcitationModeNum 0
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_0_7
+Removable False
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.093135449999999995
+Y1 0.0515112
+Z1 -1.75005e-05
+X2 0.093135449999999995
+Y2 0.051079399999999997
+Z2 -1.75005e-05
+end_<EndPoints>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 1
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+IsActive 
+WaveformIndex 0
+FieldExcitationMeshNum 0
+FieldExcitationModeNum 0
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_1_0
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.080437990000000001
+Y 0.056432450000000002
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.080437990000000001
+Y 0.056610250000000001
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.080437990000000001
+Y 0.056432450000000002
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.080437990000000001
+Y 0.056610250000000001
+Z 0.0015018765000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 1
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+IsActive 
+WaveformIndex 0
+FieldExcitationMeshNum 0
+FieldExcitationModeNum 0
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_1_1
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.087603330000000007
+Y 0.050711100000000002
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087603330000000007
+Y 0.050533300000000003
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087603330000000007
+Y 0.050711100000000002
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087603330000000007
+Y 0.050533300000000003
+Z 0.0015018765000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 1
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+IsActive 
+WaveformIndex 0
+FieldExcitationMeshNum 0
+FieldExcitationModeNum 0
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_1_2
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.080437990000000001
+Y 0.056782970000000002
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.080437990000000001
+Y 0.056960770000000001
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.080437990000000001
+Y 0.056782970000000002
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.080437990000000001
+Y 0.056960770000000001
+Z 0.0015018765000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 1
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+IsActive 
+WaveformIndex 0
+FieldExcitationMeshNum 0
+FieldExcitationModeNum 0
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_1_3
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.087603330000000007
+Y 0.052108099999999997
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087603330000000007
+Y 0.051930300000000006
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087603330000000007
+Y 0.052108099999999997
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087603330000000007
+Y 0.051930300000000006
+Z 0.0015018765000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 1
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+IsActive 
+WaveformIndex 0
+FieldExcitationMeshNum 0
+FieldExcitationModeNum 0
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_1_4
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.087603330000000007
+Y 0.0535051
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087603330000000007
+Y 0.053327300000000001
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087603330000000007
+Y 0.0535051
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087603330000000007
+Y 0.053327300000000001
+Z 0.0015018765000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 1
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+IsActive 
+WaveformIndex 0
+FieldExcitationMeshNum 0
+FieldExcitationModeNum 0
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_1_5
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.087603330000000007
+Y 0.054902100000000002
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087603330000000007
+Y 0.054724300000000003
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087603330000000007
+Y 0.054902100000000002
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087603330000000007
+Y 0.054724300000000003
+Z 0.0015018765000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 1
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+IsActive 
+WaveformIndex 0
+FieldExcitationMeshNum 0
+FieldExcitationModeNum 0
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_1_6
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.080437990000000001
+Y 0.057831990000000007
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.080437990000000001
+Y 0.058009789999999999
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.080437990000000001
+Y 0.057831990000000007
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.080437990000000001
+Y 0.058009789999999999
+Z 0.0015018765000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 1
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+IsActive 
+WaveformIndex 0
+FieldExcitationMeshNum 0
+FieldExcitationModeNum 0
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_1_7
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.087160100000000004
+Y 0.056973469999999998
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087337899999999996
+Y 0.056973469999999998
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087160100000000004
+Y 0.056973469999999998
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087337899999999996
+Y 0.056973469999999998
+Z 0.0015018765000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 1
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+IsActive 
+WaveformIndex 0
+FieldExcitationMeshNum 0
+FieldExcitationModeNum 0
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_1_8
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.087603330000000007
+Y 0.056299099999999998
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087603330000000007
+Y 0.056121300000000006
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087603330000000007
+Y 0.056299099999999998
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087603330000000007
+Y 0.056121300000000006
+Z 0.0015018765000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 1
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+IsActive 
+WaveformIndex 0
+FieldExcitationMeshNum 0
+FieldExcitationModeNum 0
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_1_9
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.080437990000000001
+Y 0.05818251
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.080437990000000001
+Y 0.058360309999999999
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.080437990000000001
+Y 0.05818251
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.080437990000000001
+Y 0.058360309999999999
+Z 0.0015018765000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 1
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+IsActive 
+WaveformIndex 0
+FieldExcitationMeshNum 0
+FieldExcitationModeNum 0
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_1_10
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.090247469999999996
+Y 0.050533300000000003
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.090247469999999996
+Y 0.050711100000000002
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.090247469999999996
+Y 0.050533300000000003
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.090247469999999996
+Y 0.050711100000000002
+Z 0.0015018765000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 1
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+IsActive 
+WaveformIndex 0
+FieldExcitationMeshNum 0
+FieldExcitationModeNum 0
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_1_11
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.090247469999999996
+Y 0.051930300000000006
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.090247469999999996
+Y 0.052108099999999997
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.090247469999999996
+Y 0.051930300000000006
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.090247469999999996
+Y 0.052108099999999997
+Z 0.0015018765000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 1
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+IsActive 
+WaveformIndex 0
+FieldExcitationMeshNum 0
+FieldExcitationModeNum 0
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_1_13
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.090247469999999996
+Y 0.053327300000000001
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.090247469999999996
+Y 0.0535051
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.090247469999999996
+Y 0.053327300000000001
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.090247469999999996
+Y 0.0535051
+Z 0.0015018765000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 1
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+IsActive 
+WaveformIndex 0
+FieldExcitationMeshNum 0
+FieldExcitationModeNum 0
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_1_15
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.090247469999999996
+Y 0.054724300000000003
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.090247469999999996
+Y 0.054902100000000002
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.090247469999999996
+Y 0.054724300000000003
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.090247469999999996
+Y 0.054902100000000002
+Z 0.0015018765000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 1
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+IsActive 
+WaveformIndex 0
+FieldExcitationMeshNum 0
+FieldExcitationModeNum 0
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_1_16
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.091885770000000005
+Y 0.056730900000000001
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.091885770000000005
+Y 0.056553100000000002
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.091885770000000005
+Y 0.056730900000000001
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.091885770000000005
+Y 0.056553100000000002
+Z 0.0015018765000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 1
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+IsActive 
+WaveformIndex 0
+FieldExcitationMeshNum 0
+FieldExcitationModeNum 0
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_1_17
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.090247469999999996
+Y 0.056121300000000006
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.090247469999999996
+Y 0.056299099999999998
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.090247469999999996
+Y 0.056121300000000006
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.090247469999999996
+Y 0.056299099999999998
+Z 0.0015018765000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 1
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+IsActive 
+WaveformIndex 0
+FieldExcitationMeshNum 0
+FieldExcitationModeNum 0
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_1_18
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.090247469999999996
+Y 0.057518300000000001
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.090247469999999996
+Y 0.0576961
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.090247469999999996
+Y 0.057518300000000001
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.090247469999999996
+Y 0.0576961
+Z 0.0015018765000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 1
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+IsActive 
+WaveformIndex 0
+FieldExcitationMeshNum 0
+FieldExcitationModeNum 0
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_1_19
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.091899740000000008
+Y 0.057238900000000002
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.091899740000000008
+Y 0.057061100000000003
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.091899740000000008
+Y 0.057238900000000002
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.091899740000000008
+Y 0.057061100000000003
+Z 0.0015018765000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 1
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+IsActive 
+WaveformIndex 0
+FieldExcitationMeshNum 0
+FieldExcitationModeNum 0
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_1_28
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.080450689999999991
+Y 0.05748147
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.080450689999999991
+Y 0.057659269999999999
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.080450689999999991
+Y 0.05748147
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.080450689999999991
+Y 0.057659269999999999
+Z 0.0015018765000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 1
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+IsActive 
+WaveformIndex 0
+FieldExcitationMeshNum 0
+FieldExcitationModeNum 0
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_1_29
+Removable False
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.080450689999999991
+Y1 0.057570370000000003
+Z1 0.0015018765000000002
+X2 0.080450689999999991
+Y2 0.057222389999999998
+Z2 0.0015018765000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 1
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+IsActive 
+WaveformIndex 0
+FieldExcitationMeshNum 0
+FieldExcitationModeNum 0
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_1_30
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.087058499999999997
+Y 0.057491629999999988
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.086932770000000006
+Y 0.057365900000000004
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.087058499999999997
+Y 0.057491629999999988
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.086932770000000006
+Y 0.057365900000000004
+Z 0.0015018765000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 1
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+IsActive 
+WaveformIndex 0
+FieldExcitationMeshNum 0
+FieldExcitationModeNum 0
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_1_31
+Removable False
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.086995635000000002
+Y1 0.057428765
+Z1 0.0015018765000000002
+X2 0.087325834999999991
+Y2 0.057758964999999995
+Z2 0.0015018765000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 1
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+IsActive 
+WaveformIndex 0
+FieldExcitationMeshNum 0
+FieldExcitationModeNum 0
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_1_32
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.091975940000000006
+Y 0.051142899999999998
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.091975940000000006
+Y 0.050965099999999999
+Z 0.0012664440000000003
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.091975940000000006
+Y 0.051142899999999998
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.091975940000000006
+Y 0.050965099999999999
+Z 0.0015018765000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 1
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+IsActive 
+WaveformIndex 0
+FieldExcitationMeshNum 0
+FieldExcitationModeNum 0
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName _sub_1_33
+Removable False
+begin_<ImpedanceLine> 
+LineType Single
+begin_<EndPoints> 
+X1 0.091975940000000006
+Y1 0.051054000000000002
+Z1 0.0015018765000000002
+X2 0.091975940000000006
+Y2 0.051536599999999988
+Z2 0.0015018765000000002
+end_<EndPoints>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 1
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+IsActive 
+WaveformIndex 0
+FieldExcitationMeshNum 0
+FieldExcitationModeNum 0
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName R93
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.088172290000000014
+Y 0.053799866999999994
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088172290000000014
+Y 0.053032533000000014
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089678510000000017
+Y 0.053799866999999994
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089678510000000017
+Y 0.053032533000000014
+Z 0.0015018765000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+FileName 
+Source 0
+Resistance 22
+Inductance 0
+Capacitance 0
+Polarity 1
+Type 1
+TermType Unused
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName R94
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.088172290000000014
+Y 0.055196866999999997
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088172290000000014
+Y 0.054429533000000016
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089678510000000017
+Y 0.055196866999999997
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089678510000000017
+Y 0.054429533000000016
+Z 0.0015018765000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+FileName 
+Source 0
+Resistance 22
+Inductance 0
+Capacitance 0
+Polarity 1
+Type 1
+TermType Unused
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName R96
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.088172290000000014
+Y 0.057990866999999995
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088172290000000014
+Y 0.057223533000000014
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089678510000000017
+Y 0.057990866999999995
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089678510000000017
+Y 0.057223533000000014
+Z 0.0015018765000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+FileName 
+Source 0
+Resistance 22
+Inductance 0
+Capacitance 0
+Polarity 1
+Type 1
+TermType Unused
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName R95
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.088172290000000014
+Y 0.056593866999999999
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088172290000000014
+Y 0.055826533000000018
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089678510000000017
+Y 0.056593866999999999
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089678510000000017
+Y 0.055826533000000018
+Z 0.0015018765000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+FileName 
+Source 0
+Resistance 22
+Inductance 0
+Capacitance 0
+Polarity 1
+Type 1
+TermType Unused
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName R92
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.088172290000000014
+Y 0.052402866999999999
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088172290000000014
+Y 0.051635533000000018
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089678510000000017
+Y 0.052402866999999999
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089678510000000017
+Y 0.051635533000000018
+Z 0.0015018765000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+FileName 
+Source 0
+Resistance 22
+Inductance 0
+Capacitance 0
+Polarity 1
+Type 1
+TermType Unused
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName R91
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.088172290000000014
+Y 0.051005866999999996
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.088172290000000014
+Y 0.050238533000000016
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089678510000000017
+Y 0.051005866999999996
+Z 0.0015018765000000002
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.089678510000000017
+Y 0.050238533000000016
+Z 0.0015018765000000002
+end_<CornerPoint>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+FileName 
+Source 0
+Resistance 22
+Inductance 0
+Capacitance 0
+Polarity 1
+Type 1
+TermType Unused
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+end_<ComponentsPorts>
+begin_<WaveGuidePorts> 
+end_<WaveGuidePorts>
+begin_<TerminationCriteria> 
+MaximumTimeSteps 50000
+MaximumWallClockSeconds 0
+ConvergenceEnabled
+Threshhold -30
+SamplingInterval 100
+WindowSize 2
+MinimumTimeSteps 0
+FlatLineDetectionEnabled
+MEDIUM_DENSITY
+begin_<TdAfsTerminationCriteria> 
+StartFrequency 1000000000
+StopFrequency 10000000000
+NumberOfFrequencyPoints 1000
+ENERGY
+INTERPOLATION
+NumberOfConsecutivePasses 1
+end_<TdAfsTerminationCriteria>
+end_<TerminationCriteria>
+end_<RunParameters>
+begin_<RequestResults> 
+end_<RequestResults>
+end_<FEMProject>

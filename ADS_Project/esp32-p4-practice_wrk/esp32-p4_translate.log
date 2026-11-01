@@ -1,0 +1,42 @@
+Info: Fri Oct 30 01:00:58 2026
+ (0 Minutes 0 Seconds 26 Milliseconds total): IPC import started
+
+Info: Fri Oct 30 01:00:59 2026
+ (0 Minutes 0 Seconds 558 Milliseconds total): IPC product model read - see separate log in: D:\666\ADprojects\esp32-p4-practice\OutputJob\IPC2581\esp32-p4_import.log
+
+Warning: Ignoring layer Top Paste - unsupported type
+Warning: Ignoring layer Bottom Paste - unsupported type
+Info: Technology loaded into library "esp32-p4_tech_lib"
+Info: Adding features from IPC layer name Top Overlay
+Info: Adding features from IPC layer name Top Solder
+Info: Adding features from IPC layer name Top Layer
+Info: Adding features from IPC layer name GND1
+Info: Adding features from IPC layer name InnerSingle
+Info: Adding features from IPC layer name POWER
+Info: Adding features from IPC layer name GND2
+Info: Adding features from IPC layer name Bottom Layer
+Info: Adding features from IPC layer name Bottom Solder
+Info: Adding features from IPC layer name Bottom Overlay
+Info: Adding features from IPC layer name Keep-Out Layer
+Info: Adding features from IPC layer name Mechanical 1
+Info: Adding features from IPC layer name Mechanical 2
+Info: Adding features from IPC layer name Mechanical 3
+Info: Adding features from IPC layer name Mechanical 5
+Info: Adding features from IPC layer name Mechanical 6
+Info: Adding features from IPC layer name Mechanical 7
+Info: Adding features from IPC layer name Mechanical 8
+Info: Adding features from IPC layer name Mechanical 9
+Info: Adding features from IPC layer name Mechanical 10
+Info: Adding features from IPC layer name Mechanical 11
+Info: Adding features from IPC layer name Mechanical 12
+Info: Adding features from IPC layer name Drill Drawing (Top Layer - Bottom Layer)
+Info: Adding features from IPC layer name Drill Guide (Top Layer - Bottom Layer)
+Info: Fri Oct 30 01:01:03 2026
+ (0 Minutes 4 Seconds 483 Milliseconds total): IPC import finished
+
+
+
+Import to/from: D:\666\ADprojects\esp32-p4-practice\OutputJob\IPC2581
+Import complete for: esp32-p4.cvg
+Errors: 0 Warnings: 2
+Elapsed time: 0 Minutes 4 Seconds 490 Milliseconds

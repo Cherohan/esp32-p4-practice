@@ -1,0 +1,580 @@
+
+TODO, CircuitResultDataModel, disconnect the filewatcher on destructor
+Installed file watcher for <D:/666/ADSProjects/esp32-p4-practice_wrk/simulation/esp32-p4_lib/esp32#2dp4/sipi_mipi_csi/000002/000004\emds_dsn\design\design_dfs.cti>
+Installed file watcher for <D:/666/ADSProjects/esp32-p4-practice_wrk/simulation/esp32-p4_lib/esp32#2dp4/sipi_mipi_csi/000002/000004\emds_dsn\design\design_ffs.cti>
+Installed file watcher for <D:/666/ADSProjects/esp32-p4-practice_wrk/simulation/esp32-p4_lib/esp32#2dp4/sipi_mipi_csi/000002/000004\emds_dsn\design\design.sio>
+Loading impedance specifications
+	<DSI_CLK_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_CLK_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR91_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR92_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR93_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR94_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR95_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR96_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+LOADED file evaluator for <D:/666/ADSProjects/esp32-p4-practice_wrk/simulation/esp32-p4_lib/esp32#2dp4/sipi_mipi_csi/000002/000004\emds_dsn\design\design.sio>
+No touching ports reduction
+LOADED raw data evaluator from <design.sio> : 0.014 sec
+LOADED raw data: #samples=1000 --> 0.001 sec
+CALCULATED the loaded S-parameters : 0.002 sec
+Differential port setup
+	port combinator 0 : port id=0, single ended port 0
+	port combinator 1 : port id=1, single ended port 1
+	port combinator 2 : port id=2, single ended port 2
+	port combinator 3 : port id=3, single ended port 3
+	port combinator 4 : port id=4, single ended port 4
+	port combinator 5 : port id=5, single ended port 5
+	port combinator 6 : port id=6, single ended port 6
+	port combinator 7 : port id=7, single ended port 7
+	port combinator 8 : port id=8, single ended port 8
+	port combinator 9 : port id=9, single ended port 9
+	port combinator 10 : port id=10, single ended port 10
+	port combinator 11 : port id=11, single ended port 11
+	refreshing datasets
+Differential port setup
+	port combinator 0 : port id=0, single ended port 0
+	port combinator 1 : port id=1, single ended port 1
+	port combinator 2 : port id=2, single ended port 2
+	port combinator 3 : port id=3, single ended port 3
+	port combinator 4 : port id=4, single ended port 4
+	port combinator 5 : port id=5, single ended port 5
+	port combinator 6 : port id=6, single ended port 6
+	port combinator 7 : port id=7, single ended port 7
+	port combinator 8 : port id=8, single ended port 8
+	port combinator 9 : port id=9, single ended port 9
+	port combinator 10 : port id=10, single ended port 10
+	port combinator 11 : port id=11, single ended port 11
+	refreshing datasets
+Differential port setup
+	port combinator 0 : port id=0, single ended port 0
+	port combinator 1 : port id=1, single ended port 1
+	port combinator 2 : port id=2, single ended port 2
+	port combinator 3 : port id=3, single ended port 3
+	port combinator 4 : port id=4, single ended port 4
+	port combinator 5 : port id=5, single ended port 5
+	port combinator 6 : port id=6, single ended port 6
+	port combinator 7 : port id=7, single ended port 7
+	port combinator 8 : port id=8, single ended port 8
+	port combinator 9 : port id=9, single ended port 9
+	port combinator 10 : port id=10, single ended port 10
+	port combinator 11 : port id=11, single ended port 11
+	refreshing datasets
+
+*** COMPONENTS CHANGED ***
+
+Loading impedance specifications
+	<DSI_CLK_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_CLK_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR91_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR92_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR93_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR94_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR95_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR96_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+
+*** COMPONENTS CHANGED ***
+
+Loading impedance specifications
+	<DSI_CLK_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_CLK_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR91_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR92_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR93_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR94_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR95_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR96_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+
+*** COMPONENTS CHANGED ***
+
+Loading impedance specifications
+	<DSI_CLK_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_CLK_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR91_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR92_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR93_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR94_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR95_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR96_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+Differential port setup
+	port combinator 0 : port id=0, common mode for ports (1,0)
+	port combinator 1 : port id=1, differential mode for ports (1,0)
+	port combinator 2 : port id=2, single ended port 2
+	port combinator 3 : port id=3, single ended port 3
+	port combinator 4 : port id=4, single ended port 4
+	port combinator 5 : port id=5, single ended port 5
+	port combinator 6 : port id=6, single ended port 6
+	port combinator 7 : port id=7, single ended port 7
+	port combinator 8 : port id=8, single ended port 8
+	port combinator 9 : port id=9, single ended port 9
+	port combinator 10 : port id=10, single ended port 10
+	port combinator 11 : port id=11, single ended port 11
+	refreshing datasets
+Differential port setup
+	port combinator 0 : port id=0, common mode for ports (1,0)
+	port combinator 1 : port id=1, differential mode for ports (1,0)
+	port combinator 2 : port id=2, single ended port 2
+	port combinator 3 : port id=3, single ended port 3
+	port combinator 4 : port id=4, single ended port 4
+	port combinator 5 : port id=5, single ended port 5
+	port combinator 6 : port id=6, single ended port 6
+	port combinator 7 : port id=7, single ended port 7
+	port combinator 8 : port id=8, single ended port 8
+	port combinator 9 : port id=9, single ended port 9
+	port combinator 10 : port id=10, single ended port 10
+	port combinator 11 : port id=11, single ended port 11
+	refreshing datasets
+
+*** COMPONENTS CHANGED ***
+
+Loading impedance specifications
+	<DSI_CLK_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_CLK_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR91_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR92_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR93_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR94_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR95_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR96_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+
+*** COMPONENTS CHANGED ***
+
+Loading impedance specifications
+	<DSI_CLK_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_CLK_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR91_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR92_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR93_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR94_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR95_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR96_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+
+*** COMPONENTS CHANGED ***
+
+Loading impedance specifications
+	<DSI_CLK_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_CLK_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR91_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR92_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR93_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR94_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR95_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR96_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+Differential port setup
+	port combinator 0 : port id=0, common mode for ports (1,0)
+	port combinator 1 : port id=1, differential mode for ports (1,0)
+	port combinator 2 : port id=2, common mode for ports (3,2)
+	port combinator 3 : port id=3, differential mode for ports (3,2)
+	port combinator 4 : port id=4, single ended port 4
+	port combinator 5 : port id=5, single ended port 5
+	port combinator 6 : port id=6, single ended port 6
+	port combinator 7 : port id=7, single ended port 7
+	port combinator 8 : port id=8, single ended port 8
+	port combinator 9 : port id=9, single ended port 9
+	port combinator 10 : port id=10, single ended port 10
+	port combinator 11 : port id=11, single ended port 11
+	refreshing datasets
+Differential port setup
+	port combinator 0 : port id=0, common mode for ports (1,0)
+	port combinator 1 : port id=1, differential mode for ports (1,0)
+	port combinator 2 : port id=2, common mode for ports (3,2)
+	port combinator 3 : port id=3, differential mode for ports (3,2)
+	port combinator 4 : port id=4, single ended port 4
+	port combinator 5 : port id=5, single ended port 5
+	port combinator 6 : port id=6, single ended port 6
+	port combinator 7 : port id=7, single ended port 7
+	port combinator 8 : port id=8, single ended port 8
+	port combinator 9 : port id=9, single ended port 9
+	port combinator 10 : port id=10, single ended port 10
+	port combinator 11 : port id=11, single ended port 11
+	refreshing datasets
+
+*** COMPONENTS CHANGED ***
+
+Loading impedance specifications
+	<DSI_CLK_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_CLK_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR91_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR92_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR93_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR94_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR95_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR96_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+
+*** COMPONENTS CHANGED ***
+
+Loading impedance specifications
+	<DSI_CLK_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_CLK_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR91_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR92_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR93_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR94_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR95_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR96_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+
+*** COMPONENTS CHANGED ***
+
+Loading impedance specifications
+	<DSI_CLK_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_CLK_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR91_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR92_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR93_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR94_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR95_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR96_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+Differential port setup
+	port combinator 0 : port id=0, common mode for ports (1,0)
+	port combinator 1 : port id=1, differential mode for ports (1,0)
+	port combinator 2 : port id=2, common mode for ports (3,2)
+	port combinator 3 : port id=3, differential mode for ports (3,2)
+	port combinator 4 : port id=4, common mode for ports (5,4)
+	port combinator 5 : port id=5, differential mode for ports (5,4)
+	port combinator 6 : port id=6, single ended port 6
+	port combinator 7 : port id=7, single ended port 7
+	port combinator 8 : port id=8, single ended port 8
+	port combinator 9 : port id=9, single ended port 9
+	port combinator 10 : port id=10, single ended port 10
+	port combinator 11 : port id=11, single ended port 11
+	refreshing datasets
+Differential port setup
+	port combinator 0 : port id=0, common mode for ports (1,0)
+	port combinator 1 : port id=1, differential mode for ports (1,0)
+	port combinator 2 : port id=2, common mode for ports (3,2)
+	port combinator 3 : port id=3, differential mode for ports (3,2)
+	port combinator 4 : port id=4, common mode for ports (5,4)
+	port combinator 5 : port id=5, differential mode for ports (5,4)
+	port combinator 6 : port id=6, single ended port 6
+	port combinator 7 : port id=7, single ended port 7
+	port combinator 8 : port id=8, single ended port 8
+	port combinator 9 : port id=9, single ended port 9
+	port combinator 10 : port id=10, single ended port 10
+	port combinator 11 : port id=11, single ended port 11
+	refreshing datasets
+
+*** COMPONENTS CHANGED ***
+
+Loading impedance specifications
+	<DSI_CLK_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_CLK_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR91_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR92_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR93_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR94_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR95_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR96_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+
+*** COMPONENTS CHANGED ***
+
+Loading impedance specifications
+	<DSI_CLK_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_CLK_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR91_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR92_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR93_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR94_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR95_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR96_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+
+*** COMPONENTS CHANGED ***
+
+Loading impedance specifications
+	<DSI_CLK_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_CLK_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR91_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR92_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR93_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR94_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR95_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR96_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+Differential port setup
+	port combinator 0 : port id=0, common mode for ports (1,0)
+	port combinator 1 : port id=1, differential mode for ports (1,0)
+	port combinator 2 : port id=2, common mode for ports (3,2)
+	port combinator 3 : port id=3, differential mode for ports (3,2)
+	port combinator 4 : port id=4, common mode for ports (5,4)
+	port combinator 5 : port id=5, differential mode for ports (5,4)
+	port combinator 6 : port id=6, differential mode for ports (6,7)
+	port combinator 7 : port id=7, common mode for ports (6,7)
+	port combinator 8 : port id=8, single ended port 8
+	port combinator 9 : port id=9, single ended port 9
+	port combinator 10 : port id=10, single ended port 10
+	port combinator 11 : port id=11, single ended port 11
+	refreshing datasets
+Differential port setup
+	port combinator 0 : port id=0, common mode for ports (1,0)
+	port combinator 1 : port id=1, differential mode for ports (1,0)
+	port combinator 2 : port id=2, common mode for ports (3,2)
+	port combinator 3 : port id=3, differential mode for ports (3,2)
+	port combinator 4 : port id=4, common mode for ports (5,4)
+	port combinator 5 : port id=5, differential mode for ports (5,4)
+	port combinator 6 : port id=6, differential mode for ports (6,7)
+	port combinator 7 : port id=7, common mode for ports (6,7)
+	port combinator 8 : port id=8, single ended port 8
+	port combinator 9 : port id=9, single ended port 9
+	port combinator 10 : port id=10, single ended port 10
+	port combinator 11 : port id=11, single ended port 11
+	refreshing datasets
+
+*** COMPONENTS CHANGED ***
+
+Loading impedance specifications
+	<DSI_CLK_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_CLK_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR91_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR92_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR93_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR94_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR95_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR96_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+
+*** COMPONENTS CHANGED ***
+
+Loading impedance specifications
+	<DSI_CLK_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_CLK_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR91_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR92_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR93_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR94_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR95_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR96_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+
+*** COMPONENTS CHANGED ***
+
+Loading impedance specifications
+	<DSI_CLK_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_CLK_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR91_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR92_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR93_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR94_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR95_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR96_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+Differential port setup
+	port combinator 0 : port id=0, common mode for ports (1,0)
+	port combinator 1 : port id=1, differential mode for ports (1,0)
+	port combinator 2 : port id=2, common mode for ports (3,2)
+	port combinator 3 : port id=3, differential mode for ports (3,2)
+	port combinator 4 : port id=4, common mode for ports (5,4)
+	port combinator 5 : port id=5, differential mode for ports (5,4)
+	port combinator 6 : port id=6, differential mode for ports (6,7)
+	port combinator 7 : port id=7, common mode for ports (6,7)
+	port combinator 8 : port id=8, differential mode for ports (8,9)
+	port combinator 9 : port id=9, common mode for ports (8,9)
+	port combinator 10 : port id=10, single ended port 10
+	port combinator 11 : port id=11, single ended port 11
+	refreshing datasets
+Differential port setup
+	port combinator 0 : port id=0, common mode for ports (1,0)
+	port combinator 1 : port id=1, differential mode for ports (1,0)
+	port combinator 2 : port id=2, common mode for ports (3,2)
+	port combinator 3 : port id=3, differential mode for ports (3,2)
+	port combinator 4 : port id=4, common mode for ports (5,4)
+	port combinator 5 : port id=5, differential mode for ports (5,4)
+	port combinator 6 : port id=6, differential mode for ports (6,7)
+	port combinator 7 : port id=7, common mode for ports (6,7)
+	port combinator 8 : port id=8, differential mode for ports (8,9)
+	port combinator 9 : port id=9, common mode for ports (8,9)
+	port combinator 10 : port id=10, single ended port 10
+	port combinator 11 : port id=11, single ended port 11
+	refreshing datasets
+
+*** COMPONENTS CHANGED ***
+
+Loading impedance specifications
+	<DSI_CLK_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_CLK_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR91_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR92_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR93_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR94_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR95_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR96_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+Differential port setup
+	port combinator 0 : port id=0, common mode for ports (1,0)
+	port combinator 1 : port id=1, differential mode for ports (1,0)
+	port combinator 2 : port id=2, common mode for ports (3,2)
+	port combinator 3 : port id=3, differential mode for ports (3,2)
+	port combinator 4 : port id=4, common mode for ports (5,4)
+	port combinator 5 : port id=5, differential mode for ports (5,4)
+	port combinator 6 : port id=6, differential mode for ports (6,7)
+	port combinator 7 : port id=7, common mode for ports (6,7)
+	port combinator 8 : port id=8, common mode for ports (9,8)
+	port combinator 9 : port id=9, differential mode for ports (9,8)
+	port combinator 10 : port id=10, single ended port 10
+	port combinator 11 : port id=11, single ended port 11
+	refreshing datasets
+Differential port setup
+	port combinator 0 : port id=0, common mode for ports (1,0)
+	port combinator 1 : port id=1, differential mode for ports (1,0)
+	port combinator 2 : port id=2, common mode for ports (3,2)
+	port combinator 3 : port id=3, differential mode for ports (3,2)
+	port combinator 4 : port id=4, common mode for ports (5,4)
+	port combinator 5 : port id=5, differential mode for ports (5,4)
+	port combinator 6 : port id=6, differential mode for ports (6,7)
+	port combinator 7 : port id=7, common mode for ports (6,7)
+	port combinator 8 : port id=8, common mode for ports (9,8)
+	port combinator 9 : port id=9, differential mode for ports (9,8)
+	port combinator 10 : port id=10, single ended port 10
+	port combinator 11 : port id=11, single ended port 11
+	refreshing datasets
+
+*** COMPONENTS CHANGED ***
+
+Loading impedance specifications
+	<DSI_CLK_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_CLK_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR91_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR92_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR93_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR94_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR95_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR96_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+
+*** COMPONENTS CHANGED ***
+
+Loading impedance specifications
+	<DSI_CLK_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_CLK_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR91_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR92_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR93_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR94_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR95_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR96_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+
+*** COMPONENTS CHANGED ***
+
+Loading impedance specifications
+	<DSI_CLK_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_CLK_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D0_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_N_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<DSI_D1_P_FPC2> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR91_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR92_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR93_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR94_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR95_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<NetR96_2_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+Differential port setup
+	port combinator 0 : port id=0, common mode for ports (1,0)
+	port combinator 1 : port id=1, differential mode for ports (1,0)
+	port combinator 2 : port id=2, common mode for ports (3,2)
+	port combinator 3 : port id=3, differential mode for ports (3,2)
+	port combinator 4 : port id=4, common mode for ports (5,4)
+	port combinator 5 : port id=5, differential mode for ports (5,4)
+	port combinator 6 : port id=6, differential mode for ports (6,7)
+	port combinator 7 : port id=7, common mode for ports (6,7)
+	port combinator 8 : port id=8, common mode for ports (9,8)
+	port combinator 9 : port id=9, differential mode for ports (9,8)
+	port combinator 10 : port id=10, differential mode for ports (10,11)
+	port combinator 11 : port id=11, common mode for ports (10,11)
+	refreshing datasets
+Differential port setup
+	port combinator 0 : port id=0, common mode for ports (1,0)
+	port combinator 1 : port id=1, differential mode for ports (1,0)
+	port combinator 2 : port id=2, common mode for ports (3,2)
+	port combinator 3 : port id=3, differential mode for ports (3,2)
+	port combinator 4 : port id=4, common mode for ports (5,4)
+	port combinator 5 : port id=5, differential mode for ports (5,4)
+	port combinator 6 : port id=6, differential mode for ports (6,7)
+	port combinator 7 : port id=7, common mode for ports (6,7)
+	port combinator 8 : port id=8, common mode for ports (9,8)
+	port combinator 9 : port id=9, differential mode for ports (9,8)
+	port combinator 10 : port id=10, differential mode for ports (10,11)
+	port combinator 11 : port id=11, common mode for ports (10,11)
+	refreshing datasets
+	creating dataset real( S(C(2,1) , D(2,1)) ) = real( S(DSI_CLK_P_FPC2|DSI_CLK_N_FPC2_C , DSI_CLK_P_FPC2|DSI_CLK_N_FPC2_D) )
+	creating dataset imag( S(C(2,1) , D(2,1)) ) = imag( S(DSI_CLK_P_FPC2|DSI_CLK_N_FPC2_C , DSI_CLK_P_FPC2|DSI_CLK_N_FPC2_D) )
+	created dataset  TR(C(2,1) , D(2,1))  =  TR(DSI_CLK_P_FPC2|DSI_CLK_N_FPC2_C , DSI_CLK_P_FPC2|DSI_CLK_N_FPC2_D) 
+	creating dataset real( S(D(7,8) , C(7,8)) ) = real( S(NetR91_2_U1|NetR92_2_U1_D , NetR91_2_U1|NetR92_2_U1_C) )
+	creating dataset imag( S(D(7,8) , C(7,8)) ) = imag( S(NetR91_2_U1|NetR92_2_U1_D , NetR91_2_U1|NetR92_2_U1_C) )
+	created dataset  TR(D(7,8) , C(7,8))  =  TR(NetR91_2_U1|NetR92_2_U1_D , NetR91_2_U1|NetR92_2_U1_C) 
+	creating dataset real( S(D(2,1) , D(2,1)) ) = real( S(DSI_CLK_P_FPC2|DSI_CLK_N_FPC2_D , DSI_CLK_P_FPC2|DSI_CLK_N_FPC2_D) )
+	creating dataset imag( S(D(2,1) , D(2,1)) ) = imag( S(DSI_CLK_P_FPC2|DSI_CLK_N_FPC2_D , DSI_CLK_P_FPC2|DSI_CLK_N_FPC2_D) )
+	created dataset  TR(D(2,1) , D(2,1))  =  TR(DSI_CLK_P_FPC2|DSI_CLK_N_FPC2_D , DSI_CLK_P_FPC2|DSI_CLK_N_FPC2_D) 
+	creating dataset real( S(D(4,3) , D(4,3)) ) = real( S(DSI_D0_P_FPC2|DSI_D0_N_FPC2_D , DSI_D0_P_FPC2|DSI_D0_N_FPC2_D) )
+	creating dataset imag( S(D(4,3) , D(4,3)) ) = imag( S(DSI_D0_P_FPC2|DSI_D0_N_FPC2_D , DSI_D0_P_FPC2|DSI_D0_N_FPC2_D) )
+	created dataset  TR(D(4,3) , D(4,3))  =  TR(DSI_D0_P_FPC2|DSI_D0_N_FPC2_D , DSI_D0_P_FPC2|DSI_D0_N_FPC2_D) 
+	creating dataset real( S(D(6,5) , D(6,5)) ) = real( S(DSI_D1_P_FPC2|DSI_D1_N_FPC2_D , DSI_D1_P_FPC2|DSI_D1_N_FPC2_D) )
+	creating dataset imag( S(D(6,5) , D(6,5)) ) = imag( S(DSI_D1_P_FPC2|DSI_D1_N_FPC2_D , DSI_D1_P_FPC2|DSI_D1_N_FPC2_D) )
+	created dataset  TR(D(6,5) , D(6,5))  =  TR(DSI_D1_P_FPC2|DSI_D1_N_FPC2_D , DSI_D1_P_FPC2|DSI_D1_N_FPC2_D) 

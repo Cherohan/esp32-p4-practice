@@ -1,0 +1,84 @@
+License checkout took 0.027 sec
+License checkout took 0.030 sec
+Momentum MomEngine_64 2026.00.252 (*) built: Jun 24 2025
+Copyright  1992 - 2025 Keysight Technologies
+Simulation started on: Sat Oct 31 23:58:10 2026
+Simulation Mode: RF
+Automatically determined a snap distance of
+0.0021 mil for layout healing.
+Layout simplification started
+.........|.........|.........|.........| 
+Layout simplification finished
+Generating mesh at 1 GHz...
+S-parameter simulation
+S-parameter simulation started
+...initializing
+...expanding thick conductors
+...extracting layout
+...reducing mesh
+Automatic selection: direct dense matrix solver
+Using multi-threading (16 threads)
+Matrix size: 1750 (reduced: 654)
+Simulation temperature: 298.15 K
+Adaptive frequency sweep started
+Simulation frequency [1] = 20 kHz
+...loading Green functions
+.........|.........|.........|.........| 
+...creating Basis sections
+...allocating interaction matrix
+...loading quasi-static matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [2] = 2 MHz
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [3] = 1 GHz
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Adaptive:   0.0 % of frequency range covered
+Simulation frequency [4] = 667.333 MHz
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [5] = 334.667 MHz
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Adaptive:   0.2 % of frequency range covered
+Adaptive:   0.4 % of frequency range covered
+Simulation frequency [6] = 833.667 MHz
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Adaptive:   0.6 % of frequency range covered
+Simulation frequency [7] = 168.333 MHz
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Adaptive:   0.8 % of frequency range covered
+Simulation frequency [8] = 916.833 MHz
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Adaptive:   1.0 % of frequency range covered
+Simulation frequency [9] = 445.556 MHz
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Adaptive:   1.2 % of frequency range covered
+Simulation frequency [10] = 57.4444 MHz
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Adaptive:   1.4 % of frequency range covered
+Simulation frequency [11] = 778.222 MHz
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Adaptive: 100.0 % of frequency range covered
+S-parameter simulation finished
+Simulation finished on: Sat Oct 31 23:58:14 2026

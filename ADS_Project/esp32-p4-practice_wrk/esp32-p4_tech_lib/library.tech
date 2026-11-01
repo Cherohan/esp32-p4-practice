@@ -1,0 +1,33 @@
+<!DOCTYPE Technology>
+<Lpp_List>
+    <LPP alpha="200" fill="18" layer="Bottom_Layer" line="0" mode="2" protect="0" purpose="drawing" rgb="21386" visible="1"/>
+    <LPP alpha="200" fill="18" layer="Bottom_Overlay" line="0" mode="2" protect="0" purpose="drawing" rgb="5453690" visible="1"/>
+    <LPP alpha="200" fill="18" layer="Bottom_Solder" line="0" mode="2" protect="0" purpose="drawing" rgb="16743004" visible="1"/>
+    <LPP alpha="200" fill="18" layer="Drill_Drawing__Top_Layer_-_Bottom_Layer_" line="0" mode="2" protect="0" purpose="drawing" rgb="12648480" visible="1"/>
+    <LPP alpha="200" fill="18" layer="Drill_Guide__Top_Layer_-_Bottom_Layer_" line="0" mode="2" protect="0" purpose="drawing" rgb="13541986" visible="1"/>
+    <LPP alpha="200" fill="18" layer="Drill_Guide__Top_Layer_-_Bottom_Layer__Plated" line="0" mode="2" protect="0" purpose="drawing" rgb="8482918" visible="1"/>
+    <LPP alpha="200" fill="18" layer="Drill_Guide__Top_Layer_-_Bottom_Layer__diel" line="0" mode="2" protect="0" purpose="drawing" rgb="32052" visible="1"/>
+    <LPP alpha="200" fill="18" layer="GND1" line="0" mode="2" protect="0" purpose="drawing" rgb="13541986" visible="1"/>
+    <LPP alpha="200" fill="18" layer="GND2" line="0" mode="2" protect="0" purpose="drawing" rgb="16152206" visible="1"/>
+    <LPP alpha="200" fill="18" layer="InnerSingle" line="0" mode="2" protect="0" purpose="drawing" rgb="8482918" visible="1"/>
+    <LPP alpha="200" fill="18" layer="Keep-Out_Layer" line="0" mode="2" protect="0" purpose="drawing" rgb="16748032" visible="1"/>
+    <LPP alpha="200" fill="18" layer="Mechanical_10" line="0" mode="2" protect="0" purpose="drawing" rgb="8404597" visible="1"/>
+    <LPP alpha="200" fill="18" layer="Mechanical_11" line="0" mode="2" protect="0" purpose="drawing" rgb="16738304" visible="1"/>
+    <LPP alpha="200" fill="18" layer="Mechanical_12" line="0" mode="2" protect="0" purpose="drawing" rgb="10927575" visible="1"/>
+    <LPP alpha="200" fill="18" layer="Mechanical_1" line="0" mode="2" protect="0" purpose="drawing" rgb="11741265" visible="1"/>
+    <LPP alpha="200" fill="18" layer="Mechanical_2" line="0" mode="2" protect="0" purpose="drawing" rgb="16041984" visible="1"/>
+    <LPP alpha="200" fill="18" layer="Mechanical_3" line="0" mode="2" protect="0" purpose="drawing" rgb="8329229" visible="1"/>
+    <LPP alpha="200" fill="18" layer="Mechanical_5" line="0" mode="2" protect="0" purpose="drawing" rgb="9677312" visible="1"/>
+    <LPP alpha="200" fill="18" layer="Mechanical_6" line="0" mode="2" protect="0" purpose="drawing" rgb="5845781" visible="1"/>
+    <LPP alpha="200" fill="18" layer="Mechanical_7" line="0" mode="2" protect="0" purpose="drawing" rgb="15809043" visible="1"/>
+    <LPP alpha="200" fill="18" layer="Mechanical_8" line="0" mode="2" protect="0" purpose="drawing" rgb="2305046" visible="1"/>
+    <LPP alpha="200" fill="18" layer="Mechanical_9" line="0" mode="2" protect="0" purpose="drawing" rgb="16757504" visible="1"/>
+    <LPP alpha="200" fill="18" layer="POWER" line="0" mode="2" protect="0" purpose="drawing" rgb="32052" visible="1"/>
+    <LPP alpha="200" fill="18" layer="Top_Layer" line="0" mode="2" protect="0" purpose="drawing" rgb="12648480" visible="1"/>
+    <LPP alpha="200" fill="18" layer="Top_Overlay" line="0" mode="2" protect="0" purpose="drawing" rgb="16738304" visible="1"/>
+    <LPP alpha="200" fill="18" layer="Top_Solder" line="0" mode="2" protect="0" purpose="drawing" rgb="10927575" visible="1"/>
+    <LPP alpha="200" fill="18" layer="comp_pkg_outline" line="0" mode="2" protect="0" purpose="drawing" rgb="16757504" visible="1"/>
+    <LPP alpha="200" fill="18" layer="comp_pkg_pad" line="0" mode="2" protect="0" purpose="drawing" rgb="8404597" visible="1"/>
+    <LPP alpha="200" fill="18" layer="silk_screen2" line="0" mode="2" protect="0" purpose="drawing" rgb="5453690" visible="1"/>
+    <LPP alpha="200" fill="18" layer="silk_screen" line="0" mode="2" protect="0" purpose="drawing" rgb="16041984" visible="1"/>
+</Lpp_List>

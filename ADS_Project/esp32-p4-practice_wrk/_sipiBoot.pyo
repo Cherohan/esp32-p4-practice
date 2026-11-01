@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+
+import shutil
+import empro.toolkit.analysis as analysis
+
+def main():
+	path=r"D:/666/ADSProjects/esp32-p4-practice_wrk"
+	lib=r"esp32-p4_lib"
+	subst=r"esp32-p4_tech_lib/esp32-p4.subst"
+	substlib=r"esp32-p4_tech_lib"
+	substname=r"esp32-p4"
+	ltdSubst=r"simulation/esp32-p4_lib/esp32#2dp4/sipi_sdio_wifi/extra/0/proj.ltd"
+	cell=r"esp32-p4"
+	layout=r"layout"
+	sipiSetup=r"sipi_sdio_wifi"
+	libS3D=r""
+	varDictionary={}
+	exprDictionary={}
+	analysis.loadDesign(path=path, lib=lib, subst=subst, substlib=substlib, substname=substname, ltd_subst=ltdSubst, cell=cell, layout_view=layout, sipi_view=sipiSetup, libS3D=libS3D, var_dict=varDictionary, expr_dict=exprDictionary)
+	shutil.move(r"D:\666\ADSProjects\esp32-p4-practice_wrk\_sipiBoot.py", r"D:\666\ADSProjects\esp32-p4-practice_wrk\_sipiBoot.pyo")

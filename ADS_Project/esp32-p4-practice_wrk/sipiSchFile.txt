@@ -1,0 +1,22 @@
+# SipiSchFile 3.0
+# Generated 2026-11-01 00:28:08.546365
+SipiSchematic|Libname|esp32-p4_lib|Name|esp32-p4|AnalysisType|3|AnalysisName|phy_p4|SchematicType|1|LayoutLibName|esp32-p4_lib|LayoutCellName|esp32-p4|LayoutViewName|layout|End
+IOPort|1|Name|PHY_RXD0_U12|Z|50.0|Port|PHY_RXD0_U12|SymbolGroup|U12|End
+IOPort|2|Name|PHY_RXD0_U1|Z|50.0|Port|PHY_RXD0_U1|SymbolGroup|U1|End
+IOPort|3|Name|PHY_RXD1_U12|Z|50.0|Port|PHY_RXD1_U12|SymbolGroup|U12|End
+IOPort|4|Name|PHY_RXD1_U1|Z|50.0|Port|PHY_RXD1_U1|SymbolGroup|U1|End
+IOPort|5|Name|PHY_RXDV_U12|Z|50.0|Port|PHY_RXDV_U12|SymbolGroup|U12|End
+IOPort|6|Name|PHY_RXDV_U1|Z|50.0|Port|PHY_RXDV_U1|SymbolGroup|U1|End
+IOPort|7|Name|PHY_TXD0_U12|Z|50.0|Port|PHY_TXD0_U12|SymbolGroup|U12|End
+IOPort|8|Name|PHY_TXD0_U1|Z|50.0|Port|PHY_TXD0_U1|SymbolGroup|U1|End
+IOPort|9|Name|PHY_TXD1_U12|Z|50.0|Port|PHY_TXD1_U12|SymbolGroup|U12|End
+IOPort|10|Name|PHY_TXD1_U1|Z|50.0|Port|PHY_TXD1_U1|SymbolGroup|U1|End
+IOPort|11|Name|PHY_TXEN_U12|Z|50.0|Port|PHY_TXEN_U12|SymbolGroup|U12|End
+IOPort|12|Name|PHY_TXEN_U1|Z|50.0|Port|PHY_TXEN_U1|SymbolGroup|U1|End
+IOPort|13|Name|PHY_50MCLK_U12|Z|50.0|Port|PHY_50MCLK_U12|SymbolGroup|U12|End
+IOPort|14|Name|PHY_50MCLK_U12_2|Z|50.0|Port|PHY_50MCLK_U12_2|SymbolGroup|U12|End
+IOPort|15|Name|PHY_50MCLK_U1|Z|50.0|Port|PHY_50MCLK_U1|SymbolGroup|U1|End
+Model|15|Name|phy_p4|FileName|esp32-p4_sipi_phy_p4_phy_p4.sio|FileType|SMatrixIO|LocationName|data|LocationType|relDir|CausalityEnforced|TRUE|Ports|15|Port1|PHY_RXD0_U12|Port2|PHY_RXD0_U1|Port3|PHY_RXD1_U12|Port4|PHY_RXD1_U1|+++
++++|Port5|PHY_RXDV_U12|Port6|PHY_RXDV_U1|Port7|PHY_TXD0_U12|Port8|PHY_TXD0_U1|Port9|PHY_TXD1_U12|Port10|PHY_TXD1_U1|Port11|PHY_TXEN_U12|Port12|PHY_TXEN_U1|Port13|PHY_50MCLK_U12|Port14|PHY_50MCLK_U12_2|Port15|PHY_50MCLK_U1|+++
++++|End
+AnalysisSettings|StartFreq|1 kHz|EndFreq|1.0 GHz|Lin|250|End

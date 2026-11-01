@@ -1,0 +1,24 @@
+
+ 1. Frequency: 20 kHz      Unknowns:  229811
+    Solver:  Direct threaded 64-bit
+    CPU time: 00:00:23.9    Elapsed time: 00:00:07.9    Memory:   1.567 Gbyte 
+
+ 2. Frequency: 2 MHz      Unknowns:  229811
+    Solver:  Direct threaded 64-bit
+    CPU time: 00:00:17.1    Elapsed time: 00:00:02.8    Memory:   1.571 Gbyte 
+
+ 3. Frequency: 334.667 MHz      Unknowns:  229811
+    Solver:  Direct threaded 64-bit
+    CPU time: 00:00:16.5    Elapsed time: 00:00:01.9    Memory:   1.572 Gbyte 
+
+ 4. Frequency: 667.333 MHz      Unknowns:  229811
+    Solver:  Direct threaded 64-bit
+    CPU time: 00:00:16.7    Elapsed time: 00:00:01.9    Memory:   1.574 Gbyte 
+
+ 5. Frequency: 1 GHz      Unknowns:  229811
+    Solver:  Direct threaded 64-bit
+    CPU time: 00:00:16.9    Elapsed time: 00:00:02.0    Memory:   1.575 Gbyte 
+
+ 6. Frequency: 501 MHz      Unknowns:  229811
+    Solver:  Direct threaded 64-bit
+    CPU time: 00:00:16.8    Elapsed time: 00:00:02.2    Memory:   1.576 Gbyte 

@@ -1,0 +1,10 @@
+Hybridize;[00:00:01]
+FemDesignPreprocessor;[00:00:00]
+FemMesh;[00:00:00] (108877 tetrahedra)
+SolveSubdesigns;done
+momTraceId_0;Simulated 7 frequencies [00:00:00]  0.1 Gbyte
+momTraceId_1;Simulated 8 frequencies [00:00:02]  0.1 Gbyte
+momTraceTotals;[00:00:04]    0.1 Gbyte   (2317 unknowns)
+FemDomainSplitter;done
+FemSolve;done
+domain;Simulated 11 frequencies [0:00:29]  1.3 Gbyte

@@ -1,0 +1,28 @@
+<!DOCTYPE TranslatorOptions>
+<IpcImportOptions>
+    <Options>
+        <Option name="VerboseLogging" tip="Enable verbose information logging" value="false"/>
+        <Option name="ShowDuplicateLogMessages" tip="Show all log messages, including duplicates" value="false"/>
+        <Option name="NoInteractive" tip="No interactive features such as notification windows" value="false"/>
+        <Option name="UseSeparateTechLib" tip="Create tech library to be referenced by design and component libraries" value="true"/>
+        <Option name="UseSeparateCompLib" tip="Store component definitions in separate library" value="true"/>
+        <Option name="SkipNonSubstrateLayer" tip="Skip Non Substrate layers such as annotation layers" value="false"/>
+        <Option name="LayoutResolution" tip="ADS layout resolution" value="10000"/>
+        <Option name="SkipTechImport" tip="Skip tech import and use existing library" value="false"/>
+        <Option name="SkipDesignImport" tip="Skip design import" value="false"/>
+        <Option name="AddNewComponentsToExistingLibrary" tip="Add new components to existing component library" value="false"/>
+        <Option name="SkipComponentImport" tip="Skip component import and use existing library" value="false"/>
+        <Option name="ComponentLibraryName" tip="Existing component library" value=""/>
+        <Option name="UseLayerMapping" tip="Use Layer Mapping during import" value="false"/>
+        <Option name="OpenLayerMappingDialog" tip="Open Layer Mapping Dialog for Layer mapping, otherwise use path" value="true"/>
+        <Option name="LayerMappingFilePath" tip="Layer Mapping File Path" value=""/>
+        <Option name="ImportNegativeArtwork" tip="Import negative artwork" value="true"/>
+        <Option name="TechLibraryName" tip="Existing tech library" value=""/>
+        <Option name="UseDefaultResolution" tip="Use Default resolution for each import units" value="true"/>
+        <Option name="MaskAsDielectricLayer" tip="Import Solder Mask Layer as Dielectric layer" value="false"/>
+        <Option name="LinkLineSegments" tip="Link line segments into trace" value="true"/>
+        <Option name="LowerCaseCellNames" tip="Create component cell names in lower case" value="true"/>
+        <Option name="IpciUseComponentPartName" tip="Create component cell names using Ipc-2581 component part name" value="true"/>
+        <Option name="MakeMinimalCellNames" tip="Create minimum size component cell names" value="false"/>
+    </Options>
+</IpcImportOptions>

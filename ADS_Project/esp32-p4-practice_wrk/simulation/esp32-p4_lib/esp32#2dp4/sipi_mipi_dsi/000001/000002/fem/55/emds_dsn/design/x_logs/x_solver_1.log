@@ -1,0 +1,60 @@
+2026-10-31T10:34:11.924949  x_socket connecting
+2026-10-31T10:34:11.930846  x_socket connecting
+2026-10-31T10:34:11.930846 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2026-10-31T10:34:12.182961 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2026-10-31T10:34:12.444769 x_socket: {"data": {"jobId": "0", "type": "fg_determine_setup_data", "args": {"Iovm": "/level1/design.ovm", "Icalc": "/../../Run0001/project.input", "Igeo": "/../../Run0001/geometry.input", "lvldir": "level1"}, "status": "started", "data": [], "workerId": "1", "processed": 0}, "status": "ok"}
+2026-10-31T10:34:12.444769 x_mode awaitExistence for: D:/666/ADSProjects/esp32-p4-practice_wrk/simulation/esp32-p4_lib/esp32#2dp4/sipi_mipi_dsi/000001/000002/fem/55/emds_dsn/design/level1/design.ovm
+2026-10-31T10:34:12.446358 x_mode awaitExistence end.
+2026-10-31T10:34:12.446358 x_mode awaitExistence for: D:/666/ADSProjects/esp32-p4-practice_wrk/simulation/esp32-p4_lib/esp32#2dp4/sipi_mipi_dsi/000001/000002/fem/55/Run0001/project.input
+2026-10-31T10:34:12.446358 x_mode awaitExistence end.
+2026-10-31T10:34:12.446358 x_mode awaitExistence for: D:/666/ADSProjects/esp32-p4-practice_wrk/simulation/esp32-p4_lib/esp32#2dp4/sipi_mipi_dsi/000001/000002/fem/55/Run0001/geometry.input
+2026-10-31T10:34:12.446358 x_mode awaitExistence end.
+2026-10-31T10:34:12.446358 x_mode awaitExistence for: D:/666/ADSProjects/esp32-p4-practice_wrk/simulation/esp32-p4_lib/esp32#2dp4/sipi_mipi_dsi/000001/000002/fem/55/emds_dsn/design/options.xml
+2026-10-31T10:34:12.446358 x_mode awaitExistence end.
+2026-10-31T10:34:12.446358 x_mode awaitExistence for: D:/666/ADSProjects/esp32-p4-practice_wrk/simulation/esp32-p4_lib/esp32#2dp4/sipi_mipi_dsi/000001/000002/fem/55/emds_dsn/design/status.sqlite
+2026-10-31T10:34:12.446358 x_mode awaitExistence end.
+2026-10-31T10:34:12.446358 x_mode awaitExistence for: D:/666/ADSProjects/esp32-p4-practice_wrk/simulation/esp32-p4_lib/esp32#2dp4/sipi_mipi_dsi/000001/000002/fem/55/emds_dsn/design/results.sqlite
+2026-10-31T10:34:12.446358 x_mode awaitExistence end.
+2026-10-31T10:34:14.153599 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2026-10-31T10:34:14.408272 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2026-10-31T10:34:14.672072 x_socket: {"data": {"jobId": "1", "type": "determine_cutoff_intervals", "args": {"minF": "20000.000000000000000", "maxF": "3000000000.000000000000000", "Iovm": "/level1/design.ovm", "Icalc": "/../../Run0001/project.input", "Igeo": "/../../Run0001/geometry.input", "lvldir": "level1"}, "status": "started", "data": [], "workerId": "1", "processed": 0}, "status": "ok"}
+2026-10-31T10:34:14.673078 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2026-10-31T10:34:14.933952 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2026-10-31T10:34:15.196142 x_socket: {"data": {"jobId": "2", "type": "solve", "args": {"simdir": "f_20000.0", "Fsolve": "20000.000000000000000", "iterative_order": "2", "Iovm": "/level1/design.ovm", "Icalc": "/../../Run0001/project.input", "Igeo": "/../../Run0001/geometry.input", "lvldir": "level1"}, "status": "started", "data": [], "workerId": "1", "processed": 0}, "status": "ok"}
+
+ 1. Frequency: 20 kHz      Unknowns:  139153
+    Solver:  Direct threaded 64-bit
+    CPU time: 00:00:10.2    Elapsed time: 00:00:04.7    Memory: 850.453 Mbyte 
+2026-10-31T10:34:17.163779 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2026-10-31T10:34:17.426974 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2026-10-31T10:34:17.689968 x_socket: {"data": {"jobId": "3", "type": "solve", "args": {"simdir": "f_2000000.0", "Fsolve": "2000000.000000000000000", "iterative_order": "2", "Iovm": "/level1/design.ovm", "Icalc": "/../../Run0001/project.input", "Igeo": "/../../Run0001/geometry.input", "lvldir": "level1"}, "status": "started", "data": [], "workerId": "1", "processed": 0}, "status": "ok"}
+
+ 2. Frequency: 2 MHz      Unknowns:  139153
+    Solver:  Direct threaded 64-bit
+    CPU time: 00:00:07.0    Elapsed time: 00:00:01.5    Memory: 857.023 Mbyte 
+2026-10-31T10:34:18.620484 x_socket: {"data": {"jobId": "4", "type": "solve", "args": {"simdir": "f_1001333333.3333334", "Fsolve": "1001333333.333333373069763", "iterative_order": "2", "Iovm": "/level1/design.ovm", "Icalc": "/../../Run0001/project.input", "Igeo": "/../../Run0001/geometry.input", "lvldir": "level1"}, "status": "started", "data": [], "workerId": "1", "processed": 0}, "status": "ok"}
+
+ 3. Frequency: 1.00133 GHz      Unknowns:  139153
+    Solver:  Direct threaded 64-bit
+    CPU time: 00:00:07.2    Elapsed time: 00:00:00.9    Memory: 858.062 Mbyte 
+2026-10-31T10:34:19.566113 x_socket: {"data": {"jobId": "5", "type": "solve", "args": {"simdir": "f_2000666666.6666667", "Fsolve": "2000666666.666666746139526", "iterative_order": "2", "Iovm": "/level1/design.ovm", "Icalc": "/../../Run0001/project.input", "Igeo": "/../../Run0001/geometry.input", "lvldir": "level1"}, "status": "started", "data": [], "workerId": "1", "processed": 0}, "status": "ok"}
+
+ 4. Frequency: 2.00067 GHz      Unknowns:  139153
+    Solver:  Direct threaded 64-bit
+    CPU time: 00:00:06.6    Elapsed time: 00:00:00.9    Memory: 858.422 Mbyte 
+2026-10-31T10:34:20.426095 x_socket: {"data": {"jobId": "6", "type": "solve", "args": {"simdir": "f_3000000000.0", "Fsolve": "3000000000.000000000000000", "iterative_order": "2", "Iovm": "/level1/design.ovm", "Icalc": "/../../Run0001/project.input", "Igeo": "/../../Run0001/geometry.input", "lvldir": "level1"}, "status": "started", "data": [], "workerId": "1", "processed": 0}, "status": "ok"}
+
+ 5. Frequency: 3 GHz      Unknowns:  139153
+    Solver:  Direct threaded 64-bit
+    CPU time: 00:00:07.0    Elapsed time: 00:00:00.9    Memory: 859.113 Mbyte 
+2026-10-31T10:34:21.327072 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2026-10-31T10:34:21.582500 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2026-10-31T10:34:21.846970 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2026-10-31T10:34:22.110998 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2026-10-31T10:34:22.376411 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2026-10-31T10:34:22.639904 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2026-10-31T10:34:22.906540 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2026-10-31T10:34:23.170874 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2026-10-31T10:34:23.436643 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2026-10-31T10:34:23.701639 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2026-10-31T10:34:23.966646 x_socket: {"data": {"status": "exit"}, "status": "ok"}

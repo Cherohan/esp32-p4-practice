@@ -1,0 +1,76 @@
+host name                   : CHERO
+# available physical cores  : 12
+RAM [GByte]                 : 15.7 GB
+MKL version           : 2023.0.1
+CONFIGURATION non-default values:
+
+                                          Actual             Default
+--------------------------------------------------------------------
+  FEM_OUTPUT_LEGACY_PROGRESS                 off                  on
+  
+  
+
+  1. setup                                          : etime=00:00:00.6    ctime=00:00:00.6    rss= 83.836 Mbyte     virtual= 82.078 Mbyte     
+     1. loading mesh                                : etime=00:00:00.3    ctime=00:00:00.2    rss= 77.246 Mbyte     virtual= 68.789 Mbyte     
+        1. reading ovm-file                         : etime=00:00:00.2    ctime=00:00:00.2    rss= 43.496 Mbyte     virtual= 35.141 Mbyte     
+     2. setup of local problems for iwp             : etime=00:00:00.0    ctime=00:00:00.0    rss= 77.246 Mbyte     virtual= 68.789 Mbyte     
+     3. loading circuit components                  : etime=00:00:00.1    ctime=00:00:00.1    rss= 78.746 Mbyte     virtual= 77.180 Mbyte     
+        1. reading current sources from calcbridge  : etime=00:00:00.1    ctime=00:00:00.1    rss= 78.719 Mbyte     virtual= 77.180 Mbyte     
+           1. edge2cell connectivity                : etime=00:00:00.0    ctime=00:00:00.0    rss= 77.246 Mbyte     virtual= 68.789 Mbyte     
+           2. node2cell connectivity                : etime=00:00:00.0    ctime=00:00:00.0    rss= 77.246 Mbyte     virtual= 68.789 Mbyte     
+        2. building current sources for waveguide ports: etime=00:00:00.0    ctime=00:00:00.0    rss= 78.723 Mbyte     virtual= 77.180 Mbyte     
+        3. connectivity check                       : etime=00:00:00.0    ctime=00:00:00.0    rss= 78.746 Mbyte     virtual= 77.180 Mbyte     
+           1. legacy FindImpedanceLinePathsForIWG [TO BE OBSOLETED]: etime=00:00:00.0    ctime=00:00:00.0    rss= 78.746 Mbyte     virtual= 77.180 Mbyte     
+              1. find impedance line paths          : etime=00:00:00.0    ctime=00:00:00.0    rss= 78.746 Mbyte     virtual= 77.180 Mbyte     
+     4. assigning unknowns                          : etime=00:00:00.1    ctime=00:00:00.1    rss= 83.836 Mbyte     virtual= 82.078 Mbyte     
+        1. LFenhance                                : etime=00:00:00.1    ctime=00:00:00.0    rss= 83.836 Mbyte     virtual= 82.078 Mbyte     
+           1. LFenhance                             : etime=00:00:00.1    ctime=00:00:00.0    rss= 83.836 Mbyte     virtual= 82.078 Mbyte     
+     5. setup circuit components                    : etime=00:00:00.1    ctime=00:00:00.2    rss= 83.836 Mbyte     virtual= 82.078 Mbyte     
+        1. line paths + line integrals              : etime=00:00:00.1    ctime=00:00:00.2    rss= 83.836 Mbyte     virtual= 82.078 Mbyte     
+        2. FindPortCalibrationInductances           : etime=00:00:00.0    ctime=00:00:00.0    rss= 83.836 Mbyte     virtual= 82.078 Mbyte     
+           1. setInductance                         : etime=00:00:00.0    ctime=00:00:00.0    rss= 83.836 Mbyte     virtual= 82.078 Mbyte     
+        3. iwp                                      : etime=00:00:00.0    ctime=00:00:00.0    rss= 83.836 Mbyte     virtual= 82.078 Mbyte     
+
+  2. symbolic matrix setup                          : etime=00:00:00.1    ctime=00:00:00.1    rss=104.672 Mbyte     virtual=101.398 Mbyte     
+
+  3. iwp                                            : etime=00:00:00.0    ctime=00:00:00.0    rss=104.672 Mbyte     virtual=101.398 Mbyte     
+
+  4. Frequency 20 kHz                               : etime=00:00:00.6    ctime=00:00:01.6    rss=279.156 Mbyte     virtual=598.332 Mbyte     
+     1. constructing matrix                         : etime=00:00:00.1    ctime=00:00:00.3    rss=110.211 Mbyte     virtual=108.934 Mbyte     
+        1. 1d                                       : etime=00:00:00.0    ctime=00:00:00.0    rss=110.211 Mbyte     virtual=108.934 Mbyte     
+        2. 2d                                       : etime=00:00:00.1    ctime=00:00:00.1    rss=110.211 Mbyte     virtual=108.934 Mbyte     
+     2. setup direct solver PARDISO (LU-factorization): etime=00:00:00.4    ctime=00:00:01.0    rss=255.863 Mbyte     virtual=582.277 Mbyte     
+     3. constructing excitation (43627 x 12)        : etime=00:00:00.0    ctime=00:00:00.0    rss=263.855 Mbyte     virtual=590.309 Mbyte     
+     4. direct solve (backsubstitution)             : etime=00:00:00.0    ctime=00:00:00.3    rss=278.535 Mbyte     virtual=598.332 Mbyte     
+
+  5. Frequency 2 MHz                                : etime=00:00:00.3    ctime=00:00:01.5    rss=282.141 Mbyte     virtual=600.043 Mbyte     
+     1. constructing matrix                         : etime=00:00:00.1    ctime=00:00:00.5    rss=279.176 Mbyte     virtual=598.332 Mbyte     
+        1. 1d                                       : etime=00:00:00.0    ctime=00:00:00.0    rss=279.176 Mbyte     virtual=598.332 Mbyte     
+        2. 2d                                       : etime=00:00:00.1    ctime=00:00:00.1    rss=279.176 Mbyte     virtual=598.332 Mbyte     
+     2. setup direct solver PARDISO (LU-factorization): etime=00:00:00.1    ctime=00:00:00.6    rss=279.176 Mbyte     virtual=598.332 Mbyte     
+     3. constructing excitation (43627 x 12)        : etime=00:00:00.0    ctime=00:00:00.0    rss=281.988 Mbyte     virtual=599.898 Mbyte     
+     4. direct solve (backsubstitution)             : etime=00:00:00.0    ctime=00:00:00.4    rss=282.141 Mbyte     virtual=600.043 Mbyte     
+
+  6. Frequency 334.667 MHz                          : etime=00:00:00.2    ctime=00:00:01.3    rss=285.969 Mbyte     virtual=605.996 Mbyte     
+     1. constructing matrix                         : etime=00:00:00.1    ctime=00:00:00.5    rss=282.141 Mbyte     virtual=600.043 Mbyte     
+        1. 1d                                       : etime=00:00:00.0    ctime=00:00:00.0    rss=282.141 Mbyte     virtual=600.043 Mbyte     
+        2. 2d                                       : etime=00:00:00.1    ctime=00:00:00.1    rss=282.141 Mbyte     virtual=600.043 Mbyte     
+     2. setup direct solver PARDISO (LU-factorization): etime=00:00:00.1    ctime=00:00:00.5    rss=282.141 Mbyte     virtual=600.043 Mbyte     
+     3. constructing excitation (43627 x 12)        : etime=00:00:00.0    ctime=00:00:00.0    rss=285.969 Mbyte     virtual=605.996 Mbyte     
+     4. direct solve (backsubstitution)             : etime=00:00:00.0    ctime=00:00:00.4    rss=285.969 Mbyte     virtual=605.996 Mbyte     
+
+  7. Frequency 667.333 MHz                          : etime=00:00:00.2    ctime=00:00:01.2    rss=285.969 Mbyte     virtual=605.996 Mbyte     
+     1. constructing matrix                         : etime=00:00:00.1    ctime=00:00:00.4    rss=285.969 Mbyte     virtual=605.996 Mbyte     
+        1. 1d                                       : etime=00:00:00.0    ctime=00:00:00.0    rss=285.969 Mbyte     virtual=605.996 Mbyte     
+        2. 2d                                       : etime=00:00:00.1    ctime=00:00:00.1    rss=285.969 Mbyte     virtual=605.996 Mbyte     
+     2. setup direct solver PARDISO (LU-factorization): etime=00:00:00.1    ctime=00:00:00.5    rss=285.969 Mbyte     virtual=605.996 Mbyte     
+     3. constructing excitation (43627 x 12)        : etime=00:00:00.0    ctime=00:00:00.0    rss=285.969 Mbyte     virtual=605.996 Mbyte     
+     4. direct solve (backsubstitution)             : etime=00:00:00.0    ctime=00:00:00.3    rss=285.969 Mbyte     virtual=605.996 Mbyte     
+
+  8. Frequency 1 GHz                                : etime=00:00:00.2    ctime=00:00:01.4    rss=285.969 Mbyte     virtual=605.996 Mbyte     
+     1. constructing matrix                         : etime=00:00:00.1    ctime=00:00:00.5    rss=285.969 Mbyte     virtual=605.996 Mbyte     
+        1. 1d                                       : etime=00:00:00.0    ctime=00:00:00.0    rss=285.969 Mbyte     virtual=605.996 Mbyte     
+        2. 2d                                       : etime=00:00:00.1    ctime=00:00:00.1    rss=285.969 Mbyte     virtual=605.996 Mbyte     
+     2. setup direct solver PARDISO (LU-factorization): etime=00:00:00.1    ctime=00:00:00.6    rss=285.969 Mbyte     virtual=605.996 Mbyte     
+     3. constructing excitation (43627 x 12)        : etime=00:00:00.0    ctime=00:00:00.0    rss=285.969 Mbyte     virtual=605.996 Mbyte     
+     4. direct solve (backsubstitution)             : etime=00:00:00.0    ctime=00:00:00.3    rss=285.969 Mbyte     virtual=605.996 Mbyte     

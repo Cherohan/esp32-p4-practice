@@ -1,0 +1,44 @@
+License checkout started
+License checkout completed
+<style>body { white-space: pre; }</style>
+<body>
+FEM engine                : 490.000 2025-06-24
+FEM solver                : 1.75.3
+FEM_VMESH v1.160.44
+Momentum MomEngine_64 2026.00.252 (*) built: Jun 24 2025
+ 
+SI simulation
+ 
+<b>Analyzing signal traces:</b> {:Hybridize,N,E:}
+Hybridizer V1.1.1
+<b><font color='orange'>Warning : Net &#x27;GND&#x27; has 13 mutually disconnected components.
+</font></b>
+ 
+<b>Preparing the design:</b> {:FemDesignPreprocessor,N,E:}
+Options: Mesh Resolution 1.27 um
+<b><font color='orange'>Performance warning: fast modeling of non-circular vias is disabled on parts of the following layers: Drill_Guide__Top_Layer_-_Bottom_Layer_ (1025)
+</font></b>
+ 
+<b>Analyzing power and ground:</b> {:FemMesh,N,E:}
+Reusing cached mesh
+Generated 108877 tetrahedra
+
+ 
+<b>Solving signal traces:</b> {:SolveSubdesigns,N,E:}
+[1] Signal trace: {:momTraceId_0,N,E:}
+[2] Signal trace: {:momTraceId_1,N,E:}
+Total time signal traces: {:momTraceTotals,N,E:}
+ 
+<b>Splitting design into multiple domains:</b> {:FemDomainSplitter,N,E:}
+
+<b>Solving design:</b> {:FemSolve,N,E:}
+<b>Solving:</b> {:domain,N,E:}
+
+Causality enforcement is not attempted because there are non-updatable components connecting different signal nets.
+Please consider making these components updatable.
+ 
+Total time design: [00:00:34]   1.3 Gbyte  (233707 unknowns)
+ 
+<b>Simulation finished</b>
+Total simulation time: 0:00:44.370264
+</body>

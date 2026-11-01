@@ -1,0 +1,15 @@
+host name                   : CHERO
+# available physical cores  : 12
+RAM [GByte]                 : 15.7 GB
+MKL version           : 2023.0.1
+CONFIGURATION non-default values:
+
+                                          Actual             Default
+--------------------------------------------------------------------
+  FEM_OUTPUT_LEGACY_PROGRESS                 off                  on
+  
+  
+
+  1. AFS                                            : etime=00:00:13.7    ctime=00:00:00.4    rss= 37.859 Mbyte     virtual= 34.895 Mbyte     
+
+  2. writing sio file                               : etime=00:00:00.0    ctime=00:00:00.0    rss= 37.859 Mbyte     virtual= 34.895 Mbyte     

@@ -1,0 +1,20 @@
+Hybridize;[00:00:04]
+FemDesignPreprocessor;[00:00:01]
+FemMesh;[00:00:12] (246760 tetrahedra)
+SolveSubdesigns;done
+momTraceId_0;Simulated 9 frequencies [00:00:02]  0.1 Gbyte
+momTraceId_1;Simulated 5 frequencies [00:00:01]  0.1 Gbyte
+momTraceId_2;Simulated 11 frequencies [00:00:02]  0.2 Gbyte
+momTraceId_3;Simulated 9 frequencies [00:00:01]  0.1 Gbyte
+momTraceId_4;Simulated 9 frequencies [00:00:00]  0.1 Gbyte
+momTraceId_5;Simulated 6 frequencies [00:00:00]  0.1 Gbyte
+momTraceId_6;Simulated 9 frequencies [00:00:01]  0.1 Gbyte
+momTraceId_7;Simulated 9 frequencies [00:00:00]  0.1 Gbyte
+momTraceId_8;Simulated 7 frequencies [00:00:01]  0.1 Gbyte
+momTraceId_9;Simulated 7 frequencies [00:00:00]  0.1 Gbyte
+momTraceId_10;Simulated 6 frequencies [00:00:00]  0.1 Gbyte
+momTraceId_11;Simulated 5 frequencies [00:00:01]  0.1 Gbyte
+momTraceTotals;[00:00:21]    0.2 Gbyte   (1969 unknowns)
+FemDomainSplitter;done
+FemSolve;done
+domain;Simulated 23 frequencies [0:02:52]  4.1 Gbyte

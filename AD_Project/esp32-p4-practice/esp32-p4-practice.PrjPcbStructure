@@ -1,0 +1,14 @@
+Record=TopLevelDocument|FileName=adc.SchDoc|SheetNumber=12
+Record=NoMainPathDocument|SourceDocument=adc.SchDoc|FileName=audio.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=adc.SchDoc|FileName=can.SchDoc|SheetNumber=9
+Record=NoMainPathDocument|SourceDocument=adc.SchDoc|FileName=connector.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=adc.SchDoc|FileName=core.SchDoc|SheetNumber=8
+Record=NoMainPathDocument|SourceDocument=adc.SchDoc|FileName=MicroSDCard.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=adc.SchDoc|FileName=OLED.SchDoc|SheetNumber=14
+Record=NoMainPathDocument|SourceDocument=adc.SchDoc|FileName=phy.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=adc.SchDoc|FileName=power.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=adc.SchDoc|FileName=rs232.SchDoc|SheetNumber=11
+Record=NoMainPathDocument|SourceDocument=adc.SchDoc|FileName=rs485.SchDoc|SheetNumber=10
+Record=NoMainPathDocument|SourceDocument=adc.SchDoc|FileName=sensor.SchDoc|SheetNumber=13
+Record=NoMainPathDocument|SourceDocument=adc.SchDoc|FileName=usb2uart.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=adc.SchDoc|FileName=wifi.SchDoc|SheetNumber=7

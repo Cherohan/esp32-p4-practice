@@ -1,0 +1,42 @@
+
+hpeesofsim (*) 630.shp Jul  1 2025, MINT version 5
+    (64-bit windows built: Tue Jul 01, 2025 18:06:08 -0700)
+
+***** Simulation started at Sat Oct 31 19:31:21 2026
+      Running on host: "Chero"
+      In Directory: "D:\666\ADSProjects\esp32-p4-practice_wrk\data"
+      Process ID: 12584
+
+
+Characterizing the circuit.
+
+Characterizing Tx channel.
+Warning detected by hpeesofsim during TRAN analysis `ChannelSimTransient_ChannelSim1'.
+    Component `mipi_dsi.CMP1':
+       ImpMaxFreq is reduced to highest data frequency at 3.000000e+09 Hz. 
+
+
+COMPONENT : mipi_dsi.CMP1
+    Characterizing to 3 GHz 
+
+Characterizing cross-talk channel.
+
+COMPONENT : mipi_dsi.CMP1
+    Characterizing to 3 GHz 
+
+Characterizing cross-talk channel.
+
+COMPONENT : mipi_dsi.CMP1
+    Characterizing to 3 GHz 
+
+Characterization finished.
+
+Channel Simulator: Analysis started
+Simulating Tx and synchronous cross-talk channels.
+Tx and synchronous cross-talk channels finished.
+
+Channel Simulator: Analysis finished
+
+Resource usage:
+  Total stopwatch time     =     2.56 seconds.
+

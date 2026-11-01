@@ -1,0 +1,85 @@
+
+TODO, CircuitResultDataModel, disconnect the filewatcher on destructor
+Installed file watcher for <D:/666/ADSProjects/esp32-p4-practice_wrk/simulation/esp32-p4_lib/esp32#2dp4/sipi_phy_rj/000001/000002\emds_dsn\design\design_dfs.cti>
+Installed file watcher for <D:/666/ADSProjects/esp32-p4-practice_wrk/simulation/esp32-p4_lib/esp32#2dp4/sipi_phy_rj/000001/000002\emds_dsn\design\design_ffs.cti>
+Installed file watcher for <D:/666/ADSProjects/esp32-p4-practice_wrk/simulation/esp32-p4_lib/esp32#2dp4/sipi_phy_rj/000001/000002\emds_dsn\design\design.sio>
+Loading impedance specifications
+	<PHY_RD_N_RJ1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<PHY_RD_N_U12> : SERIES(R=50, L=0, C=0) with Zref=50
+	<PHY_RD_P_RJ1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<PHY_RD_P_U12> : SERIES(R=50, L=0, C=0) with Zref=50
+	<PHY_TD_N_RJ1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<PHY_TD_N_U12> : SERIES(R=50, L=0, C=0) with Zref=50
+	<PHY_TD_P_RJ1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<PHY_TD_P_U12> : SERIES(R=50, L=0, C=0) with Zref=50
+LOADED file evaluator for <D:/666/ADSProjects/esp32-p4-practice_wrk/simulation/esp32-p4_lib/esp32#2dp4/sipi_phy_rj/000001/000002\emds_dsn\design\design.sio>
+No touching ports reduction
+LOADED raw data evaluator from <design.sio> : 0.006 sec
+LOADED raw data: #samples=1000 --> 0.001 sec
+CALCULATED the loaded S-parameters : 0.001 sec
+Differential port setup
+	port combinator 0 : port id=0, common mode for ports (2,0)
+	port combinator 1 : port id=1, common mode for ports (3,1)
+	port combinator 2 : port id=2, differential mode for ports (2,0)
+	port combinator 3 : port id=3, differential mode for ports (3,1)
+	port combinator 4 : port id=4, common mode for ports (6,4)
+	port combinator 5 : port id=5, common mode for ports (7,5)
+	port combinator 6 : port id=6, differential mode for ports (6,4)
+	port combinator 7 : port id=7, differential mode for ports (7,5)
+	refreshing datasets
+Differential port setup
+	port combinator 0 : port id=0, common mode for ports (2,0)
+	port combinator 1 : port id=1, common mode for ports (3,1)
+	port combinator 2 : port id=2, differential mode for ports (2,0)
+	port combinator 3 : port id=3, differential mode for ports (3,1)
+	port combinator 4 : port id=4, common mode for ports (6,4)
+	port combinator 5 : port id=5, common mode for ports (7,5)
+	port combinator 6 : port id=6, differential mode for ports (6,4)
+	port combinator 7 : port id=7, differential mode for ports (7,5)
+	refreshing datasets
+Differential port setup
+	port combinator 0 : port id=0, common mode for ports (2,0)
+	port combinator 1 : port id=1, common mode for ports (3,1)
+	port combinator 2 : port id=2, differential mode for ports (2,0)
+	port combinator 3 : port id=3, differential mode for ports (3,1)
+	port combinator 4 : port id=4, common mode for ports (6,4)
+	port combinator 5 : port id=5, common mode for ports (7,5)
+	port combinator 6 : port id=6, differential mode for ports (6,4)
+	port combinator 7 : port id=7, differential mode for ports (7,5)
+	refreshing datasets
+	creating dataset | S(C(3,1) , C(3,1)) | = | S(PHY_RD_P_RJ1|PHY_RD_N_RJ1_C , PHY_RD_P_RJ1|PHY_RD_N_RJ1_C) |
+	creating dataset | S(C(3,1) , C(3,1)) | = | S(PHY_RD_P_RJ1|PHY_RD_N_RJ1_C , PHY_RD_P_RJ1|PHY_RD_N_RJ1_C) |
+	creating dataset real( S(C(3,1) , C(3,1)) ) = real( S(PHY_RD_P_RJ1|PHY_RD_N_RJ1_C , PHY_RD_P_RJ1|PHY_RD_N_RJ1_C) )
+	creating dataset imag( S(C(3,1) , C(3,1)) ) = imag( S(PHY_RD_P_RJ1|PHY_RD_N_RJ1_C , PHY_RD_P_RJ1|PHY_RD_N_RJ1_C) )
+	creating dataset real( S(C(3,1) , C(3,1)) ) = real( S(PHY_RD_P_RJ1|PHY_RD_N_RJ1_C , PHY_RD_P_RJ1|PHY_RD_N_RJ1_C) )
+	creating dataset imag( S(C(3,1) , C(3,1)) ) = imag( S(PHY_RD_P_RJ1|PHY_RD_N_RJ1_C , PHY_RD_P_RJ1|PHY_RD_N_RJ1_C) )
+	creating dataset | S(C(4,2) , C(3,1)) | = | S(PHY_RD_P_U12|PHY_RD_N_U12_C , PHY_RD_P_RJ1|PHY_RD_N_RJ1_C) |
+	creating dataset | S(C(4,2) , C(3,1)) | = | S(PHY_RD_P_U12|PHY_RD_N_U12_C , PHY_RD_P_RJ1|PHY_RD_N_RJ1_C) |
+	creating dataset real( S(C(4,2) , C(3,1)) ) = real( S(PHY_RD_P_U12|PHY_RD_N_U12_C , PHY_RD_P_RJ1|PHY_RD_N_RJ1_C) )
+	creating dataset imag( S(C(4,2) , C(3,1)) ) = imag( S(PHY_RD_P_U12|PHY_RD_N_U12_C , PHY_RD_P_RJ1|PHY_RD_N_RJ1_C) )
+	creating dataset real( S(C(4,2) , C(3,1)) ) = real( S(PHY_RD_P_U12|PHY_RD_N_U12_C , PHY_RD_P_RJ1|PHY_RD_N_RJ1_C) )
+	creating dataset imag( S(C(4,2) , C(3,1)) ) = imag( S(PHY_RD_P_U12|PHY_RD_N_U12_C , PHY_RD_P_RJ1|PHY_RD_N_RJ1_C) )
+	creating dataset | S(D(3,1) , D(3,1)) | = | S(PHY_RD_P_RJ1|PHY_RD_N_RJ1_D , PHY_RD_P_RJ1|PHY_RD_N_RJ1_D) |
+	creating dataset | S(D(3,1) , D(3,1)) | = | S(PHY_RD_P_RJ1|PHY_RD_N_RJ1_D , PHY_RD_P_RJ1|PHY_RD_N_RJ1_D) |
+	creating dataset real( S(D(3,1) , D(3,1)) ) = real( S(PHY_RD_P_RJ1|PHY_RD_N_RJ1_D , PHY_RD_P_RJ1|PHY_RD_N_RJ1_D) )
+	creating dataset imag( S(D(3,1) , D(3,1)) ) = imag( S(PHY_RD_P_RJ1|PHY_RD_N_RJ1_D , PHY_RD_P_RJ1|PHY_RD_N_RJ1_D) )
+	creating dataset real( S(D(3,1) , D(3,1)) ) = real( S(PHY_RD_P_RJ1|PHY_RD_N_RJ1_D , PHY_RD_P_RJ1|PHY_RD_N_RJ1_D) )
+	creating dataset imag( S(D(3,1) , D(3,1)) ) = imag( S(PHY_RD_P_RJ1|PHY_RD_N_RJ1_D , PHY_RD_P_RJ1|PHY_RD_N_RJ1_D) )
+	creating dataset | S(D(4,2) , D(3,1)) | = | S(PHY_RD_P_U12|PHY_RD_N_U12_D , PHY_RD_P_RJ1|PHY_RD_N_RJ1_D) |
+	creating dataset | S(D(4,2) , D(3,1)) | = | S(PHY_RD_P_U12|PHY_RD_N_U12_D , PHY_RD_P_RJ1|PHY_RD_N_RJ1_D) |
+	creating dataset real( S(D(4,2) , D(3,1)) ) = real( S(PHY_RD_P_U12|PHY_RD_N_U12_D , PHY_RD_P_RJ1|PHY_RD_N_RJ1_D) )
+	creating dataset imag( S(D(4,2) , D(3,1)) ) = imag( S(PHY_RD_P_U12|PHY_RD_N_U12_D , PHY_RD_P_RJ1|PHY_RD_N_RJ1_D) )
+	creating dataset real( S(D(4,2) , D(3,1)) ) = real( S(PHY_RD_P_U12|PHY_RD_N_U12_D , PHY_RD_P_RJ1|PHY_RD_N_RJ1_D) )
+	creating dataset imag( S(D(4,2) , D(3,1)) ) = imag( S(PHY_RD_P_U12|PHY_RD_N_U12_D , PHY_RD_P_RJ1|PHY_RD_N_RJ1_D) )
+	creating dataset | S(D(8,6) , D(8,6)) | = | S(PHY_TD_P_U12|PHY_TD_N_U12_D , PHY_TD_P_U12|PHY_TD_N_U12_D) |
+	creating dataset | S(D(8,6) , D(8,6)) | = | S(PHY_TD_P_U12|PHY_TD_N_U12_D , PHY_TD_P_U12|PHY_TD_N_U12_D) |
+	creating dataset real( S(D(8,6) , D(8,6)) ) = real( S(PHY_TD_P_U12|PHY_TD_N_U12_D , PHY_TD_P_U12|PHY_TD_N_U12_D) )
+	creating dataset imag( S(D(8,6) , D(8,6)) ) = imag( S(PHY_TD_P_U12|PHY_TD_N_U12_D , PHY_TD_P_U12|PHY_TD_N_U12_D) )
+	creating dataset real( S(D(8,6) , D(8,6)) ) = real( S(PHY_TD_P_U12|PHY_TD_N_U12_D , PHY_TD_P_U12|PHY_TD_N_U12_D) )
+	creating dataset imag( S(D(8,6) , D(8,6)) ) = imag( S(PHY_TD_P_U12|PHY_TD_N_U12_D , PHY_TD_P_U12|PHY_TD_N_U12_D) )
+	creating dataset | S(D(8,6) , D(7,5)) | = | S(PHY_TD_P_U12|PHY_TD_N_U12_D , PHY_TD_P_RJ1|PHY_TD_N_RJ1_D) |
+	creating dataset | S(D(8,6) , D(7,5)) | = | S(PHY_TD_P_U12|PHY_TD_N_U12_D , PHY_TD_P_RJ1|PHY_TD_N_RJ1_D) |
+	creating dataset real( S(D(8,6) , D(7,5)) ) = real( S(PHY_TD_P_U12|PHY_TD_N_U12_D , PHY_TD_P_RJ1|PHY_TD_N_RJ1_D) )
+	creating dataset imag( S(D(8,6) , D(7,5)) ) = imag( S(PHY_TD_P_U12|PHY_TD_N_U12_D , PHY_TD_P_RJ1|PHY_TD_N_RJ1_D) )
+	creating dataset real( S(D(8,6) , D(7,5)) ) = real( S(PHY_TD_P_U12|PHY_TD_N_U12_D , PHY_TD_P_RJ1|PHY_TD_N_RJ1_D) )
+	creating dataset imag( S(D(8,6) , D(7,5)) ) = imag( S(PHY_TD_P_U12|PHY_TD_N_U12_D , PHY_TD_P_RJ1|PHY_TD_N_RJ1_D) )

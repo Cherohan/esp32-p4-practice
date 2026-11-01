@@ -1,0 +1,7 @@
+fem domain splitter	0.744401
+fem domain splitter\domains clustering	0.0016239
+fem domain splitter\domains clustering\find smallest enclosing circles	0.0002964
+fem domain splitter\load Layout properties	0.0285877
+fem domain splitter\load OVM mesh	0.612837
+fem domain splitter\ovm mesh to signal lines	0.0044989
+fem domain splitter\signal lines to domains	0.0006842

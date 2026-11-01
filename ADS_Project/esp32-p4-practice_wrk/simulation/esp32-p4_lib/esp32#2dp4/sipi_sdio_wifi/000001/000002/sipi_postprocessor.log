@@ -1,0 +1,88 @@
+
+Installed file watcher for <D:/666/ADSProjects/esp32-p4-practice_wrk/simulation/esp32-p4_lib/esp32#2dp4/sipi_sdio_wifi/000001/000002\emds_dsn\design\design_dfs.cti>
+Installed file watcher for <D:/666/ADSProjects/esp32-p4-practice_wrk/simulation/esp32-p4_lib/esp32#2dp4/sipi_sdio_wifi/000001/000002\emds_dsn\design\design_ffs.cti>
+Installed file watcher for <D:/666/ADSProjects/esp32-p4-practice_wrk/simulation/esp32-p4_lib/esp32#2dp4/sipi_sdio_wifi/000001/000002\emds_dsn\design\design.sio>
+Loading impedance specifications
+	<SDIO_CLK_U13> : SERIES(R=50, L=0, C=0) with Zref=50
+	<SDIO_CLK_P4_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<SDIO_CMD_U13> : SERIES(R=50, L=0, C=0) with Zref=50
+	<SDIO_CMD_P4_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<SDIO_D0_U13> : SERIES(R=50, L=0, C=0) with Zref=50
+	<SDIO_D0_P4_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<SDIO_D1_U13> : SERIES(R=50, L=0, C=0) with Zref=50
+	<SDIO_D1_P4_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<SDIO_D2_U13> : SERIES(R=50, L=0, C=0) with Zref=50
+	<SDIO_D2_P4_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+	<SDIO_D3_U13> : SERIES(R=50, L=0, C=0) with Zref=50
+	<SDIO_D3_P4_U1> : SERIES(R=50, L=0, C=0) with Zref=50
+LOADED file evaluator for <D:/666/ADSProjects/esp32-p4-practice_wrk/simulation/esp32-p4_lib/esp32#2dp4/sipi_sdio_wifi/000001/000002\emds_dsn\design\design.sio>
+No touching ports reduction
+LOADED raw data evaluator from <design.sio> : 0.007 sec
+LOADED raw data: #samples=1000 --> 0 sec
+CALCULATED the loaded S-parameters : 0.002 sec
+Differential port setup
+	port combinator 0 : port id=0, single ended port 0
+	port combinator 1 : port id=1, single ended port 1
+	port combinator 2 : port id=2, single ended port 2
+	port combinator 3 : port id=3, single ended port 3
+	port combinator 4 : port id=4, single ended port 4
+	port combinator 5 : port id=5, single ended port 5
+	port combinator 6 : port id=6, single ended port 6
+	port combinator 7 : port id=7, single ended port 7
+	port combinator 8 : port id=8, single ended port 8
+	port combinator 9 : port id=9, single ended port 9
+	port combinator 10 : port id=10, single ended port 10
+	port combinator 11 : port id=11, single ended port 11
+	refreshing datasets
+Differential port setup
+	port combinator 0 : port id=0, single ended port 0
+	port combinator 1 : port id=1, single ended port 1
+	port combinator 2 : port id=2, single ended port 2
+	port combinator 3 : port id=3, single ended port 3
+	port combinator 4 : port id=4, single ended port 4
+	port combinator 5 : port id=5, single ended port 5
+	port combinator 6 : port id=6, single ended port 6
+	port combinator 7 : port id=7, single ended port 7
+	port combinator 8 : port id=8, single ended port 8
+	port combinator 9 : port id=9, single ended port 9
+	port combinator 10 : port id=10, single ended port 10
+	port combinator 11 : port id=11, single ended port 11
+	refreshing datasets
+Differential port setup
+	port combinator 0 : port id=0, single ended port 0
+	port combinator 1 : port id=1, single ended port 1
+	port combinator 2 : port id=2, single ended port 2
+	port combinator 3 : port id=3, single ended port 3
+	port combinator 4 : port id=4, single ended port 4
+	port combinator 5 : port id=5, single ended port 5
+	port combinator 6 : port id=6, single ended port 6
+	port combinator 7 : port id=7, single ended port 7
+	port combinator 8 : port id=8, single ended port 8
+	port combinator 9 : port id=9, single ended port 9
+	port combinator 10 : port id=10, single ended port 10
+	port combinator 11 : port id=11, single ended port 11
+	refreshing datasets
+	creating dataset | S(2 , 2) | = | S(SDIO_CLK_P4_U1 , SDIO_CLK_P4_U1) |
+	creating dataset | S(2 , 2) | = | S(SDIO_CLK_P4_U1 , SDIO_CLK_P4_U1) |
+	creating dataset real( S(2 , 2) ) = real( S(SDIO_CLK_P4_U1 , SDIO_CLK_P4_U1) )
+	creating dataset imag( S(2 , 2) ) = imag( S(SDIO_CLK_P4_U1 , SDIO_CLK_P4_U1) )
+	creating dataset real( S(2 , 2) ) = real( S(SDIO_CLK_P4_U1 , SDIO_CLK_P4_U1) )
+	creating dataset imag( S(2 , 2) ) = imag( S(SDIO_CLK_P4_U1 , SDIO_CLK_P4_U1) )
+	creating dataset | S(2 , 1) | = | S(SDIO_CLK_P4_U1 , SDIO_CLK_U13) |
+	creating dataset | S(2 , 1) | = | S(SDIO_CLK_P4_U1 , SDIO_CLK_U13) |
+	creating dataset real( S(2 , 1) ) = real( S(SDIO_CLK_P4_U1 , SDIO_CLK_U13) )
+	creating dataset imag( S(2 , 1) ) = imag( S(SDIO_CLK_P4_U1 , SDIO_CLK_U13) )
+	creating dataset real( S(2 , 1) ) = real( S(SDIO_CLK_P4_U1 , SDIO_CLK_U13) )
+	creating dataset imag( S(2 , 1) ) = imag( S(SDIO_CLK_P4_U1 , SDIO_CLK_U13) )
+	creating dataset | S(4 , 4) | = | S(SDIO_CMD_P4_U1 , SDIO_CMD_P4_U1) |
+	creating dataset | S(4 , 4) | = | S(SDIO_CMD_P4_U1 , SDIO_CMD_P4_U1) |
+	creating dataset real( S(4 , 4) ) = real( S(SDIO_CMD_P4_U1 , SDIO_CMD_P4_U1) )
+	creating dataset imag( S(4 , 4) ) = imag( S(SDIO_CMD_P4_U1 , SDIO_CMD_P4_U1) )
+	creating dataset real( S(4 , 4) ) = real( S(SDIO_CMD_P4_U1 , SDIO_CMD_P4_U1) )
+	creating dataset imag( S(4 , 4) ) = imag( S(SDIO_CMD_P4_U1 , SDIO_CMD_P4_U1) )
+	creating dataset | S(4 , 3) | = | S(SDIO_CMD_P4_U1 , SDIO_CMD_U13) |
+	creating dataset | S(4 , 3) | = | S(SDIO_CMD_P4_U1 , SDIO_CMD_U13) |
+	creating dataset real( S(4 , 3) ) = real( S(SDIO_CMD_P4_U1 , SDIO_CMD_U13) )
+	creating dataset imag( S(4 , 3) ) = imag( S(SDIO_CMD_P4_U1 , SDIO_CMD_U13) )
+	creating dataset real( S(4 , 3) ) = real( S(SDIO_CMD_P4_U1 , SDIO_CMD_U13) )
+	creating dataset imag( S(4 , 3) ) = imag( S(SDIO_CMD_P4_U1 , SDIO_CMD_U13) )

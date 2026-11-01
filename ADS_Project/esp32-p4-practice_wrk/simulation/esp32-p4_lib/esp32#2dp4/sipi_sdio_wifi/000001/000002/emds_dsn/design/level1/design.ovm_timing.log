@@ -1,0 +1,67 @@
+Generating Mesh	5.354
+Generating Mesh\Assigning Materials 	0.0100204
+Generating Mesh\Background lattice	0.224499
+Generating Mesh\Background lattice\Embedding background lattice	0.0774253
+Generating Mesh\Background lattice\Generating background lattice	0.147069
+Generating Mesh\Background lattice\Generating background lattice\Creating input segments	0.0002684
+Generating Mesh\Background lattice\Generating background lattice\Extending signal laterally	0.0012864
+Generating Mesh\Background lattice\Generating background lattice\Filtering points close to existing mesh	0.109428
+Generating Mesh\Background lattice\Generating background lattice\Filtering points close to existing mesh\filterPointsTooCloseToLineSegments	0.109417
+Generating Mesh\Background lattice\Generating background lattice\Filtering points close to existing mesh\filterPointsTooCloseToLineSegments\building capsuletree	0.105337
+Generating Mesh\Background lattice\Generating background lattice\Filtering points close to existing mesh\filterPointsTooCloseToLineSegments\querying capsuletree	0.0038642
+Generating Mesh\Deserialize read result	0.0117566
+Generating Mesh\Extend Mesh XYZ Double Prism Padding, XY Geometry	0.188842
+Generating Mesh\Generating Boundary Conditions on Bounding Box	0.0058581
+Generating Mesh\Generating CELL signatures	0.0004735
+Generating Mesh\Generating tet mesh 	1.4826
+Generating Mesh\Generating tet mesh \Recovering topology 	0.0002648
+Generating Mesh\Generating tet mesh \convert tetgen output to ovm	0.856902
+Generating Mesh\Generating tet mesh \convert tetgen output to ovm\Recovering cell attributes 	0.017641
+Generating Mesh\Generating tet mesh \convert tetgen output to ovm\Recovering cell attributes \Assigning cell attributes 	0.0023079
+Generating Mesh\Generating tet mesh \convert tetgen output to ovm\Recovering cell attributes \Cell based recovery 	9e-07
+Generating Mesh\Generating tet mesh \convert tetgen output to ovm\Recovering cell attributes \map cell id to temp signature	0.0151905
+Generating Mesh\Generating tet mesh \convert tetgen output to ovm\Recovering cell attributes \map of cell id to signature	3.46e-05
+Generating Mesh\Generating tet mesh \convert tetgen output to ovm\Recovering cell attributes \map of found/not_found cells	2.78e-05
+Generating Mesh\Generating tet mesh \convert tetgen output to ovm\Recovering surface attributes	0.151546
+Generating Mesh\Generating tet mesh \convert tetgen output to ovm\Recovering surface attributes\Extending signal 	0.0478878
+Generating Mesh\Generating tet mesh \convert tetgen output to ovm\enable incidences	0.0036271
+Generating Mesh\Generating tet mesh \convert tetgen output to ovm\generate tets	0.672602
+Generating Mesh\Mesh filtering	2.68654
+Generating Mesh\Mesh filtering\BuildSignalKdTree	0.858122
+Generating Mesh\Mesh filtering\BuildSignalKdTree\componentsVerticesForSignalKdTree	2.32e-05
+Generating Mesh\Mesh filtering\BuildSignalKdTree\connectionPathVerticesForSignalKdTree	0.856133
+Generating Mesh\Mesh filtering\BuildSignalKdTree\meshedViasVerticesForSignalKdTree	1.6e-06
+Generating Mesh\Mesh filtering\BuildSignalKdTree\meshlessViasverticesForSignalKdTree	2.06e-05
+Generating Mesh\Mesh filtering\Filter mesh	0.0402105
+Generating Mesh\Mesh filtering\Filter mesh\Flagging tets to be removed	0.0402051
+Generating Mesh\Mesh filtering\Remove non-flagged tets	0.940109
+Generating Mesh\Mesh filtering\Remove non-flagged tets\FilterElements	0.288471
+Generating Mesh\Mesh filtering\Remove non-flagged tets\FilterElements\BuildSearchEngine	0.124199
+Generating Mesh\Mesh filtering\Remove non-flagged tets\FilterElements\BuildTriangleTree3D	0.137445
+Generating Mesh\Mesh filtering\Remove non-flagged tets\FilterElements\FilterLoads	0.0060643
+Generating Mesh\Mesh filtering\Remove non-flagged tets\FilterElements\FilterMeshlessVias	0.0192256
+Generating Mesh\Mesh filtering\Remove non-flagged tets\Protecting faces on boundaries of hollow conductors	0.0050852
+Generating Mesh\Mesh filtering\getIgnoredElementsBasedOnConnection	0.846968
+Generating Mesh\Mesh filtering\getIgnoredElementsBasedOnConnection\buildConnectivityGraph	0.76894
+Generating Mesh\Mesh filtering\getIgnoredElementsBasedOnConnection\getIgnoredMeshlessViasBasedOnConnection	0.0750542
+Generating Mesh\Mesh filtering\getIgnoredElementsBasedOnConnection\getIgnoredPassiveLoadsBasedOnConnection	0.0025542
+Generating Mesh\Preparing for volumetric Meshing	0.005158
+Generating Mesh\Preparing for volumetric Meshing\Recovering surface attributes 	0.001233
+Generating Mesh\Reading Design 	0.122464
+Generating Mesh\Refining surface mesh	0.154337
+Generating Mesh\Relocating pins on layers before 3d meshing	3.27e-05
+Generating Mesh\Replacing Vias By Meshless Vias	8.07e-05
+Generating Mesh\Replacing multi pins ports	3.79e-05
+Generating Mesh\Stabilizing mesh and elements after volumetric meshing	0.0439956
+Generating Mesh\Stabilizing mesh and elements after volumetric meshing\Snapping components To Closest conductive line	0.0128873
+Generating Mesh\SurfaceMesher	0.199124
+Generating Mesh\SurfaceMesher\Generating surface mesh 	0.194488
+Generating Mesh\SurfaceMesher\Generating surface mesh \Checking surface mesh consistency	0.001508
+Generating Mesh\SurfaceMesher\Generating surface mesh \Computing Aabbs	0.0004344
+Generating Mesh\SurfaceMesher\Generating surface mesh \Convert Global Mesh into Local Meshes	0.0152017
+Generating Mesh\SurfaceMesher\Generating surface mesh \Faceting MT	0.174706
+Generating Mesh\SurfaceMesher\Generating surface mesh \Stabilizing mesh	1.94e-05
+Generating Mesh\Updating Calcbridge file	0.0065878
+Generating Mesh\Writing BINARY vol mesh file 	0.109708
+Shutting down modeling environment	0.001255
+Starting modeling environment	0.0028612

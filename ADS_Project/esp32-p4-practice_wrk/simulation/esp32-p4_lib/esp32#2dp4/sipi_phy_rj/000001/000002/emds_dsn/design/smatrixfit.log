@@ -1,0 +1,125 @@
+
+
+=======================================================================
+=======================================================================
+=======================================================================
+
+
+Flimit=20000, Fmin=20000
+adaptively solving frequency plan: 
+requested discrete frequencies: 20 kHz 2 MHz 1 GHz 
+requested frequency ranges: 
+[ 2 MHz , 1 GHz ], #=300
+Fdc = 20000
+no cutoff intervals detected
+cutoff intervals:
+== ISOLATED DISCRETE FREQUENCIES ==========================
+
+===============================================
+== ADAPTIVE FIT in [0.002 , 1] GHz, maxNbSamples=300 =========================
+===============================================
+Fitting options : 
+  nbInitialSamplesPerInterval                : 4
+  nbTestPointsPerInterval                    : 10
+  maxDepthDifference                         : 3
+  relFreqFactorForDistance                   : 0
+  nbTestPointsForDistance                    : 1
+  maxDistanceBetweenModels                   : 0.01
+  maxDistanceFromSamples                     : 0.001
+  nbNewSamples                               : 1
+  nbNewDiscreteSamples                       : 0
+  maxNbIntervalsToBeSubdivided               : 1
+  maxNbSamples                               : 300
+  minAbsDistanceBetweenSubsequentFrequencies : 10
+  minRelDistanceBetweenSubsequentFrequencies : 0.001
+  passivityThreshold                         : 0.005
+  useSvdForPassivity                         : 0
+  enforcePassivity                           : 0
+  enforceCausality                           : 2
+  maxPhaseDifferenceBetweenSubsequentSamples : 2.0944
+  maxCausalityViolation                      : -1
+  unwrapPhaseDifference                      : 0
+  amplitudeThresholdForMaxPhaseDifference    : 0.1
+  maxNbSamplesInModelRange                   : 30
+  model type for S-parameters                : 3
+  #poles - #zeros                            : [-1 , -1]
+  maxNbPoles                                 : 100
+  maxImpedanceRelDistanceFromSamples         : 0.01
+  maxNbThreads                               : 12
+  extrapolateToDc                            : 0
+  vectorfitting_mirrorPolesIntoLHP           : 0
+  vectorfitting_maxNbIterations              : 5
+  vectorfitting_leastSquaresMode             : QR
+  vectorfitting_incremental                  : 1
+== #samples 4 ======================
+sorted and limited errors, not satisfying the fitting constraints: 
+  Fitting error in [ 3.347e+08, 6.673e+08], depth=0 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0101@( 3.347e+08 Hz, r=  4, c=  4), causality=     0@(        -1 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  5, c=  5)
+  Fitting error in [     2e+06, 3.347e+08], depth=0 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=  0.01@( 2.742e+08 Hz, r=  4, c=  4), causality=     0@(        -1 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  2, c=  3)
+new frequencies (new sample frequencies                   : etime=00:00:00.0    ctime=00:00:00.0    rss= 28.793 Mbyte     virtual= 25.656 Mbyte     ) : 
+  [3.347e+08 , 6.673e+08] : 5.01e+08, 
+--> fit time : fit                                      : etime=00:00:00.0    ctime=00:00:00.0    rss= 28.793 Mbyte     virtual= 25.656 Mbyte      sec
+--> errors   : errors                                   : etime=00:00:00.0    ctime=00:00:00.0    rss= 29.137 Mbyte     virtual= 26.230 Mbyte      sec
+== #samples 5 ======================
+sorted and limited errors, not satisfying the fitting constraints: none
+--> checking accuracy of fitted Z : checking Z                               : etime=00:00:00.0    ctime=00:00:00.0    rss= 29.137 Mbyte     virtual= 26.230 Mbyte      sec
+FITTED IMPEDANCES ARE NOT ACCURATE
+--> changing maxDistanceFromSamples:
+	at 2 MHz : 1e-05
+	at 334.667 MHz : 1e-05
+	at 501 MHz : 1e-05
+	at 667.333 MHz : 1e-05
+	at 1 GHz : 1e-05
+--> REFITTING
+--> fit time : fit                                      : etime=00:00:00.0    ctime=00:00:00.0    rss= 29.137 Mbyte     virtual= 26.230 Mbyte      sec
+--> errors   : errors                                   : etime=00:00:00.0    ctime=00:00:00.0    rss= 29.324 Mbyte     virtual= 26.273 Mbyte      sec
+== #samples 5 ======================
+sorted and limited errors, not satisfying the fitting constraints: none
+--> checking accuracy of fitted Z : checking Z                               : etime=00:00:00.0    ctime=00:00:00.0    rss= 29.324 Mbyte     virtual= 26.273 Mbyte      sec
+FITTED IMPEDANCES ARE NOT ACCURATE
+--> changing maxDistanceFromSamples:
+	at 2 MHz : 1e-07
+--> REFITTING
+--> fit time : fit                                      : etime=00:00:00.0    ctime=00:00:00.0    rss= 29.324 Mbyte     virtual= 26.273 Mbyte      sec
+--> errors   : errors                                   : etime=00:00:00.0    ctime=00:00:00.0    rss= 29.367 Mbyte     virtual= 26.273 Mbyte      sec
+== #samples 5 ======================
+sorted and limited errors, not satisfying the fitting constraints: none
+--> checking accuracy of fitted Z : checking Z                               : etime=00:00:00.0    ctime=00:00:00.0    rss= 29.367 Mbyte     virtual= 26.273 Mbyte      sec
+--> CONVERGED
+
+========== CAUSALITY ENFORCEMENT [timeout = 120 sec] ============================== = 
+
+*===============================*
+| causality enforcement options |
+*===============================*
+
+Max. nof. passivity enforcements : 100
+Max. nof. cycles : 5
+Enforcement factor : 0.99
+Passivity threshold : 0.001
+Passivity threshold numerical margin : 0
+Test frequency strategy : as in S-parameter checker
+Relative removal radius : 1e-15
+Max. nof. iterations : 500
+Nof. simultaneous enforcement frequencies : 1
+Max. causality violation : 1
+Tolerance for causality violation : 0.01
+Omit low frequency part : 1
+Low frequency limit : 2e+04
+Verbosity level of logging : 0
+Calculate residues : 0
+maxNbAdditionalSamplesBetweenDiscreteFreqs : adaptive
+Max. deviation angle of S-param samples : 1.257
+Timeout: 120 sec
+Subtraction frequencies strategy : classic
+Subsampling options : 
+	freq ratio threshold: 10
+	arc radius threshold: 0.05
+	target delta angle: 1.047
+	wrong rotation angle threshold: 0.08727
+	local vectorfitting window: 2 + 2
+
+
+Lightweight causality check:
+	--> causal [4.018 sec]
+
+Causality enforcement with subsampling: SKIPPED

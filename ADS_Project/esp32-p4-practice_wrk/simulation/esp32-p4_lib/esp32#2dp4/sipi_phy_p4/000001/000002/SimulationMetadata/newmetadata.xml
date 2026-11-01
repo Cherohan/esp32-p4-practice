@@ -1,0 +1,477 @@
+<!DOCTYPE NewSimulationData>
+<NewSimulationData>
+  <SharedObject subjectID="1" ptrID="0">
+    <NewSimulationData SimulationGroup="000001" StaticSolverEnabled="false" ParameterSweepEnabled="false" UseTotalScatteredFieldFormulation="true" EnableSParameters="true" FieldInterfaces="AllInterfaces" NameWasUserSet="false" ExcitationType="DiscreteSources">
+      <Assembly ptrID="2"/>
+      <CircuitComponentList ptrID="3"/>
+      <ActivePorts/>
+      <ExternalExcitationList ptrID="4"/>
+      <ActiveExternalExcitation ptrID="5"/>
+      <BoundaryConditions ptrID="6"/>
+      <ParameterList subjectID="8" ptrID="7">
+        <ParameterList>
+          <Expression UserEditable="false" UserRemovable="false" UserVisible="false" UserRenamable="true">
+            <Name>timestep</Name>
+            <Type>real</Type>
+            <Formula typeid="6" value="5.6609099444356839e-11" type="Double"/>
+            <Notes>Simulation timestep in seconds</Notes>
+            <Value typeid="6" value="5.6609099444356839e-11" type="Double"/>
+            <ParamDependence value="false"/>
+          </Expression>
+          <Expression UserEditable="true" UserRemovable="false" UserVisible="false" UserRenamable="true">
+            <Name>maxFreq</Name>
+            <Type>real</Type>
+            <Formula typeid="10" value="1 GHz" type="String"/>
+            <Notes>Maximum frequency of interest for the project.</Notes>
+            <Value typeid="6" value="1000000000" type="Double"/>
+            <BackendUnit>Hz</BackendUnit>
+            <ParamDependence value="false"/>
+          </Expression>
+          <Expression UserEditable="true" UserRemovable="false" UserVisible="false" UserRenamable="true">
+            <Name>minFreq</Name>
+            <Type>real</Type>
+            <Formula typeid="10" value="1 kHz" type="String"/>
+            <Notes>Minimum frequency of interest for the project.</Notes>
+            <Value typeid="6" value="1000" type="Double"/>
+            <BackendUnit>Hz</BackendUnit>
+            <ParamDependence value="false"/>
+          </Expression>
+        </ParameterList>
+      </ParameterList>
+      <StaticVoltagePoints ptrID="9"/>
+      <AmbientConditions subjectID="11" ptrID="10">
+        <AmbientConditions>
+          <BackgroundTemperature subjectID="13" ptrID="12">
+            <Expression>
+              <Formula typeid="6" value="298.14999999999998" type="Double"/>
+            </Expression>
+          </BackgroundTemperature>
+          <ZUpperSpecification subjectID="15" ptrID="14">
+            <AmbientConditionSpecification SpecificationType="NaturalConvection">
+              <Temperature subjectID="17" ptrID="16">
+                <Expression>
+                  <Formula typeid="6" value="298.14999999999998" type="Double"/>
+                </Expression>
+              </Temperature>
+              <EffectiveHeatTransfer subjectID="19" ptrID="18">
+                <Expression>
+                  <Formula typeid="10" value="10 W/m%2A%2A2/K" type="String"/>
+                </Expression>
+              </EffectiveHeatTransfer>
+              <AirFlowSpeed subjectID="21" ptrID="20">
+                <Expression>
+                  <Formula typeid="6" value="0" type="Double"/>
+                </Expression>
+              </AirFlowSpeed>
+            </AmbientConditionSpecification>
+          </ZUpperSpecification>
+          <ZLowerSpecification subjectID="23" ptrID="22">
+            <AmbientConditionSpecification SpecificationType="NaturalConvection">
+              <Temperature subjectID="25" ptrID="24">
+                <Expression>
+                  <Formula typeid="6" value="298.14999999999998" type="Double"/>
+                </Expression>
+              </Temperature>
+              <EffectiveHeatTransfer subjectID="27" ptrID="26">
+                <Expression>
+                  <Formula typeid="10" value="2.5 W/m%2A%2A2/K" type="String"/>
+                </Expression>
+              </EffectiveHeatTransfer>
+              <AirFlowSpeed subjectID="29" ptrID="28">
+                <Expression>
+                  <Formula typeid="6" value="0" type="Double"/>
+                </Expression>
+              </AirFlowSpeed>
+            </AmbientConditionSpecification>
+          </ZLowerSpecification>
+        </AmbientConditions>
+      </AmbientConditions>
+      <ProcessVariation subjectID="31" ptrID="30">
+        <ProcessVariation>
+          <ProcessVariations subjectID="33" ptrID="32">
+            <ProcessVariations>
+              <EtchBias>
+                <Formula typeid="10" value="0 pct" type="String"/>
+              </EtchBias>
+              <ConductivityBias>
+                <Formula typeid="10" value="0 pct" type="String"/>
+              </ConductivityBias>
+              <PermittivityBias>
+                <Formula typeid="10" value="0 pct" type="String"/>
+              </PermittivityBias>
+              <RegistrationBias subjectID="35" ptrID="34">
+                <Cartesian2DExpression>
+                  <x subjectID="37" ptrID="36">
+                    <Expression>
+                      <Formula typeid="10" value="0 um" type="String"/>
+                    </Expression>
+                  </x>
+                  <y subjectID="39" ptrID="38">
+                    <Expression>
+                      <Formula typeid="10" value="0 um" type="String"/>
+                    </Expression>
+                  </y>
+                </Cartesian2DExpression>
+              </RegistrationBias>
+              <ThicknessBias>
+                <Formula typeid="10" value="0 pct" type="String"/>
+              </ThicknessBias>
+            </ProcessVariations>
+          </ProcessVariations>
+          <SubstrateIndexToUse subjectID="41" ptrID="40">
+            <Expression>
+              <Formula typeid="2" value="0" type="Int"/>
+            </Expression>
+          </SubstrateIndexToUse>
+          <SubstrateFile SubstrateName="esp32-p4" LibraryName="esp32-p4_tech_lib"/>
+        </ProcessVariation>
+      </ProcessVariation>
+      <TerminationCriteria subjectID="43" ptrID="42">
+        <TerminationCriteria WindowSize="2" SamplingInterval="100" EnableFlatlineDetection="true" EnableConvergence="true" SpacingDensity="Medium_Density" ConvergenceThreshold="-30">
+          <MinimumSimulationTime>
+            <Formula typeid="2" value="0" type="Int"/>
+          </MinimumSimulationTime>
+          <MaximumSimulationTime>
+            <Formula typeid="10" value="50000%2Atimestep" type="String"/>
+          </MaximumSimulationTime>
+          <MaximumWallClockTime>
+            <Formula typeid="2" value="0" type="Int"/>
+          </MaximumWallClockTime>
+          <TdAfsTerminationCriteria>
+            <WrittenWith Version="SIPro/PIPro Setup 490.000 (64-bit)" BuildString="AAAAmnicNcpBCoMwFIThvacY6KaFxr48o6DL7roT7AVMTWpAjcRI6e2bFgrDv5nvProNad2tDf7SfovOxH2FqiknIhwrJbSLpzzLrrubImzwM2xhaqtK8+jhLcy8Bi90ugfBxKWgSlAhRh82k8CSwEvK5xL1NDD0Gz+KPuKvWUFyI2VD5RkH5jr/ACZ1LKw=" RevisionID="229"/>
+            <ConvergenceType value="0"/>
+            <StartFrequency>
+              <Formula typeid="6" value="1000000000" type="Double"/>
+            </StartFrequency>
+            <StopFrequency>
+              <Formula typeid="6" value="10000000000" type="Double"/>
+            </StopFrequency>
+            <NumberOfFrequencyPoints value="1000"/>
+            <ConvergenceType value="0"/>
+            <NumberOfConsecutivePasses value="1"/>
+            <UseProjectFroi value="true"/>
+            <TemporalSamplingIntervalBackup value="100"/>
+          </TdAfsTerminationCriteria>
+        </TerminationCriteria>
+      </TerminationCriteria>
+      <ParameterSequences subjectID="45" ptrID="44">
+        <ParameterSequenceList>
+          <ParameterList subjectID="8" ptrID="46"/>
+        </ParameterSequenceList>
+      </ParameterSequences>
+      <FOIParameters subjectID="48" ptrID="47">
+        <FOIParameters ComputeDissipatedPower="false" SamplingInterval="5" UseAutomaticSampling="true" NormalizeFields="true" DataStorageType="OnDisk" FOISource="Specified" SaveFarZoneBox="true" CollectSteadyStateData="false"/>
+      </FOIParameters>
+      <StaticSolverMaximumIterations subjectID="50" ptrID="49">
+        <Expression>
+          <Formula typeid="2" value="5000" type="Int"/>
+        </Expression>
+      </StaticSolverMaximumIterations>
+      <ResidualThreshold subjectID="52" ptrID="51">
+        <Expression>
+          <Formula typeid="6" value="0.01" type="Double"/>
+        </Expression>
+      </ResidualThreshold>
+      <Mesh ptrID="53"/>
+      <AgEMNewSimulationData>
+        <WrittenWith Version="SIPro/PIPro Setup 490.000 (64-bit)" BuildString="AAAAmnicNcpBCoMwFIThvacY6KaFxr48o6DL7roT7AVMTWpAjcRI6e2bFgrDv5nvProNad2tDf7SfovOxH2FqiknIhwrJbSLpzzLrrubImzwM2xhaqtK8+jhLcy8Bi90ugfBxKWgSlAhRh82k8CSwEvK5xL1NDD0Gz+KPuKvWUFyI2VD5RkH5jr/ACZ1LKw=" RevisionID="229"/>
+        <SimulatorSetup>
+          <Engine value="7"/>
+          <Simulator>com.keysight.xxpro.simulator.si</Simulator>
+          <Name>UnknownEngine</Name>
+          <SortPriority value="0"/>
+          <FemPhysModel>
+            <ThickConductorModel value="0"/>
+            <ViaConductorModel value="0"/>
+            <UserDefined value="0"/>
+          </FemPhysModel>
+          <FemMeshSettings>
+            <GenerationEnum value="0"/>
+            <DeltaError>
+              <Formula typeid="6" value="0.02" type="Double"/>
+            </DeltaError>
+            <NumberOfConsecutiveIterations value="1"/>
+            <MinimumNumberOfAdaptivePasses value="1"/>
+            <MaximumNumberOfAdaptivePasses value="1"/>
+            <MemoryLimit>
+              <Formula typeid="10" value="16.9 GB" type="String"/>
+            </MemoryLimit>
+            <UseMemoryLimit value="false"/>
+            <MonitorSolveFreqPlan value="false"/>
+            <RefinementStrategyEnum value="0"/>
+            <RefinementFrequencyPlanMgr>
+              <FrequencyPlanType value="0"/>
+              <AgEMFrequencyPlans>
+                <AgEMFrequencyPlan>
+                  <SweepType value="3"/>
+                  <ComputeType value="1"/>
+                  <StartFrequency>
+                    <Formula typeid="10" value="1 GHz" type="String"/>
+                  </StartFrequency>
+                  <StopFrequency>
+                    <Formula typeid="10" value="500 MHz" type="String"/>
+                  </StopFrequency>
+                  <SamplePointsLimit value="300"/>
+                  <PointsPerDecade value="20"/>
+                  <SpecifiedNumber value="true"/>
+                  <FrequencyStep>
+                    <Formula typeid="10" value="0.1%2A(500 MHz - 10 kHz)" type="String"/>
+                  </FrequencyStep>
+                  <NumberOfFrequencyPoints value="300"/>
+                  <Dynamic value="false"/>
+                  <SwitchingFrequency/>
+                  <RippleFrequency/>
+                  <RiseTime/>
+                  <FallTime/>
+                </AgEMFrequencyPlan>
+              </AgEMFrequencyPlans>
+            </RefinementFrequencyPlanMgr>
+            <OrderOfBasisFunctions value="1"/>
+            <MeshRefinementPercentage value="15"/>
+            <TargetMeshSize>
+              <Formula typeid="10" value="2 mm" type="String"/>
+            </TargetMeshSize>
+            <UseTargetMeshSize value="false"/>
+            <AutoTargetMeshSize value="false"/>
+            <Resolution>
+              <Formula typeid="10" value="1 um" type="String"/>
+            </Resolution>
+            <ArcResolution>
+              <Formula typeid="10" value="60 deg" type="String"/>
+            </ArcResolution>
+            <MinMeshSize>
+              <Formula typeid="6" value="2.0000000000000002e-05" type="Double"/>
+            </MinMeshSize>
+            <UseMinMeshSize value="false"/>
+            <AutoMinMeshSize value="false"/>
+            <AnisotropicEdgeMesh value="false"/>
+            <AlwaysSolveOnFinestMesh value="false"/>
+            <EdgeMeshFactor>
+              <Formula typeid="6" value="0" type="Double"/>
+            </EdgeMeshFactor>
+            <VertexMeshFactor>
+              <Formula typeid="6" value="0" type="Double"/>
+            </VertexMeshFactor>
+            <EdgeMeshLength>
+              <Formula typeid="6" value="0" type="Double"/>
+            </EdgeMeshLength>
+            <VertexMeshLength>
+              <Formula typeid="6" value="0" type="Double"/>
+            </VertexMeshLength>
+            <MergeObjectsSameMaterial value="true"/>
+            <IdealGround value="true"/>
+            <OptimizeForChipletDesigns value="false"/>
+            <MeshDomainOptimization value="true"/>
+            <FemDomainSplitting value="1"/>
+            <UseResolution value="false"/>
+            <generation value="0"/>
+            <AutoConductorMeshing value="false"/>
+            <AutoConductorMeshing_Vertices value="true"/>
+            <AutoConductorMeshing_Edges value="true"/>
+            <AutoConductorMeshing_VertexFactor>
+              <Formula typeid="10" value="0.2%2A0.3" type="String"/>
+            </AutoConductorMeshing_VertexFactor>
+            <AutoConductorMeshing_EdgeFactor>
+              <Formula typeid="10" value="0.2" type="String"/>
+            </AutoConductorMeshing_EdgeFactor>
+            <UserDefined value="317840165680"/>
+          </FemMeshSettings>
+          <FemEigenSolverSettings>
+            <LowFreqLimit>
+              <Formula typeid="6" value="1000000000" type="Double"/>
+            </LowFreqLimit>
+            <HighFreqLimit>
+              <Formula typeid="6" value="-1" type="Double"/>
+            </HighFreqLimit>
+            <IterationTolerance>
+              <Formula typeid="6" value="1.0000000000000001e-05" type="Double"/>
+            </IterationTolerance>
+            <NbEigenFreq>
+              <Formula typeid="2" value="5" type="Int"/>
+            </NbEigenFreq>
+            <TargetDeltaFreqRel value="0.01"/>
+            <UserDefined value="0"/>
+          </FemEigenSolverSettings>
+          <FemMatrixSolver>
+            <WrittenWith Version="SIPro/PIPro Setup 490.000 (64-bit)" BuildString="AAAAmnicNcpBCoMwFIThvacY6KaFxr48o6DL7roT7AVMTWpAjcRI6e2bFgrDv5nvProNad2tDf7SfovOxH2FqiknIhwrJbSLpzzLrrubImzwM2xhaqtK8+jhLcy8Bi90ugfBxKWgSlAhRh82k8CSwEvK5xL1NDD0Gz+KPuKvWUFyI2VD5RkH5jr/ACZ1LKw=" RevisionID="229"/>
+            <SolverType value="16"/>
+            <MaximumNumberOfIterations value="150"/>
+            <PortSolver value="2"/>
+            <Tolerance>
+              <Formula typeid="6" value="1.0000000000000001e-05" type="Double"/>
+            </Tolerance>
+            <OptimizeSolveTowards value="0"/>
+            <UserDefined value="1"/>
+          </FemMatrixSolver>
+          <FemPerLayerOverrides/>
+          <MomPhysModel>
+            <ThickConductorModel value="4"/>
+            <ViaConductorModel value="4"/>
+            <SolveModel value="2"/>
+            <MetalBiasModel value="256"/>
+            <UserDefined value="0"/>
+          </MomPhysModel>
+          <MomMeshSettings version="6">
+            <GenerationEnum value="0"/>
+            <MeshGranularity>
+              <Formula typeid="10" value="20 cpw" type="String"/>
+            </MeshGranularity>
+            <EdgeMesh value="0"/>
+            <EdgeMeshCustomWidth>
+              <Formula typeid="10" type="String"/>
+            </EdgeMeshCustomWidth>
+            <GeometryOverlapExtraction value="1"/>
+            <MeshReduction value="1"/>
+            <MeshDomainOptimization value="false"/>
+            <UserDefined value="0"/>
+          </MomMeshSettings>
+          <MomMatrixSolver version="3">
+            <MomSolverType value="0"/>
+            <GreensFunctionCache value="0"/>
+            <UserDefined value="0"/>
+          </MomMatrixSolver>
+          <MomPerLayerOverrides/>
+          <MomPerNetOverrides/>
+          <MomExpertSettings/>
+          <PreprocessorSettings version="2">
+            <HealingSnap value="1"/>
+            <HealingSnapDistance>
+              <Formula typeid="10" type="String"/>
+            </HealingSnapDistance>
+            <SimplifyLayout value="true"/>
+            <IgnoreConductorShapes value="1"/>
+            <IgnoreConductorShapesSize>
+              <Formula typeid="10" type="String"/>
+            </IgnoreConductorShapesSize>
+            <IgnoreConductorHoles value="1"/>
+            <IgnoreConductorHolesSize>
+              <Formula typeid="10" type="String"/>
+            </IgnoreConductorHolesSize>
+            <UserDefined value="0"/>
+          </PreprocessorSettings>
+          <VemMatrixSolver version="1">
+            <VemSolverType value="0"/>
+            <UserDefined value="0"/>
+          </VemMatrixSolver>
+        </SimulatorSetup>
+        <ResourceSettingsPtr subjectID="55" ptrID="54">
+          <LocalResourceSettings>
+            <ResourceSettings NumberOfWorkers="1" NumberOfThreads="0"/>
+          </LocalResourceSettings>
+        </ResourceSettingsPtr>
+        <ViaDesignerSettings>
+          <WrittenWith Version="SIPro/PIPro Setup 490.000 (64-bit)" BuildString="AAAAmnicNcpBCoMwFIThvacY6KaFxr48o6DL7roT7AVMTWpAjcRI6e2bFgrDv5nvProNad2tDf7SfovOxH2FqiknIhwrJbSLpzzLrrubImzwM2xhaqtK8+jhLcy8Bi90ugfBxKWgSlAhRh82k8CSwEvK5xL1NDD0Gz+KPuKvWUFyI2VD5RkH5jr/ACZ1LKw=" RevisionID="229"/>
+          <Salt>NONE</Salt>
+          <Hash>NONE</Hash>
+        </ViaDesignerSettings>
+        <FemExpertSettings/>
+        <FemFrequencyPlanManager>
+          <FrequencyPlanType value="0"/>
+          <AgEMFrequencyPlans>
+            <AgEMFrequencyPlan>
+              <SweepType value="0"/>
+              <ComputeType value="1"/>
+              <StartFrequency>
+                <Formula typeid="6" value="2000000" type="Double"/>
+              </StartFrequency>
+              <StopFrequency>
+                <Formula typeid="6" value="1000000000" type="Double"/>
+              </StopFrequency>
+              <SamplePointsLimit value="300"/>
+              <PointsPerDecade value="20"/>
+              <SpecifiedNumber value="true"/>
+              <FrequencyStep>
+                <Formula typeid="10" value="0.1%2A(500 MHz - 10 kHz)" type="String"/>
+              </FrequencyStep>
+              <NumberOfFrequencyPoints value="300"/>
+              <Dynamic value="false"/>
+              <SwitchingFrequency/>
+              <RippleFrequency/>
+              <RiseTime/>
+              <FallTime/>
+            </AgEMFrequencyPlan>
+            <AgEMFrequencyPlan>
+              <SweepType value="2"/>
+              <ComputeType value="1"/>
+              <StartFrequency>
+                <Formula typeid="6" value="20000" type="Double"/>
+              </StartFrequency>
+              <StopFrequency>
+                <Formula typeid="6" value="2000000" type="Double"/>
+              </StopFrequency>
+              <SamplePointsLimit value="300"/>
+              <PointsPerDecade value="20"/>
+              <SpecifiedNumber value="true"/>
+              <FrequencyStep>
+                <Formula typeid="6" value="1980000" type="Double"/>
+              </FrequencyStep>
+              <NumberOfFrequencyPoints value="2"/>
+              <Dynamic value="false"/>
+              <SwitchingFrequency/>
+              <RippleFrequency/>
+              <RiseTime/>
+              <FallTime/>
+            </AgEMFrequencyPlan>
+          </AgEMFrequencyPlans>
+        </FemFrequencyPlanManager>
+        <FdtdFrequencyPlanManager>
+          <FrequencyPlanType value="0"/>
+          <AgEMFrequencyPlans/>
+        </FdtdFrequencyPlanManager>
+        <WaveGuides ptrID="56"/>
+        <ActiveWaveGuides/>
+        <PortOnlyFrequencyPlan>
+          <SweepType value="2"/>
+          <ComputeType value="1"/>
+          <StartFrequency>
+            <Formula typeid="10" value="10 kHz" type="String"/>
+          </StartFrequency>
+          <StopFrequency>
+            <Formula typeid="10" value="500 MHz" type="String"/>
+          </StopFrequency>
+          <SamplePointsLimit value="300"/>
+          <PointsPerDecade value="20"/>
+          <SpecifiedNumber value="true"/>
+          <FrequencyStep>
+            <Formula typeid="6" value="1672207.3578595319" type="Double"/>
+          </FrequencyStep>
+          <NumberOfFrequencyPoints value="300"/>
+          <Dynamic value="false"/>
+          <SwitchingFrequency/>
+          <RippleFrequency/>
+          <RiseTime/>
+          <FallTime/>
+        </PortOnlyFrequencyPlan>
+        <PortOnlyDeltaError>
+          <Formula typeid="10" value="0.01" type="String"/>
+        </PortOnlyDeltaError>
+        <GoodConductorThreshold>
+          <Formula typeid="10" value="100000.0" type="String"/>
+        </GoodConductorThreshold>
+        <PerfectConductorThreshold>
+          <Formula typeid="10" value="1000000000.0" type="String"/>
+        </PerfectConductorThreshold>
+        <ReuseSimulation value="false"/>
+        <ReuseExistingResultsType>Automatic</ReuseExistingResultsType>
+        <GenerateDataset value="false"/>
+        <GenerateCtiFile value="true"/>
+        <GenerateSioFile value="true"/>
+        <GenerateDatasetADS value="false"/>
+        <GenerateCtiFileADS value="false"/>
+        <GenerateConvergenceDatasetADS value="false"/>
+        <ExcitationRenumberingADS>0</ExcitationRenumberingADS>
+        <NearFieldsSaveFor value="0"/>
+        <SaveFieldsFor value="0"/>
+        <AdaptiveFpMaxSamples value="300"/>
+        <AdaptiveFpSaveFieldsFor value="1"/>
+        <HasTdafsSParameterData value="false"/>
+        <FemEigenMode value="false"/>
+        <PortOnlyMode value="false"/>
+        <ComponentsTreatedAsPorts value="true"/>
+        <CoplanarGroundModel value="0"/>
+        <ViaModel value="1"/>
+        <TransfinitePorts value="false"/>
+      </AgEMNewSimulationData>
+    </NewSimulationData>
+  </SharedObject>
+</NewSimulationData>

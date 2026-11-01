@@ -1,0 +1,31 @@
+fem domain splitter	1.95448
+fem domain splitter\Generating netlist file	0.0011624
+fem domain splitter\domains clustering	0.0017015
+fem domain splitter\domains clustering\find smallest enclosing circles	0.0003445
+fem domain splitter\domains clustering\merging domains	5.04e-05
+fem domain splitter\filter mesh	0.25782
+fem domain splitter\filter mesh\filtering mesh for domain 5	0.0867936
+fem domain splitter\filter mesh\filtering mesh for domain 55	0.0782209
+fem domain splitter\filter mesh\filtering mesh for domain 55\add domain tets 55	0.0767988
+fem domain splitter\filter mesh\filtering mesh for domain 55\add domain tets 55\add protected faces 55	0.0007593
+fem domain splitter\filter mesh\filtering mesh for domain 55\meshedViasVerticesForSignalKdTree	8e-07
+fem domain splitter\filter mesh\filtering mesh for domain 5\add domain tets 5	0.0852707
+fem domain splitter\filter mesh\filtering mesh for domain 5\add domain tets 5\add protected faces 5	0.0015492
+fem domain splitter\filter mesh\filtering mesh for domain 5\meshedViasVerticesForSignalKdTree	2.1e-06
+fem domain splitter\load Layout properties	0.029474
+fem domain splitter\load OVM mesh	0.652011
+fem domain splitter\ovm mesh to signal lines	0.0049422
+fem domain splitter\signal lines to domains	0.0005307
+fem domain splitter\writing domains files	0.932303
+fem domain splitter\writing domains files\export domains	0.93196
+fem domain splitter\writing domains files\export domains\domains To Meshless Vias File	0.316602
+fem domain splitter\writing domains files\export domains\domains To Meshless Vias File\buildSearchEngineAndTriangleTree	0.287035
+fem domain splitter\writing domains files\export domains\domains To Meshless Vias File\filterMeshlessVias	0.0276255
+fem domain splitter\writing domains files\export domains\domains To Meshless Vias File\filterMeshlessVias\FilterMeshlessVias	0.0264795
+fem domain splitter\writing domains files\export domains\exportDomain5Files	0.606001
+fem domain splitter\writing domains files\export domains\exportDomain5Files\domainToProjectFile	0.0045032
+fem domain splitter\writing domains files\export domains\exportDomain5Files\exportDomain55Files\createMesh\createMesh	0.994693
+fem domain splitter\writing domains files\export domains\exportDomain5Files\exportDomain55Files\createMesh\domainToProjectFile	0.0051016
+fem domain splitter\writing domains files\export domains\exportDomain5Files\exportDomain55Files\createMesh\writingBinaryMesh	0.0746909
+fem domain splitter\writing domains files\export domains\exportDomain5Files\exportDomain55Files\exportDomain55Files	0.581977
+fem domain splitter\writing domains files\export domains\exportDomain5Files\writingBinaryMesh	0.069594

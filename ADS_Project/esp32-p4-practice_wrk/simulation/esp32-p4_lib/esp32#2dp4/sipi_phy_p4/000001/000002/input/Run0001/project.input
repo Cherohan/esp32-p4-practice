@@ -1,0 +1,783 @@
+Version 9
+begin_<FEMProject> 
+begin_<Units> 
+begin_<Display> 
+Name mil
+Conversion 39370.078740157485
+end_<Display>
+begin_<Modeling> 
+Name mm
+Conversion 1000
+end_<Modeling>
+end_<Units>
+begin_<RunParameters> 
+begin_<OuterBoundaries> 
+LowerX ORBC_CPML
+UpperX ORBC_CPML
+LowerY ORBC_CPML
+UpperY ORBC_CPML
+LowerZ ORBC_CPML
+UpperZ ORBC_CPML
+NumberOfPMLLayers 7
+end_<OuterBoundaries>
+begin_<AmbientConditions> 
+begin_<BackgroundMedium> 
+Temperature 298.14999389648438
+end_<BackgroundMedium>
+begin_<Top> 
+HeatTransferCoefficient 10
+end_<Top>
+begin_<Bottom> 
+HeatTransferCoefficient 2.5
+end_<Bottom>
+end_<AmbientConditions>
+begin_<ComponentsPorts> 
+PortType 1
+begin_<FeedData> 
+ComponentName PHY_RXD0_U12
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.33
+		X 0.056896000000000002
+		Y 0.035560000000000008
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.18
+		X 0.054897020000000005
+		Y 0.036558220000000002
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+IsActive 
+WaveformIndex 0
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName PHY_RXD0_U1
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name C144.1
+		X 0.079298800000000016
+		Y 0.06352540000000001
+		Z 0
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U1.58
+		X 0.077885442400000005
+		Y 0.06309730840000001
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName PHY_RXD1_U12
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.33
+		X 0.056896000000000002
+		Y 0.035560000000000008
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.17
+		X 0.054897020000000005
+		Y 0.036959540000000013
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName PHY_RXD1_U1
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name C121.1
+		X 0.076504800000000012
+		Y 0.062343030000000008
+		Z 0
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U1.60
+		X 0.077184402400000005
+		Y 0.06309730840000001
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName PHY_RXDV_U12
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.33
+		X 0.056896000000000002
+		Y 0.035560000000000008
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.19
+		X 0.054897020000000005
+		Y 0.036159440000000015
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName PHY_RXDV_U1
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name C144.1
+		X 0.079298800000000016
+		Y 0.06352540000000001
+		Z 0
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U1.57
+		X 0.078235962400000011
+		Y 0.06309730840000001
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName PHY_TXD0_U12
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.33
+		X 0.056896000000000002
+		Y 0.035560000000000008
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.9
+		X 0.058295540000000007
+		Y 0.037558980000000006
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName PHY_TXD0_U1
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name C138.1
+		X 0.074676000000000006
+		Y 0.062343030000000008
+		Z 0
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U1.65
+		X 0.075434342400000007
+		Y 0.06309730840000001
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName PHY_TXD1_U12
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.33
+		X 0.056896000000000002
+		Y 0.035560000000000008
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.8
+		X 0.058897520000000009
+		Y 0.036959540000000013
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName PHY_TXD1_U1
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name C138.1
+		X 0.074676000000000006
+		Y 0.062343030000000008
+		Z 0
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U1.66
+		X 0.075086362400000009
+		Y 0.06309730840000001
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName PHY_TXEN_U12
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.33
+		X 0.056896000000000002
+		Y 0.035560000000000008
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.5
+		X 0.058897520000000009
+		Y 0.035758120000000004
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName PHY_TXEN_U1
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name C131.1
+		X 0.072339200000000006
+		Y 0.059678570000000007
+		Z 0
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U1.92
+		X 0.070260362400000012
+		Y 0.057920788400000006
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName PHY_50MCLK_U12
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.33
+		X 0.056896000000000002
+		Y 0.035560000000000008
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.10
+		X 0.057896760000000005
+		Y 0.037558980000000006
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName PHY_50MCLK_U12_2
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.33
+		X 0.056896000000000002
+		Y 0.035560000000000008
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U12.14
+		X 0.056296560000000009
+		Y 0.037558980000000006
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName PHY_50MCLK_U1
+Removable False
+begin_<ImpedanceLine> 
+LineType MultiPin
+begin_<PinGroup> 
+	Name ground
+	SignalType ground
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name C131.1
+		X 0.072339200000000006
+		Y 0.059678570000000007
+		Z 0
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+begin_<PinGroup> 
+	Name signal
+	SignalType signal
+	ModelType EquiVoltage
+	begin_<Pin> 
+		Name U1.93
+		X 0.070260362400000012
+		Y 0.057570268400000013
+		Z 0.0015193771999999998
+		Weight 0
+	end_<Pin>
+end_<PinGroup>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName 
+Source 2
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay 0
+Type 1
+TermType InputOutput
+Calibration KeepSelfKeepMutual
+end_<FeedData>
+end_<ComponentsPorts>
+begin_<WaveGuidePorts> 
+end_<WaveGuidePorts>
+begin_<TerminationCriteria> 
+MaximumTimeSteps 50000
+MaximumWallClockSeconds 0
+ConvergenceEnabled
+Threshhold -30
+SamplingInterval 100
+WindowSize 2
+MinimumTimeSteps 0
+FlatLineDetectionEnabled
+MEDIUM_DENSITY
+begin_<TdAfsTerminationCriteria> 
+StartFrequency 1000000000
+StopFrequency 10000000000
+NumberOfFrequencyPoints 1000
+ENERGY
+INTERPOLATION
+NumberOfConsecutivePasses 1
+end_<TdAfsTerminationCriteria>
+end_<TerminationCriteria>
+end_<RunParameters>
+begin_<RequestResults> 
+end_<RequestResults>
+end_<FEMProject>

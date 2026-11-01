@@ -1,0 +1,379 @@
+{
+    "x_substatus_clients": {
+        "1": {
+            "alive": 0,
+            "aborted": 0,
+            "allow_respawn": 1,
+            "last_ping": "2026-10-31 22:52:38.979958",
+            "hostname": "Chero"
+        },
+        "0": {
+            "alive": 1,
+            "aborted": 0,
+            "allow_respawn": 1,
+            "last_ping": "2026-10-31 22:52:39.558242",
+            "hostname": "Chero"
+        }
+    },
+    "x_substatus_checked_at": "2026-10-31 22:52:41.209095",
+    "work_queue": [
+        {
+            "jobId": "0",
+            "type": "fg_determine_setup_data",
+            "args": {
+                "Iovm": "/level1/design.ovm",
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "lvldir": "level1"
+            },
+            "status": "done",
+            "data": "{\n    \"sql_comps_pins\": \"INSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('SD_CLK_TF1','0','0','-1','current source','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('SD_CMD_TF1','1','1','-1','current source','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('SD_D0_TF1','2','2','-1','current source','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('SD_D1_TF1','3','3','-1','current source','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('SD_D2_TF1','4','4','-1','current source','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('SD_D3_TF1','5','5','-1','current source','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_0_0','6','6','-1','current source','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_0_1','7','7','-1','current source','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_0_2','8','8','-1','current source','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_2_0','9','9','-1','current source','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_2_1','10','10','-1','current source','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_2_2','11','11','-1','current source','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_3_3','12','12','-1','current source','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_3_4','13','13','-1','current source','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_3_5','14','14','-1','current source','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_4_3','15','15','-1','current source','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_4_4','16','16','-1','current source','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_4_5','17','17','-1','current source','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_12_0','18','18','-1','current source','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_12_1','19','19','-1','current source','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_12_2','20','20','-1','current source','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_12_3','21','21','-1','current source','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_12_4','22','22','-1','current source','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_12_6','23','23','-1','current source','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_12_7','24','24','-1','current source','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_12_8','25','25','-1','current source','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_12_9','26','26','-1','current source','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_12_11','27','27','-1','current source','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_0','28','28','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_1','29','29','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_2','30','30','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_3','31','31','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_4','32','32','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_5','33','33','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_6','34','34','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_7','35','35','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_8','36','36','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_9','37','37','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_10','38','38','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_11','39','39','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_12','40','40','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_13','41','41','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_14','42','42','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_15','43','43','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_16','44','44','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_17','45','45','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_18','46','46','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_19','47','47','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_20','48','48','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_21','49','49','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_22','50','50','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_23','51','51','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_24','52','52','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_25','53','53','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_26','54','54','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_27','55','55','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_28','56','56','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_29','57','57','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_30','58','58','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_31','59','59','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_32','60','60','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_33','61','61','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_34','62','62','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_35','63','63','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_36','64','64','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_37','65','65','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_38','66','66','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_39','67','67','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_40','68','68','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_41','69','69','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_42','70','70','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_43','71','71','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_44','72','72','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_45','73','73','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_46','74','74','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_47','75','75','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_48','76','76','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_49','77','77','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_50','78','78','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_51','79','79','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_52','80','80','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_53','81','81','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_54','82','82','-1','passive load','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_55','83','83','-1','passive load','-1','-1','1','0','Zpi');\\n\",\n    \"hasWaveguidePorts\": \"0\",\n    \"allWaveguidePortsAreInternal\": \"1\"\n}\n",
+            "workerId": "1",
+            "processed": 1
+        },
+        {
+            "jobId": "1",
+            "type": "determine_cutoff_intervals",
+            "args": {
+                "minF": "20000.000000000000000",
+                "maxF": "3000000000.000000000000000",
+                "Iovm": "/level1/design.ovm",
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "lvldir": "level1"
+            },
+            "status": "done",
+            "data": "",
+            "workerId": "1",
+            "processed": 1
+        },
+        {
+            "jobId": "2",
+            "type": "solve",
+            "args": {
+                "simdir": "f_20000.0",
+                "Fsolve": "20000.000000000000000",
+                "iterative_order": "2",
+                "Iovm": "/level1/design.ovm",
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "lvldir": "level1"
+            },
+            "status": "done",
+            "data": {
+                "data": {
+                    "Fsolve": "20000.000000000000000",
+                    "subdir": "f_20000.0",
+                    "has_blg": "0",
+                    "iterative_converged": "1"
+                },
+                "metadata": {
+                    "solver_type": "1",
+                    "nb_unknowns": "206028",
+                    "memory": "1599418368.000000000000000",
+                    "cpu_time": "21.843750000000000",
+                    "e_time": "6.461526600000000",
+                    "nb_iter": "-1",
+                    "norm_res": "-1.000000000000000",
+                    "discretization_order": "0",
+                    "lst_success": "1"
+                }
+            },
+            "workerId": "1",
+            "processed": 1
+        },
+        {
+            "jobId": "3",
+            "type": "solve",
+            "args": {
+                "simdir": "f_2000000.0",
+                "Fsolve": "2000000.000000000000000",
+                "iterative_order": "2",
+                "Iovm": "/level1/design.ovm",
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "lvldir": "level1"
+            },
+            "status": "done",
+            "data": {
+                "data": {
+                    "Fsolve": "2000000.000000000000000",
+                    "subdir": "f_2000000.0",
+                    "has_blg": "0",
+                    "iterative_converged": "1"
+                },
+                "metadata": {
+                    "solver_type": "1",
+                    "nb_unknowns": "206028",
+                    "memory": "1619345408.000000000000000",
+                    "cpu_time": "17.093750000000000",
+                    "e_time": "2.391924400000000",
+                    "nb_iter": "-1",
+                    "norm_res": "-1.000000000000000",
+                    "discretization_order": "0",
+                    "lst_success": "1"
+                }
+            },
+            "workerId": "1",
+            "processed": 1
+        },
+        {
+            "jobId": "4",
+            "type": "solve",
+            "args": {
+                "simdir": "f_1001333333.3333334",
+                "Fsolve": "1001333333.333333373069763",
+                "iterative_order": "2",
+                "Iovm": "/level1/design.ovm",
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "lvldir": "level1"
+            },
+            "status": "done",
+            "data": {
+                "data": {
+                    "Fsolve": "1001333333.333333373069763",
+                    "subdir": "f_1001333333.3333334",
+                    "has_blg": "0",
+                    "iterative_converged": "1"
+                },
+                "metadata": {
+                    "solver_type": "1",
+                    "nb_unknowns": "206028",
+                    "memory": "1621172224.000000000000000",
+                    "cpu_time": "17.203125000000000",
+                    "e_time": "1.826388100000000",
+                    "nb_iter": "-1",
+                    "norm_res": "-1.000000000000000",
+                    "discretization_order": "0",
+                    "lst_success": "1"
+                }
+            },
+            "workerId": "1",
+            "processed": 1
+        },
+        {
+            "jobId": "5",
+            "type": "solve",
+            "args": {
+                "simdir": "f_2000666666.6666667",
+                "Fsolve": "2000666666.666666746139526",
+                "iterative_order": "2",
+                "Iovm": "/level1/design.ovm",
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "lvldir": "level1"
+            },
+            "status": "done",
+            "data": {
+                "data": {
+                    "Fsolve": "2000666666.666666746139526",
+                    "subdir": "f_2000666666.6666667",
+                    "has_blg": "0",
+                    "iterative_converged": "1"
+                },
+                "metadata": {
+                    "solver_type": "1",
+                    "nb_unknowns": "206028",
+                    "memory": "1621442560.000000000000000",
+                    "cpu_time": "17.375000000000000",
+                    "e_time": "1.813422500000000",
+                    "nb_iter": "-1",
+                    "norm_res": "-1.000000000000000",
+                    "discretization_order": "0",
+                    "lst_success": "1"
+                }
+            },
+            "workerId": "1",
+            "processed": 1
+        },
+        {
+            "jobId": "6",
+            "type": "solve",
+            "args": {
+                "simdir": "f_3000000000.0",
+                "Fsolve": "3000000000.000000000000000",
+                "iterative_order": "2",
+                "Iovm": "/level1/design.ovm",
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "lvldir": "level1"
+            },
+            "status": "done",
+            "data": {
+                "data": {
+                    "Fsolve": "3000000000.000000000000000",
+                    "subdir": "f_3000000000.0",
+                    "has_blg": "0",
+                    "iterative_converged": "1"
+                },
+                "metadata": {
+                    "solver_type": "1",
+                    "nb_unknowns": "206028",
+                    "memory": "1622953984.000000000000000",
+                    "cpu_time": "17.171875000000000",
+                    "e_time": "1.847415100000000",
+                    "nb_iter": "-1",
+                    "norm_res": "-1.000000000000000",
+                    "discretization_order": "0",
+                    "lst_success": "1"
+                }
+            },
+            "workerId": "1",
+            "processed": 1
+        },
+        {
+            "jobId": "7",
+            "type": "solve",
+            "args": {
+                "simdir": "f_1501000000.0",
+                "Fsolve": "1501000000.000000000000000",
+                "iterative_order": "2",
+                "Iovm": "/level1/design.ovm",
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "lvldir": "level1"
+            },
+            "status": "done",
+            "data": {
+                "data": {
+                    "Fsolve": "1501000000.000000000000000",
+                    "subdir": "f_1501000000.0",
+                    "has_blg": "0",
+                    "iterative_converged": "1"
+                },
+                "metadata": {
+                    "solver_type": "1",
+                    "nb_unknowns": "206028",
+                    "memory": "1622962176.000000000000000",
+                    "cpu_time": "17.343750000000000",
+                    "e_time": "2.319234900000000",
+                    "nb_iter": "-1",
+                    "norm_res": "-1.000000000000000",
+                    "discretization_order": "0",
+                    "lst_success": "1"
+                }
+            },
+            "workerId": "1",
+            "processed": 1
+        },
+        {
+            "jobId": "8",
+            "type": "solve",
+            "args": {
+                "simdir": "f_2500333333.3333335",
+                "Fsolve": "2500333333.333333492279053",
+                "iterative_order": "2",
+                "Iovm": "/level1/design.ovm",
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "lvldir": "level1"
+            },
+            "status": "done",
+            "data": {
+                "data": {
+                    "Fsolve": "2500333333.333333492279053",
+                    "subdir": "f_2500333333.3333335",
+                    "has_blg": "0",
+                    "iterative_converged": "1"
+                },
+                "metadata": {
+                    "solver_type": "1",
+                    "nb_unknowns": "206028",
+                    "memory": "1623580672.000000000000000",
+                    "cpu_time": "17.531250000000000",
+                    "e_time": "2.367204500000000",
+                    "nb_iter": "-1",
+                    "norm_res": "-1.000000000000000",
+                    "discretization_order": "0",
+                    "lst_success": "1"
+                }
+            },
+            "workerId": "1",
+            "processed": 1
+        },
+        {
+            "jobId": "9",
+            "type": "solve",
+            "args": {
+                "simdir": "f_2750166666.666667",
+                "Fsolve": "2750166666.666666984558105",
+                "iterative_order": "2",
+                "Iovm": "/level1/design.ovm",
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "lvldir": "level1"
+            },
+            "status": "done",
+            "data": {
+                "data": {
+                    "Fsolve": "2750166666.666666984558105",
+                    "subdir": "f_2750166666.666667",
+                    "has_blg": "0",
+                    "iterative_converged": "1"
+                },
+                "metadata": {
+                    "solver_type": "1",
+                    "nb_unknowns": "206028",
+                    "memory": "1623580672.000000000000000",
+                    "cpu_time": "16.953125000000000",
+                    "e_time": "2.093839400000000",
+                    "nb_iter": "-1",
+                    "norm_res": "-1.000000000000000",
+                    "discretization_order": "0",
+                    "lst_success": "1"
+                }
+            },
+            "workerId": "1",
+            "processed": 1
+        },
+        {
+            "jobId": "10",
+            "type": "solve",
+            "args": {
+                "simdir": "f_2875083333.3333335",
+                "Fsolve": "2875083333.333333492279053",
+                "iterative_order": "2",
+                "Iovm": "/level1/design.ovm",
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "lvldir": "level1"
+            },
+            "status": "done",
+            "data": {
+                "data": {
+                    "Fsolve": "2875083333.333333492279053",
+                    "subdir": "f_2875083333.3333335",
+                    "has_blg": "0",
+                    "iterative_converged": "1"
+                },
+                "metadata": {
+                    "solver_type": "1",
+                    "nb_unknowns": "206028",
+                    "memory": "1623769088.000000000000000",
+                    "cpu_time": "17.328125000000000",
+                    "e_time": "2.204114600000000",
+                    "nb_iter": "-1",
+                    "norm_res": "-1.000000000000000",
+                    "discretization_order": "0",
+                    "lst_success": "1"
+                }
+            },
+            "workerId": "1",
+            "processed": 1
+        }
+    ],
+    "cutoff_intervals": [],
+    "fg_run_status": 1,
+    "setup_data": {
+        "sql_comps_pins": "INSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('SD_CLK_TF1','0','0','-1','current source','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('SD_CMD_TF1','1','1','-1','current source','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('SD_D0_TF1','2','2','-1','current source','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('SD_D1_TF1','3','3','-1','current source','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('SD_D2_TF1','4','4','-1','current source','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('SD_D3_TF1','5','5','-1','current source','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_0_0','6','6','-1','current source','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_0_1','7','7','-1','current source','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_0_2','8','8','-1','current source','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_2_0','9','9','-1','current source','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_2_1','10','10','-1','current source','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_2_2','11','11','-1','current source','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_3_3','12','12','-1','current source','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_3_4','13','13','-1','current source','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_3_5','14','14','-1','current source','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_4_3','15','15','-1','current source','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_4_4','16','16','-1','current source','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_4_5','17','17','-1','current source','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_12_0','18','18','-1','current source','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_12_1','19','19','-1','current source','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_12_2','20','20','-1','current source','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_12_3','21','21','-1','current source','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_12_4','22','22','-1','current source','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_12_6','23','23','-1','current source','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_12_7','24','24','-1','current source','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_12_8','25','25','-1','current source','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_12_9','26','26','-1','current source','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('_sub_12_11','27','27','-1','current source','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_0','28','28','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_1','29','29','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_2','30','30','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_3','31','31','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_4','32','32','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_5','33','33','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_6','34','34','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_7','35','35','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_8','36','36','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_9','37','37','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_10','38','38','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_11','39','39','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_12','40','40','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_13','41','41','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_14','42','42','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_15','43','43','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_16','44','44','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_17','45','45','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_18','46','46','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_19','47','47','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_20','48','48','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_21','49','49','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_22','50','50','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_23','51','51','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_24','52','52','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_25','53','53','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_26','54','54','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_27','55','55','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_28','56','56','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_29','57','57','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_30','58','58','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_31','59','59','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_32','60','60','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_33','61','61','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_34','62','62','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_35','63','63','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_36','64','64','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_37','65','65','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_38','66','66','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_39','67','67','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_40','68','68','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_41','69','69','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_42','70','70','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_43','71','71','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_44','72','72','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_45','73','73','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_46','74','74','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_47','75','75','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_48','76','76','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_49','77','77','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_50','78','78','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_51','79','79','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_52','80','80','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_53','81','81','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_54','82','82','-1','passive load','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('meshless_via_55','83','83','-1','passive load','-1','-1','1','0','Zpi');\n",
+        "hasWaveguidePorts": "0",
+        "allWaveguidePortsAreInternal": "1"
+    },
+    "timestamp_state": "2026-10-31 22:52:41.291042",
+    "simulation_phase": "done",
+    "x_solve_request_files_status": {},
+    "nb_sub_solver_respawns": 0,
+    "abort_simulation": false,
+    "interrupt_simulation": false
+}
